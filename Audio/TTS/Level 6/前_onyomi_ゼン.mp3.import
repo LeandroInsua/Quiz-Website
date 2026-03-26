@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c13i8n0kyn4s7"
+path="res://.godot/imported/前_onyomi_ゼン.mp3-36419d95f60cc3416ec1ada8367b65c3.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 6/前_onyomi_ゼン.mp3"
+dest_files=["res://.godot/imported/前_onyomi_ゼン.mp3-36419d95f60cc3416ec1ada8367b65c3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

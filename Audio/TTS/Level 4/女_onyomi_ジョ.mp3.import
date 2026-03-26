@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://1os0jhp57tsn"
+path="res://.godot/imported/女_onyomi_ジョ.mp3-a37b41f7da2d13bf359a57d77949cd6a.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/女_onyomi_ジョ.mp3"
+dest_files=["res://.godot/imported/女_onyomi_ジョ.mp3-a37b41f7da2d13bf359a57d77949cd6a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

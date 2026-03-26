@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0riy2nyi53es"
+path="res://.godot/imported/早_kunyomi_はやい.mp3-cda103b944d555f2dfbcccce49c99498.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 8/早_kunyomi_はやい.mp3"
+dest_files=["res://.godot/imported/早_kunyomi_はやい.mp3-cda103b944d555f2dfbcccce49c99498.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

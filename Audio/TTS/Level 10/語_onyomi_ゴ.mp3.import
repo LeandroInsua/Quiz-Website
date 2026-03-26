@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3np8lr4phh7t"
+path="res://.godot/imported/語_onyomi_ゴ.mp3-ea108eda69c31da8c1b381ec330960f6.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 10/語_onyomi_ゴ.mp3"
+dest_files=["res://.godot/imported/語_onyomi_ゴ.mp3-ea108eda69c31da8c1b381ec330960f6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

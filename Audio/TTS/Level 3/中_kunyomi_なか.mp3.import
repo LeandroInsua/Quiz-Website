@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cwk3epu2420m7"
+path="res://.godot/imported/中_kunyomi_なか.mp3-9771c8c33b5d57796cc1c31b4055e3be.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 3/中_kunyomi_なか.mp3"
+dest_files=["res://.godot/imported/中_kunyomi_なか.mp3-9771c8c33b5d57796cc1c31b4055e3be.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

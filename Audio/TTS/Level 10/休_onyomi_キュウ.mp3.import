@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhgbdtes562vl"
+path="res://.godot/imported/休_onyomi_キュウ.mp3-149e85e1c6751b763966e968da896a5f.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 10/休_onyomi_キュウ.mp3"
+dest_files=["res://.godot/imported/休_onyomi_キュウ.mp3-149e85e1c6751b763966e968da896a5f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

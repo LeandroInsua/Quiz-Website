@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bao5qrwf7x8qv"
+path="res://.godot/imported/足_kunyomi_あし.mp3-9163a9ec9f98b0b046abe80cc26aa092.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/足_kunyomi_あし.mp3"
+dest_files=["res://.godot/imported/足_kunyomi_あし.mp3-9163a9ec9f98b0b046abe80cc26aa092.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bqytgj03iefjn"
+path="res://.godot/imported/道_onyomi_ドウ.mp3-302a834a22a03ac3047e8136b5a9e2b0.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 10/道_onyomi_ドウ.mp3"
+dest_files=["res://.godot/imported/道_onyomi_ドウ.mp3-302a834a22a03ac3047e8136b5a9e2b0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

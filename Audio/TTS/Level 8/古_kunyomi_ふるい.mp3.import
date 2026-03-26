@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://btkg0h552ok3r"
+path="res://.godot/imported/古_kunyomi_ふるい.mp3-c38503679db89a218f290830ad3fffae.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 8/古_kunyomi_ふるい.mp3"
+dest_files=["res://.godot/imported/古_kunyomi_ふるい.mp3-c38503679db89a218f290830ad3fffae.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ca72q8x3e5oym"
+path="res://.godot/imported/目_onyomi_モク.mp3-b1ef550d9ad646fbb0d4f405a7862f88.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/目_onyomi_モク.mp3"
+dest_files=["res://.godot/imported/目_onyomi_モク.mp3-b1ef550d9ad646fbb0d4f405a7862f88.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cjyociu8fsn6i"
+path="res://.godot/imported/牛_onyomi_ギュウ.mp3-bbd319e7c4d47b2ee32cb82514b89d7f.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 7/牛_onyomi_ギュウ.mp3"
+dest_files=["res://.godot/imported/牛_onyomi_ギュウ.mp3-bbd319e7c4d47b2ee32cb82514b89d7f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

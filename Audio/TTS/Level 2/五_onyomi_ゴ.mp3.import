@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bybnplgjuaxh4"
+path="res://.godot/imported/五_onyomi_ゴ.mp3-54820fd7e018ce5f22b831bcc53cb1fb.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/五_onyomi_ゴ.mp3"
+dest_files=["res://.godot/imported/五_onyomi_ゴ.mp3-54820fd7e018ce5f22b831bcc53cb1fb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

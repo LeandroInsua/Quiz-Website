@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://xa3mh5fd3img"
+path="res://.godot/imported/右_kunyomi_みぎ.mp3-02f455621b285060dc4807be68b79562.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 6/右_kunyomi_みぎ.mp3"
+dest_files=["res://.godot/imported/右_kunyomi_みぎ.mp3-02f455621b285060dc4807be68b79562.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

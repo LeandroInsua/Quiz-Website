@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d02hxub8lqtj0"
+path="res://.godot/imported/北_onyomi_ホク.mp3-291ccb73c311a31c141618d329ec3505.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 6/北_onyomi_ホク.mp3"
+dest_files=["res://.godot/imported/北_onyomi_ホク.mp3-291ccb73c311a31c141618d329ec3505.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

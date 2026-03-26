@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b1plmlci7rag6"
+path="res://.godot/imported/立_onyomi_リツ.mp3-d3b3512f7396672c59c890f77c20fb0f.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 9/立_onyomi_リツ.mp3"
+dest_files=["res://.godot/imported/立_onyomi_リツ.mp3-d3b3512f7396672c59c890f77c20fb0f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

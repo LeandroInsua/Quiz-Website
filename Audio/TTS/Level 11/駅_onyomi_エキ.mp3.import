@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://birnfbf2fjy4y"
+path="res://.godot/imported/駅_onyomi_エキ.mp3-3418b1d1522295506e603a7ae7fcc88a.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 11/駅_onyomi_エキ.mp3"
+dest_files=["res://.godot/imported/駅_onyomi_エキ.mp3-3418b1d1522295506e603a7ae7fcc88a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

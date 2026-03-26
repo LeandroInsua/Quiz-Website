@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dft04ee3cgw1a"
+path="res://.godot/imported/社_onyomi_シャ.mp3-d56241ad039c6093c5927c5674999317.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 11/社_onyomi_シャ.mp3"
+dest_files=["res://.godot/imported/社_onyomi_シャ.mp3-d56241ad039c6093c5927c5674999317.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

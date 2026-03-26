@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cui51ad474lfi"
+path="res://.godot/imported/問_kunyomi_とう.mp3-69e7067ec741505ae1521d61211f93a6.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 7/問_kunyomi_とう.mp3"
+dest_files=["res://.godot/imported/問_kunyomi_とう.mp3-69e7067ec741505ae1521d61211f93a6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

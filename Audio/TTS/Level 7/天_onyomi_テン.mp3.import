@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bevr8omo5wm3w"
+path="res://.godot/imported/天_onyomi_テン.mp3-7f8016f75642571262c7b1671775228a.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 7/天_onyomi_テン.mp3"
+dest_files=["res://.godot/imported/天_onyomi_テン.mp3-7f8016f75642571262c7b1671775228a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bk7xndw5338m2"
+path="res://.godot/imported/万_kunyomi_よろず.mp3-6aefaeb83458a4ba4ef648c56b23c350.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 3/万_kunyomi_よろず.mp3"
+dest_files=["res://.godot/imported/万_kunyomi_よろず.mp3-6aefaeb83458a4ba4ef648c56b23c350.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3t6f3mbtmeel"
+path="res://.godot/imported/耳_kunyomi_みみ.mp3-e432ddb201a577ea2bc807e46f2cb1e7.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/耳_kunyomi_みみ.mp3"
+dest_files=["res://.godot/imported/耳_kunyomi_みみ.mp3-e432ddb201a577ea2bc807e46f2cb1e7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

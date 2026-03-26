@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cs7wr6eujy3aa"
+path="res://.godot/imported/話_onyomi_ワ.mp3-8b4b0d0c37efb1ac54867e5bb0d9b659.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 10/話_onyomi_ワ.mp3"
+dest_files=["res://.godot/imported/話_onyomi_ワ.mp3-8b4b0d0c37efb1ac54867e5bb0d9b659.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

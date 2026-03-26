@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bisy43a0kd7u1"
+path="res://.godot/imported/子_kunyomi_こ.mp3-f04a03ffa338c0e391c73a3f813b7e67.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/子_kunyomi_こ.mp3"
+dest_files=["res://.godot/imported/子_kunyomi_こ.mp3-f04a03ffa338c0e391c73a3f813b7e67.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

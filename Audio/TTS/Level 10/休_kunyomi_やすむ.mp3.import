@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://baoskkvx3tfwf"
+path="res://.godot/imported/休_kunyomi_やすむ.mp3-294d7458e51a5921a3b517f8a18cd488.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 10/休_kunyomi_やすむ.mp3"
+dest_files=["res://.godot/imported/休_kunyomi_やすむ.mp3-294d7458e51a5921a3b517f8a18cd488.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

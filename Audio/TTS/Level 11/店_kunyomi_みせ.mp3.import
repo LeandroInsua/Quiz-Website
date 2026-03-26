@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bjljk3s2ojysw"
+path="res://.godot/imported/店_kunyomi_みせ.mp3-2f68b02a79aa23d76ec00ee4df91c8c4.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 11/店_kunyomi_みせ.mp3"
+dest_files=["res://.godot/imported/店_kunyomi_みせ.mp3-2f68b02a79aa23d76ec00ee4df91c8c4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

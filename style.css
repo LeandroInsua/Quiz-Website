@@ -1,0 +1,299 @@
+:root {
+    background-color: rgb(206, 202, 202);
+    font-size: 62.5%;
+}
+
+* {
+    /* adding a border to a box it includes the width of the border  in the calculated size
+    so adding border doesn't increase the final size of the box*/
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* slightly less harsh than black */
+}
+
+
+h1 {
+    font-size: 5.4rem;
+    color: #56a5eb;
+    font-weight: 500;
+}
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* HUD */
+#hud {
+    position: absolute;
+    z-index: 2;
+    background-color:lightgray;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.sub-hub {
+    font-size: 2rem;
+    justify-items: center;
+    padding: 1rem 2rem 0;
+}
+
+#progress-bar {
+    width: 25rem;
+    height: 3rem;
+    border: 0.2rem solid #56a5eb;
+}
+
+#progress-bar-fill {
+    height: 2.8rem;
+    background-color: #56a5eb;
+    width: 0%;
+}
+
+#login-text{
+    margin-right: 1rem;
+}
+
+.login-form input{
+    height: 20px;
+    border-radius: 10%;
+}
+
+.login-form {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 3rem;
+}
+
+label{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.remember-me{
+    padding-right: 2rem;
+}
+
+#remember-me{
+    width: 20px;
+    justify-items: left;
+}
+
+#login-btn{
+    font-size: 2rem;
+}
+
+a{
+    font-size: 1.5rem;
+}
+
+/* UTILITIES */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.container > * {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sub-container a {
+    margin: 1rem;
+    height: 4.5rem;
+    width: 10rem;
+}
+
+.progress-bar {
+    position: absolute;
+    translate: -1rem -3.2rem;
+    background-color: rgb(0, 110, 255);
+    opacity: 0.3;
+    height: 4.4rem;
+    /* width: 10rem; */
+    z-index: 2;
+}
+
+.hidden {
+    display: none;
+}
+
+#kanji-level, 
+#vocab-level,
+#kanji-steps {
+    display: none;
+}
+
+
+/* Buttons */
+.btn {
+    font-size: 1.8rem;
+    width: 20rem;
+    padding: 1rem;
+    text-align: center;
+    border: .1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5eb;
+    background: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.2rem) translateX(-0.2rem);
+    transition: transform 300ms;    
+}
+
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.back-btn {
+    margin-top: 2rem;
+}
+
+ruby rt {
+  font-size: 0.6em;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+
+/* ENDSCREEN */
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.hidden-container{
+    display: flex;
+    font-size: 3rem;
+    justify-content: right;
+    margin-right: 3rem;
+}
+
+#overlay.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* MODAL */
+.modal {
+    position: fixed;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+    min-width: 500px;
+    max-height: 400px;
+    justify-content:space-around;
+    background: rgb(224, 200, 200);
+    border: 0.5rem solid rgb(90, 170, 240, 0.25);
+    border-radius: 10%;
+    overflow: scroll;
+}
+
+.modal.open{
+    opacity: 1;
+    z-index: 10;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    border-bottom: 0.5rem solid black;
+}
+
+.close-modal {
+    width: 3rem;
+    border: 0;
+    height: 3rem;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.close-modal:hover {
+    cursor: pointer;
+}
+
+.modal-body {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+

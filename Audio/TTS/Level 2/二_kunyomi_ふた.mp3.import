@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b42jwg2k4fcvh"
+path="res://.godot/imported/二_kunyomi_ふた.mp3-e8c2beedd87f186bf9aeb006c114c686.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/二_kunyomi_ふた.mp3"
+dest_files=["res://.godot/imported/二_kunyomi_ふた.mp3-e8c2beedd87f186bf9aeb006c114c686.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

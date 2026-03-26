@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://l0q1fdfng73k"
+path="res://.godot/imported/外_kunyomi_そと.mp3-db7b15664e71d041c4b0b4651b007706.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 6/外_kunyomi_そと.mp3"
+dest_files=["res://.godot/imported/外_kunyomi_そと.mp3-db7b15664e71d041c4b0b4651b007706.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

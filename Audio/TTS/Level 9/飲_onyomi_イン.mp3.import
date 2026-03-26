@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dpyusiiltrekc"
+path="res://.godot/imported/飲_onyomi_イン.mp3-164a929ba03af60a8dfce547a3694358.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 9/飲_onyomi_イン.mp3"
+dest_files=["res://.godot/imported/飲_onyomi_イン.mp3-164a929ba03af60a8dfce547a3694358.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

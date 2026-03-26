@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c86wcyuko24us"
+path="res://.godot/imported/女_kunyomi_おんな.mp3-5788f2f85cba406342800aa626f387a9.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/女_kunyomi_おんな.mp3"
+dest_files=["res://.godot/imported/女_kunyomi_おんな.mp3-5788f2f85cba406342800aa626f387a9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

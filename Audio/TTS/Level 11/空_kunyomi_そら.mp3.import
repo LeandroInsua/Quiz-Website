@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://j7j6f1fkfwej"
+path="res://.godot/imported/空_kunyomi_そら.mp3-605535db6bf9900ce2eaf5eb7f39fefd.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 11/空_kunyomi_そら.mp3"
+dest_files=["res://.godot/imported/空_kunyomi_そら.mp3-605535db6bf9900ce2eaf5eb7f39fefd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://boy80m5ernr7h"
+path="res://.godot/imported/右_onyomi_ユウ.mp3-e712dc4cae01c952c86f831f2f5aeffe.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 6/右_onyomi_ユウ.mp3"
+dest_files=["res://.godot/imported/右_onyomi_ユウ.mp3-e712dc4cae01c952c86f831f2f5aeffe.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

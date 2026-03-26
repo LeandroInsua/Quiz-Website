@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bff18ulxeat1l"
+path="res://.godot/imported/二_onyomi_ニ.mp3-84e1c93a692579b97669bce6798bc60c.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/二_onyomi_ニ.mp3"
+dest_files=["res://.godot/imported/二_onyomi_ニ.mp3-84e1c93a692579b97669bce6798bc60c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

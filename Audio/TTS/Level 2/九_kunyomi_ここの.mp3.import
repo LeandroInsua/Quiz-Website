@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5rfiykf5u37p"
+path="res://.godot/imported/九_kunyomi_ここの.mp3-68e1d490444f9729affc485cbb84d267.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/九_kunyomi_ここの.mp3"
+dest_files=["res://.godot/imported/九_kunyomi_ここの.mp3-68e1d490444f9729affc485cbb84d267.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

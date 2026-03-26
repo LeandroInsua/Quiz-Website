@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://diew5kgwynwv8"
+path="res://.godot/imported/口_kunyomi_くち.mp3-ad1d08863afdef7333b672b5c33eba6a.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/口_kunyomi_くち.mp3"
+dest_files=["res://.godot/imported/口_kunyomi_くち.mp3-ad1d08863afdef7333b672b5c33eba6a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

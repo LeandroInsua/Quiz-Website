@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfdr6vcppjimg"
+path="res://.godot/imported/四_onyomi_シ.mp3-7a6d8713982d1b6b857638f965d96a50.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/四_onyomi_シ.mp3"
+dest_files=["res://.godot/imported/四_onyomi_シ.mp3-7a6d8713982d1b6b857638f965d96a50.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

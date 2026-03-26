@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cltqgcukl5l20"
+path="res://.godot/imported/貝_onyomi_バイ.mp3-89abe56b3e6d50f2f522e5e01302e760.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 7/貝_onyomi_バイ.mp3"
+dest_files=["res://.godot/imported/貝_onyomi_バイ.mp3-89abe56b3e6d50f2f522e5e01302e760.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

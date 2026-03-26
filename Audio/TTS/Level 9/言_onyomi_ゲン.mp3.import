@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cu12yv1m4evft"
+path="res://.godot/imported/言_onyomi_ゲン.mp3-193259c8f347a81b1850ee008e5e81dd.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 9/言_onyomi_ゲン.mp3"
+dest_files=["res://.godot/imported/言_onyomi_ゲン.mp3-193259c8f347a81b1850ee008e5e81dd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

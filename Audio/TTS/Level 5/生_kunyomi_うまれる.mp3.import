@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://khvcmdegoqf4"
+path="res://.godot/imported/生_kunyomi_うまれる.mp3-cab7c7faad5a99d567fdd1f41c440b6e.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 5/生_kunyomi_うまれる.mp3"
+dest_files=["res://.godot/imported/生_kunyomi_うまれる.mp3-cab7c7faad5a99d567fdd1f41c440b6e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

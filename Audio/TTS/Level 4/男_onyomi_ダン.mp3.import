@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bu015xsobf5yx"
+path="res://.godot/imported/男_onyomi_ダン.mp3-0e12e0ab4cc2a53c79e74721695723bb.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/男_onyomi_ダン.mp3"
+dest_files=["res://.godot/imported/男_onyomi_ダン.mp3-0e12e0ab4cc2a53c79e74721695723bb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

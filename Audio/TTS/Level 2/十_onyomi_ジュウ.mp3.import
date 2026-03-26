@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cr3gehtef2qhg"
+path="res://.godot/imported/十_onyomi_ジュウ.mp3-38fcbb6f61942cd90ea0dc3c2ca2696a.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/十_onyomi_ジュウ.mp3"
+dest_files=["res://.godot/imported/十_onyomi_ジュウ.mp3-38fcbb6f61942cd90ea0dc3c2ca2696a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

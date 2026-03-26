@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dlbgol4uc0rma"
+path="res://.godot/imported/安_kunyomi_やすい.mp3-26c6d02cc34180d5c753cb46f6096eb5.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 8/安_kunyomi_やすい.mp3"
+dest_files=["res://.godot/imported/安_kunyomi_やすい.mp3-26c6d02cc34180d5c753cb46f6096eb5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

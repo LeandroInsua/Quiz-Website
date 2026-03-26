@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b2of3yu0suke6"
+path="res://.godot/imported/十_kunyomi_とお.mp3-32aca8571ff553117b9e546ff0af431f.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/十_kunyomi_とお.mp3"
+dest_files=["res://.godot/imported/十_kunyomi_とお.mp3-32aca8571ff553117b9e546ff0af431f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://v7ejwff0cgkh"
+path="res://.godot/imported/間_kunyomi_あいだ.mp3-b8a35a0d3607845c998cbf47b1766853.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 10/間_kunyomi_あいだ.mp3"
+dest_files=["res://.godot/imported/間_kunyomi_あいだ.mp3-b8a35a0d3607845c998cbf47b1766853.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

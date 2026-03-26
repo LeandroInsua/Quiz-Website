@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://737wsaie6cbh"
+path="res://.godot/imported/四_kunyomi_よ.mp3-0746dff7a3a0749d4de718dd04b7a573.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/四_kunyomi_よ.mp3"
+dest_files=["res://.godot/imported/四_kunyomi_よ.mp3-0746dff7a3a0749d4de718dd04b7a573.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

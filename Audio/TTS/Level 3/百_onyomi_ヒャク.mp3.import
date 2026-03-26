@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://defgk1wlnghqw"
+path="res://.godot/imported/百_onyomi_ヒャク.mp3-c3130f18e5a4a4934ab9fb706f91d777.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 3/百_onyomi_ヒャク.mp3"
+dest_files=["res://.godot/imported/百_onyomi_ヒャク.mp3-c3130f18e5a4a4934ab9fb706f91d777.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

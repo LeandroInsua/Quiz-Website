@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b2qmnohgjpiir"
+path="res://.godot/imported/千_kunyomi_ち.mp3-cb52f36a75d3dd723734f5bd96edc256.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 3/千_kunyomi_ち.mp3"
+dest_files=["res://.godot/imported/千_kunyomi_ち.mp3-cb52f36a75d3dd723734f5bd96edc256.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

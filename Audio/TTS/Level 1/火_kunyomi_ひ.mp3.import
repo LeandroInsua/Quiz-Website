@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0wbxeddauua4"
+path="res://.godot/imported/火_kunyomi_ひ.mp3-9c0ae0b45ccbeedf5b3567e6346e2f33.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 1/火_kunyomi_ひ.mp3"
+dest_files=["res://.godot/imported/火_kunyomi_ひ.mp3-9c0ae0b45ccbeedf5b3567e6346e2f33.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

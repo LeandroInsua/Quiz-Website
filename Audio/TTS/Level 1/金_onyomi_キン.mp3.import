@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cqtg72lpqe4uf"
+path="res://.godot/imported/金_onyomi_キン.mp3-ee2fa340c61916be05f76f230acf3bea.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 1/金_onyomi_キン.mp3"
+dest_files=["res://.godot/imported/金_onyomi_キン.mp3-ee2fa340c61916be05f76f230acf3bea.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dgg0ulmw6xol2"
+path="res://.godot/imported/五_kunyomi_いつ.mp3-edb0398f73bbc545a9b2e3d5efe1e1b3.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/五_kunyomi_いつ.mp3"
+dest_files=["res://.godot/imported/五_kunyomi_いつ.mp3-edb0398f73bbc545a9b2e3d5efe1e1b3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

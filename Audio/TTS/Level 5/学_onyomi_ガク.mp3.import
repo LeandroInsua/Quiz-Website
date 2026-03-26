@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bh4rccsifj3do"
+path="res://.godot/imported/学_onyomi_ガク.mp3-689e6df0bf4bd7cd13834e757baef803.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 5/学_onyomi_ガク.mp3"
+dest_files=["res://.godot/imported/学_onyomi_ガク.mp3-689e6df0bf4bd7cd13834e757baef803.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

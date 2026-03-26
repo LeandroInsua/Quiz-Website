@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4a0add3mvorr"
+path="res://.godot/imported/午_onyomi_ゴ.mp3-a1ca98f455aa135d6197cdb5f7289b22.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 7/午_onyomi_ゴ.mp3"
+dest_files=["res://.godot/imported/午_onyomi_ゴ.mp3-a1ca98f455aa135d6197cdb5f7289b22.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

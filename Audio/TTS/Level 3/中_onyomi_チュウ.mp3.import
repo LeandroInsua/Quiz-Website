@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crovdhthfwkq3"
+path="res://.godot/imported/中_onyomi_チュウ.mp3-21c13a204fa8371d3cb85f1701c65d24.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 3/中_onyomi_チュウ.mp3"
+dest_files=["res://.godot/imported/中_onyomi_チュウ.mp3-21c13a204fa8371d3cb85f1701c65d24.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

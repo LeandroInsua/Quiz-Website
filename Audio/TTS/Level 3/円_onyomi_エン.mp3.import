@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b8ied4j6ofni5"
+path="res://.godot/imported/円_onyomi_エン.mp3-08fc20bd12b0d375b010a94ea2c871af.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 3/円_onyomi_エン.mp3"
+dest_files=["res://.godot/imported/円_onyomi_エン.mp3-08fc20bd12b0d375b010a94ea2c871af.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

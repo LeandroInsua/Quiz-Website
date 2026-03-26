@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cqd0nvjpoklwc"
+path="res://.godot/imported/安_onyomi_アン.mp3-a373f41c1b6174111c1c626832114de4.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 8/安_onyomi_アン.mp3"
+dest_files=["res://.godot/imported/安_onyomi_アン.mp3-a373f41c1b6174111c1c626832114de4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

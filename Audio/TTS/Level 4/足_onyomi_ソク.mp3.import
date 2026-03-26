@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bm4lkeykc4wsb"
+path="res://.godot/imported/足_onyomi_ソク.mp3-c52a0d4239a9d167bbc600d3625621f0.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 4/足_onyomi_ソク.mp3"
+dest_files=["res://.godot/imported/足_onyomi_ソク.mp3-c52a0d4239a9d167bbc600d3625621f0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

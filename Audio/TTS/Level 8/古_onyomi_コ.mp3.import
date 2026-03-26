@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://v28uv6p84c5q"
+path="res://.godot/imported/古_onyomi_コ.mp3-eb4b78385672c8de137666666bc4dc3f.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 8/古_onyomi_コ.mp3"
+dest_files=["res://.godot/imported/古_onyomi_コ.mp3-eb4b78385672c8de137666666bc4dc3f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

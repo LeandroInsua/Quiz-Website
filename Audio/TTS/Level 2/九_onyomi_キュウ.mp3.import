@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dkc22kk66ywn0"
+path="res://.godot/imported/九_onyomi_キュウ.mp3-efe9f9915d93a34d1a6b722f62007283.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 2/九_onyomi_キュウ.mp3"
+dest_files=["res://.godot/imported/九_onyomi_キュウ.mp3-efe9f9915d93a34d1a6b722f62007283.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

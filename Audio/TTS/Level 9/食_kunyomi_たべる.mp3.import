@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhptcittmb2lg"
+path="res://.godot/imported/食_kunyomi_たべる.mp3-831cd1ed5a02634ec343a5913112779c.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 9/食_kunyomi_たべる.mp3"
+dest_files=["res://.godot/imported/食_kunyomi_たべる.mp3-831cd1ed5a02634ec343a5913112779c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

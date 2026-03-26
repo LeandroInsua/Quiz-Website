@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <div id="hud">
+        <div class="hidden-container">
+            <h3>Welcome</h3>
+            <div class="modal" id="example">
+                <div class="modal-header">
+                    <h2>Register</h2>
+                </div>                                
+                <div class="modal-body" id="example-txt">
+                    <label for="reg-username">Username</label>
+                    <input type="text" name="" id="reg-username">
+                    <label for="">Password</label>
+                    <input type="password" name="" id="reg-password">
+                </div>
+            </div>
+        </div>
+        <form class="login-form" action="">
+                <label for="email">Email<a href="" id="register-btn">Register</a></label>
+                <input id="email" type="email" required>
+                <label for="password">Password<a href="" id="forgot-pass">Forgot password?</a></label>
+                <input id="password" type="password" required>
+                <button id="login-btn">Log in</button>
+                <label for="remember-me"><input type="checkbox" name="" id="remember-me">Remember me</label>
+        </form>
+    </div>
+    <body>
+        <div class="container">
+            <!-- Options -->
+            <div id="home" class="flex-center flex-column">
+                <h1>Japanese Quiz</h1>
+                <div class="btn" id="kanji-btn">Kanji</div>
+                <div class="btn" id="vocabulary-btn" disabled>Vocabulary</div>
+                <a class="btn" id="highScores-btn" href="./highScores.html" disabled>High Scores</a>
+            </div>
+            <!-- Kanji Level -->
+            <div id="kanji-level" class="flex-center flex-column">
+                <h1>Kanji Level</h1>
+                <a class="btn" data-jlpt="5">N5</a>
+                <a class="btn" data-jlpt="4">N4</a>
+                <a class="btn" data-jlpt="3">N3</a>
+                <a class="btn" data-jlpt="2">N2</a>
+                <a class="btn" data-jlpt="1">N1</a>
+                <button type="button" class="btn back-btn">Back</button>
+            </div>
+            <!-- N5 -->
+                <div class="flex-center flex-column" id="kanji-steps">
+                    <h1 id="steps-title">Choose sublevel</h1>
+                    <div class="sub-container" id="steps-container">
+
+                    </div>
+                    <button type="button" class="btn back-btn">Back</button>
+                </div>
+
+                <!-- VOCABULARY -->
+            <div id="vocab-level" class="flex-center flex-column vocab-level">
+                <h1>Vocabulary Level</h1>
+                <a class="btn" id="Vocab-N5-btn" href="./vocabulary.html">N5</a>
+                <a class="btn" id="Vocab-N4-btn" href="./vocabulary.html">N4</a>
+                <a class="btn" id="Vocab-N3-btn" href="./vocabulary.html">N3</a>
+                <a class="btn" id="Vocab-N2-btn" href="./vocabulary.html">N2</a>
+                <a class="btn" id="Vocab-N1-btn" href="./vocabulary.html">N1</a>
+                <button type="button" class="btn back-btn">Back</button>
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <script src="./main.js"></script>
+    </body>
+</html>

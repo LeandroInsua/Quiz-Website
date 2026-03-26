@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d1wvfper1op5g"
+path="res://.godot/imported/話_kunyomi_はなす.mp3-585afa4b880c15cdb05ca9abcde65664.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 10/話_kunyomi_はなす.mp3"
+dest_files=["res://.godot/imported/話_kunyomi_はなす.mp3-585afa4b880c15cdb05ca9abcde65664.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

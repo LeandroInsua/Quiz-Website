@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ctjmsp4t28tv7"
+path="res://.godot/imported/買_kunyomi_かう.mp3-747cccbd68262cd7e8fbc86bd214e19a.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 10/買_kunyomi_かう.mp3"
+dest_files=["res://.godot/imported/買_kunyomi_かう.mp3-747cccbd68262cd7e8fbc86bd214e19a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

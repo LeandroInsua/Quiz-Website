@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7p7ovgjqb7kc"
+path="res://.godot/imported/入_onyomi_ニュウ.mp3-ac81644cdeb1ab378f31bcea6d4c8c88.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 9/入_onyomi_ニュウ.mp3"
+dest_files=["res://.godot/imported/入_onyomi_ニュウ.mp3-ac81644cdeb1ab378f31bcea6d4c8c88.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

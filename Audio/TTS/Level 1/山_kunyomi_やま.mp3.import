@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://csref16bql7v7"
+path="res://.godot/imported/山_kunyomi_やま.mp3-8fe47dae88343d0bd23c29280538c2f8.mp3str"
+
+[deps]
+
+source_file="res://Audio/TTS/Level 1/山_kunyomi_やま.mp3"
+dest_files=["res://.godot/imported/山_kunyomi_やま.mp3-8fe47dae88343d0bd23c29280538c2f8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

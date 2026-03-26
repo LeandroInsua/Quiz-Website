@@ -42,7 +42,7 @@ function showOnly(layerKey) {
 async function loadKanji(jlpt) {
     if (!kanjiCache[jlpt]) {
          try {
-            const response = await fetch(`data/kanji_data_N${jlpt}.json`);
+            const response = await fetch(`./data/kanji_data_N${jlpt}.json`);
             if (!response.ok) {
                 throw new Error("Failed to fetch Kanji data");
             }

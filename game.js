@@ -1,6 +1,6 @@
-const BASE_PATH = window.location.hostname.includes('github.io') 
-    ? 'leandroinsua.github.io/Quiz-Website/'   // Change only this if your repo name ever changes
-    : '/';               // Local development
+/* const BASE_PATH = window.location.hostname.includes('github.io') 
+    ? 'leandroinsua.github.io//'   // Change only this if your repo name ever changes
+    : '/';               // Local development */
 
 /* QUIZ OPTIONS */
 const question = document.getElementById("question");
@@ -29,7 +29,7 @@ let progressBarFill = document.getElementById("progress-bar-fill");
 
 //LOAD DATA, THEN START
 async function loadKanji() {
-    const response = await fetch(`${BASE_PATH}data/kanji_data_N${jlptLevel}.json`); // document containing kanji
+    const response = await fetch(`Quiz-Website/data/kanji_data_N${jlptLevel}.json`); // document containing kanji
     if (!response.ok) throw new Error("Failed to load json");
     const data = await response.json();
 

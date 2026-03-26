@@ -6,7 +6,6 @@ const layers = {
     kanjiSteps: document.getElementById('kanji-steps')
 };
 const highScores = JSON.parse(localStorage.getItem("highScores"))
-console.log(highScores.step);
 
 const stepsContainer = document.getElementById("steps-container");
 let kanjiData = []; //hold the current game kanji

@@ -3,8 +3,6 @@ const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('final-score');
 const mostRecentScore = JSON.parse(localStorage.getItem("mostRecentScore"));
 
-console.log(mostRecentScore);
-
 finalScore.innerHTML = "Accuracy: " + mostRecentScore.score + "%";
 
 const MAX_HIGH_SCORES = 100;
@@ -15,7 +13,6 @@ username.addEventListener("keyup", () => {
     saveScoreBtn.disabled = !username.value;
 })
 
-console.log(highScores);
 
 saveHighScore = e => {
     e.preventDefault();

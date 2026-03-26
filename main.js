@@ -1,5 +1,5 @@
 const BASE_PATH = window.location.hostname.includes('github.io') 
-    ? '/Quiz-Website/'   // Change only this if your repo name ever changes
+    ? 'Quiz-Website/'   // Change only this if your repo name ever changes
     : '/';               // Local development
 
 /* Layers */

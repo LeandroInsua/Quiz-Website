@@ -1,6 +1,6 @@
-/* const BASE_PATH = window.location.hostname.includes('github.io') 
-    ? 'leandroinsua.github.io/Quiz-Website/'   // Change only this if your repo name ever changes
-    : '/';               // Local development */
+const BASE_PATH = window.location.hostname.includes('github.io') 
+    ? '/Quiz-Website/'   // Change only this if your repo name ever changes
+    : '/';               // Local development
 
 /* Layers */
 const layers = {
@@ -46,7 +46,7 @@ function showOnly(layerKey) {
 async function loadKanji(jlpt) {
     if (!kanjiCache[jlpt]) {
          try {
-            const response = await fetch(`https://leandroinsua.github.io/Quiz-Website/Quiz-Website/data/kanji_data_N${jlpt}.json`);
+            const response = await fetch(`https://github.com/LeandroInsua/Quiz-Website/tree/main/Data/kanji_data_N${jlpt}.json`);
             if (!response.ok) {
                 throw new Error("Failed to fetch Kanji data");
             }

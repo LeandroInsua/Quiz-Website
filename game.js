@@ -29,7 +29,7 @@ let progressBarFill = document.getElementById("progress-bar-fill");
 
 //LOAD DATA, THEN START
 async function loadKanji() {
-    const response = await fetch(`https://github.com/LeandroInsua/Quiz-Website/tree/main/Data/kanji_data_N${jlptLevel}.json`); // document containing kanji
+    const response = await fetch(`${BASE_PATH}data/kanji_data_N${jlptLevel}.json`); // document containing kanji
     if (!response.ok) throw new Error("Failed to load json");
     const data = await response.json();
 

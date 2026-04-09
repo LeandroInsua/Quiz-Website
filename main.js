@@ -87,6 +87,7 @@ async function loadVocab(jlpt) {
     if (!vocabCache[jlpt]) {
         try {
             const response = await fetch(`./data/Vocab_data_N${jlpt}.json`);
+            console.log(response);
             if (!response.ok){
                 throw new Error("Failed to fetch vocabulary data");
             }
@@ -114,9 +115,7 @@ async function loadVocab(jlpt) {
         stepsContainer.appendChild(step);
         step.appendChild(bar);
     });
-
 }
-
 
 stepsContainer.addEventListener("click", (e) => {
     if (!e.target.matches("[data-step]")) return;
@@ -143,7 +142,7 @@ vocabButtons.forEach(btn => {
     btn.addEventListener("click", () => {
         const jlpt = btn.dataset.vocablv;
         document.getElementById("steps-title").textContent = `Choose N${jlpt} sublevel`;
-        localStorage.setItem("VOCAB", jlpt);
+        localStorage.setItem("JLPT", jlpt);
         pageToGo = "./vocabGame.html";
         loadVocab(jlpt);
         showOnly("steps");

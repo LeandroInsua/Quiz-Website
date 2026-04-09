@@ -1,2181 +1,1043 @@
 {
-  "levels": {
-    "Level 1": [
-    {
-      "kanji": "山",
-      "kunyomi": ["やま"],
-      "onyomi": ["サン", "セン"],
-      "pitch_accent": { "やま": "LH" },
-      "example_sentences": {
-        "やま": [
-          { "sentence": "<ruby>山<rt>やま</rt></ruby>に登る。", "translation": "I climb the mountain." },
-          { "sentence": "あの<ruby>山<rt>やま</rt></ruby>は高い。", "translation": "That mountain is high." }
-        ],
-        "サン": [
-          { "sentence": "<ruby>富士山<rt>ふじさん</rt></ruby>は日本一だ。", "translation": "Mount Fuji is Japan's highest." }
-        ],
-        "セン": [
-          { "sentence": "<ruby>山脈<rt>さんみゃく</rt></ruby>が美しい。", "translation": "The mountain range is beautiful." }
-        ]
-      },
-      "vocabulary": ["富士山", "山道"],
-      "vocabulary_translation": ["Mount Fuji", "mountain path"],
-      "translation": ["mountain"],
-      "radicals": ["山"]
-    },
-    {
-      "kanji": "川",
-      "kunyomi": ["かわ"],
-      "onyomi": ["セン"],
-      "pitch_accent": { "かわ": "HL" },
-      "example_sentences": {
-        "かわ": [
-          { "sentence": "<ruby>川<rt>かわ</rt></ruby>で魚を釣る。", "translation": "I fish in the river." },
-          { "sentence": "<ruby>川<rt>かわ</rt></ruby>はとてもきれいだ。", "translation": "The river is very clean." }
-        ],
-        "セン": [
-          { "sentence": "<ruby>河川<rt>かせん</rt></ruby>が氾濫した。", "translation": "The river overflowed." }
-        ]
-      },
-      "vocabulary": ["河川", "川辺"],
-      "vocabulary_translation": ["rivers", "riverside"],
-      "translation": ["river"],
-      "radicals": ["川"]
-    },
-    {
-      "kanji": "田",
-      "kunyomi": ["た"],
-      "onyomi": ["デン", "テン"],
-      "pitch_accent": { "た": "H" },
-      "example_sentences": {
-        "た": [
-          { "sentence": "<ruby>田<rt>た</rt></ruby>で米を作る。", "translation": "Rice is grown in the field." },
-          { "sentence": "<ruby>田<rt>た</rt></ruby>は水でいっぱいだ。", "translation": "The field is full of water." }
-        ],
-        "デン": [
-          { "sentence": "<ruby>田園<rt>でんえん</rt></ruby>風景が好きだ。", "translation": "I like rural scenery." }
-        ],
-        "テン": [
-          { "sentence": "農夫は<ruby>田<rt>た</rt></ruby>を耕す。", "translation": "The farmer plows the field." }
-        ]
-      },
-      "vocabulary": ["田んぼ", "水田"],
-      "vocabulary_translation": ["rice paddy", "paddy field"],
-      "translation": ["rice field", "paddy"],
-      "radicals": ["田"]
-    },
-    {
-      "kanji": "月",
-      "kunyomi": ["つき"],
-      "onyomi": ["ゲツ", "ガツ"],
-      "pitch_accent": { "つき": "HL" },
-      "example_sentences": {
-        "つき": [
-          { "sentence": "<ruby>月<rt>つき</rt></ruby>がきれいだ。", "translation": "The moon is beautiful." },
-          { "sentence": "夜に<ruby>月<rt>つき</rt></ruby>を見る。", "translation": "I look at the moon at night." }
-        ],
-        "ゲツ": [
-          { "sentence": "<ruby>一月<rt>いちがつ</rt></ruby>は寒い。", "translation": "January is cold." }
-        ],
-        "ガツ": [
-          { "sentence": "<ruby>十月<rt>じゅうがつ</rt></ruby>は秋だ。", "translation": "October is autumn." }
-        ]
-      },
-      "vocabulary": ["一月", "月曜日"],
-      "vocabulary_translation": ["January", "Monday"],
-      "translation": ["moon", "month"],
-      "radicals": ["月"]
-    },
-    {
-      "kanji": "火",
-      "kunyomi": ["ひ", "ほ"],
-      "onyomi": ["カ"],
-      "pitch_accent": { "ひ": "H", "ほ": "H" },
-      "example_sentences": {
-        "ひ": [
-          { "sentence": "<ruby>火<rt>ひ</rt></ruby>を消す。", "translation": "I put out the fire." },
-          { "sentence": "<ruby>火<rt>ひ</rt></ruby>で料理する。", "translation": "I cook with fire." }
-        ],
-        "ほ": [
-          { "sentence": "<ruby>火事<rt>かじ</rt></ruby>が怖い。", "translation": "Fires are scary." }
-        ],
-        "カ": [
-          { "sentence": "<ruby>火山<rt>かざん</rt></ruby>が噴火した。", "translation": "The volcano erupted." }
-        ]
-      },
-      "vocabulary": ["火曜日", "火事"],
-      "vocabulary_translation": ["Tuesday", "fire (disaster)"],
-      "translation": ["fire"],
-      "radicals": ["火"]
-    },
-    {
-      "kanji": "水",
-      "kunyomi": ["みず"],
-      "onyomi": ["スイ"],
-      "pitch_accent": { "みず": "HL" },
-      "example_sentences": {
-        "みず": [
-          { "sentence": "<ruby>水<rt>みず</rt></ruby>を飲む。", "translation": "I drink water." },
-          { "sentence": "<ruby>水<rt>みず</rt></ruby>が冷たい。", "translation": "The water is cold." }
-        ],
-        "みず-": [
-          { "sentence": "<ruby>水着<rt>みずぎ</rt></ruby>を着る。", "translation": "I wear a swimsuit." }
-        ],
-        "スイ": [
-          { "sentence": "<ruby>水道水<rt>すいどうみず</rt></ruby>は安全だ。", "translation": "Tap water is safe." }
-        ]
-      },
-      "vocabulary": ["水曜日", "水道"],
-      "vocabulary_translation": ["Wednesday", "tap water"],
-      "translation": ["water"],
-      "radicals": ["水"]
-    },
-    {
-      "kanji": "木",
-      "kunyomi": ["き"],
-      "onyomi": ["モク"],
-      "pitch_accent": { "き": "H", "こ": "H" },
-      "example_sentences": {
-        "き": [
-          { "sentence": "<ruby>木<rt>き</rt></ruby>を切る。", "translation": "I cut the tree." },
-          { "sentence": "<ruby>木<rt>き</rt></ruby>が高い。", "translation": "The tree is tall." }
-        ],
-        "こ": [
-          { "sentence": "<ruby>木々<rt>きぎ</rt></ruby>が緑だ。", "translation": "The trees are green." }
-        ],
-        "モク": [
-          { "sentence": "<ruby>木曜日<rt>もくようび</rt></ruby>は忙しい。", "translation": "Thursday is busy." }
-        ],
-        "ボク": [
-          { "sentence": "<ruby>木材<rt>もくざい</rt></ruby>を買う。", "translation": "I buy lumber." }
-        ]
-      },
-      "vocabulary": ["木曜日", "木材"],
-      "vocabulary_translation": ["Thursday", "lumber/wood"],
-      "translation": ["tree", "wood"],
-      "radicals": ["木"]
-    },
-    {
-      "kanji": "金",
-      "kunyomi": ["かね", "かな"],
-      "onyomi": ["キン", "コン"],
-      "pitch_accent": { "かね": "HL", "かな": "HL" },
-      "example_sentences": {
-        "かね": [
-          { "sentence": "お<ruby>金<rt>かね</rt></ruby>がない。", "translation": "I don’t have money." },
-          { "sentence": "<ruby>金<rt>かね</rt></ruby>を貯める。", "translation": "I save money." }
-        ],
-        "かな": [
-          { "sentence": "<ruby>金色<rt>かないろ</rt></ruby>の花だ。", "translation": "It’s a golden flower." }
-        ],
-        "キン": [
-          { "sentence": "<ruby>金曜日<rt>きんようび</rt></ruby>に会う。", "translation": "We meet on Friday." }
-        ],
-        "コン": [
-          { "sentence": "<ruby>黄金<rt>おうごん</rt></ruby>が輝く。", "translation": "The gold shines." }
-        ]
-      },
-      "vocabulary": ["金曜日", "お金"],
-      "vocabulary_translation": ["Friday", "money"],
-      "translation": ["money", "metal", "gold"],
-      "radicals": ["金"]
-    },
-    {
-      "kanji": "土",
-      "kunyomi": ["つち", "ど"],
-      "onyomi": ["ド", "ト"],
-      "pitch_accent": { "つち": "HL", "ど": "H" },
-      "example_sentences": {
-        "つち": [
-          { "sentence": "<ruby>土<rt>つち</rt></ruby>を掘る。", "translation": "I dig the soil." },
-          { "sentence": "<ruby>土<rt>つち</rt></ruby>が柔らかい。", "translation": "The soil is soft." }
-        ],
-        "ど": [
-          { "sentence": "<ruby>土手<rt>どて</rt></ruby>で遊ぶ。", "translation": "I play on the embankment." }
-        ],
-        "ド": [
-          { "sentence": "<ruby>土曜日<rt>どようび</rt></ruby>は休みだ。", "translation": "Saturday is a day off." }
-        ],
-        "ト": [
-          { "sentence": "<ruby>本土<rt>ほんど</rt></ruby>に住む。", "translation": "I live on the mainland." }
-        ]
-      },
-      "vocabulary": ["土曜日", "土地"],
-      "vocabulary_translation": ["Saturday", "land"],
-      "translation": ["earth", "soil"],
-      "radicals": ["土"]
-    },
-    {
-      "kanji": "日",
-      "kunyomi": ["ひ", "び", "か"],
-      "onyomi": ["ニチ", "ジツ"],
-      "pitch_accent": { "ひ": "H", "び": "H", "か": "H" },
-      "example_sentences": {
-        "ひ": [
-          { "sentence": "<ruby>日<rt>ひ</rt></ruby>が出る。", "translation": "The sun rises." },
-          { "sentence": "<ruby>日<rt>ひ</rt></ruby>は暖かい。", "translation": "The sun is warm." }
-        ],
-        "び": [
-          { "sentence": "<ruby>毎日<rt>まいにち</rt></ruby>勉強する。", "translation": "I study every day." }
-        ],
-        "か": [
-          { "sentence": "<ruby>三日<rt>みっか</rt></ruby>は休みだ。", "translation": "The third is a holiday." }
-        ],
-        "ニチ": [
-          { "sentence": "<ruby>日曜日<rt>にちようび</rt></ruby>に寝る。", "translation": "I sleep on Sunday." }
-        ],
-        "ジツ": [
-          { "sentence": "<ruby>実日<rt>じつにち</rt></ruby>は忙しい。", "translation": "The actual day is busy." }
-        ]
-      },
-      "vocabulary": ["日曜日", "毎日"],
-      "vocabulary_translation": ["Sunday", "every day"],
-      "translation": ["sun", "day"],
-      "radicals": ["日"]
-    }
-  ],
-    "Level 2": [
-      {
-        "kanji": "一",
-        "kunyomi": ["ひと", "ひと.つ"],
-        "onyomi": ["イチ", "イツ"],
-        "pitch_accent": { "ひと": "HL", "ひと.つ": "LHH" },
-        "example_sentences": {
-          "ひと": [
-            { "sentence": "一人で歩く。", "translation": "I walk alone." }
-          ],
-          "ひと.つ": [
-            { "sentence": "一つ買う。", "translation": "I buy one." }
-          ],
-          "イチ": [
-            { "sentence": "一番が好きだ。", "translation": "I like the first one." }
-          ],
-          "イツ": [
-            { "sentence": "統一する。", "translation": "We unify." }
-          ]
-        },
-        "vocabulary": ["一つ", "一番"],
-        "vocabulary_translation": ["one (thing)", "number one"],
-        "translation": ["one"],
-        "radicals": ["一"]
-      },
-      {
-        "kanji": "二",
-        "kunyomi": ["ふた", "ふた.つ"],
-        "onyomi": ["ニ", "ジ"],
-        "pitch_accent": { "ふた": "HL", "ふた.つ": "LHH" },
-        "example_sentences": {
-          "ふた": [
-            { "sentence": "二人が来る。", "translation": "Two people come." }
-          ],
-          "ふた.つ": [
-            { "sentence": "二つください。", "translation": "Two, please." }
-          ],
-          "ニ": [
-            { "sentence": "二日は休みだ。", "translation": "The second is a holiday." }
-          ],
-          "ジ": [
-            { "sentence": "二次試験だ。", "translation": "It’s the second exam." }
-          ]
-        },
-        "vocabulary": ["二つ", "二人"],
-        "vocabulary_translation": ["two (things)", "two people"],
-        "translation": ["two"],
-        "radicals": ["二"]
-      },
-      {
-        "kanji": "三",
-        "kunyomi": ["み", "み.つ"],
-        "onyomi": ["サン"],
-        "pitch_accent": { "み": "H", "み.つ": "LHH" },
-        "example_sentences": {
-          "み": [
-            { "sentence": "三人で話す。", "translation": "Three people talk." }
-          ],
-          "み.つ": [
-            { "sentence": "三つ持つ。", "translation": "I hold three." }
-          ],
-          "サン": [
-            { "sentence": "三角形を描く。", "translation": "I draw a triangle." }
-          ]
-        },
-        "vocabulary": ["三つ", "三人"],
-        "vocabulary_translation": ["three (things)", "three people"],
-        "translation": ["three"],
-        "radicals": ["一"]
-      },
-      {
-        "kanji": "四",
-        "kunyomi": ["よ", "よ.つ", "よん"],
-        "onyomi": ["シ"],
-        "pitch_accent": { "よ": "H", "よ.つ": "LHH", "よん": "HL" },
-        "example_sentences": {
-          "よ": [
-            { "sentence": "四時に寝る。", "translation": "I sleep at four." }
-          ],
-          "よ.つ": [
-            { "sentence": "四つ買う。", "translation": "I buy four." }
-          ],
-          "よん": [
-            { "sentence": "四冊の本だ。", "translation": "It’s four books." }
-          ],
-          "シ": [
-            { "sentence": "四季が好きだ。", "translation": "I like the four seasons." }
-          ]
-        },
-        "vocabulary": ["四つ", "四人"],
-        "vocabulary_translation": ["four (things)", "four people"],
-        "translation": ["four"],
-        "radicals": ["囗", "儿"]
-      },
-      {
-        "kanji": "五",
-        "kunyomi": ["いつ", "いつ.つ"],
-        "onyomi": ["ゴ"],
-        "pitch_accent": { "いつ": "HL", "いつ.つ": "LHH" },
-        "example_sentences": {
-          "いつ": [
-            { "sentence": "五時に起きる。", "translation": "I wake up at five." }
-          ],
-          "いつ.つ": [
-            { "sentence": "五つください。", "translation": "Five, please." }
-          ],
-          "ゴ": [
-            { "sentence": "五月は暖かい。", "translation": "May is warm." }
-          ]
-        },
-        "vocabulary": ["五つ", "五人"],
-        "vocabulary_translation": ["five (things)", "five people"],
-        "translation": ["five"],
-        "radicals": ["二", "丨"]
-      },
-      {
-        "kanji": "六",
-        "kunyomi": ["む", "む.つ", "むい"],
-        "onyomi": ["ロク"],
-        "pitch_accent": { "む": "H", "む.つ": "LHH", "むい": "HL" },
-        "example_sentences": {
-          "む": [
-            { "sentence": "六時に会う。", "translation": "We meet at six." }
-          ],
-          "む.つ": [
-            { "sentence": "六つ買う。", "translation": "I buy six." }
-          ],
-          "むい": [
-            { "sentence": "六日働く。", "translation": "I work for six days." }
-          ],
-          "ロク": [
-            { "sentence": "六月は雨だ。", "translation": "June is rainy." }
-          ]
-        },
-        "vocabulary": ["六つ", "六人"],
-        "vocabulary_translation": ["six (things)", "six people"],
-        "translation": ["six"],
-        "radicals": ["亠", "八"]
-      },
-      {
-        "kanji": "七",
-        "kunyomi": ["なな", "なな.つ"],
-        "onyomi": ["シチ"],
-        "pitch_accent": { "なな": "LH", "なな.つ": "LHH" },
-        "example_sentences": {
-          "なな": [
-            { "sentence": "七時に寝る。", "translation": "I sleep at seven." }
-          ],
-          "なな.つ": [
-            { "sentence": "七つ持つ。", "translation": "I hold seven." }
-          ],
-          "シチ": [
-            { "sentence": "七月は暑い。", "translation": "July is hot." }
-          ]
-        },
-        "vocabulary": ["七つ", "七人"],
-        "vocabulary_translation": ["seven (things)", "seven people"],
-        "translation": ["seven"],
-        "radicals": ["七"]
-      },
-      {
-        "kanji": "八",
-        "kunyomi": ["や", "や.つ", "よう"],
-        "onyomi": ["ハチ"],
-        "pitch_accent": { "や": "H", "や.つ": "LHH", "よう": "HL" },
-        "example_sentences": {
-          "や": [
-            { "sentence": "八時に起きる。", "translation": "I wake up at eight." }
-          ],
-          "や.つ": [
-            { "sentence": "八つください。", "translation": "Eight, please." }
-          ],
-          "よう": [
-            { "sentence": "八日は休みだ。", "translation": "The eighth is a holiday." }
-          ],
-          "ハチ": [
-            { "sentence": "八月は夏だ。", "translation": "August is summer." }
-          ]
-        },
-        "vocabulary": ["八つ", "八人"],
-        "vocabulary_translation": ["eight (things)", "eight people"],
-        "translation": ["eight"],
-        "radicals": ["八"]
-      },
-      {
-        "kanji": "九",
-        "kunyomi": ["ここの", "ここの.つ"],
-        "onyomi": ["キュウ", "ク"],
-        "pitch_accent": { "ここの": "LHH", "ここの.つ": "LHHH" },
-        "example_sentences": {
-          "ここの": [
-            { "sentence": "九時に寝る。", "translation": "I sleep at nine." }
-          ],
-          "ここの.つ": [
-            { "sentence": "九つ買う。", "translation": "I buy nine." }
-          ],
-          "キュウ": [
-            { "sentence": "九月は涼しい。", "translation": "September is cool." }
-          ],
-          "ク": [
-            { "sentence": "九日間働く。", "translation": "I work for nine days." }
-          ]
-        },
-        "vocabulary": ["九つ", "九人"],
-        "vocabulary_translation": ["nine (things)", "nine people"],
-        "translation": ["nine"],
-        "radicals": ["九"]
-      },
-      {
-        "kanji": "十",
-        "kunyomi": ["とお", "と"],
-        "onyomi": ["ジュウ"],
-        "pitch_accent": { "とお": "HL", "と": "H" },
-        "example_sentences": {
-          "とお": [
-            { "sentence": "十冊の本だ。", "translation": "It’s ten books." }
-          ],
-          "と": [
-            { "sentence": "十日は忙しい。", "translation": "The tenth is busy." }
-          ],
-          "ジュウ": [
-            { "sentence": "十月は秋だ。", "translation": "October is autumn." }
-          ]
-        },
-        "vocabulary": ["十", "十人"],
-        "vocabulary_translation": ["ten", "ten people"],
-        "translation": ["ten"],
-        "radicals": ["十"]
-      }
+  "units": {
+    "unit 1": [
+      { "japanese": "<ruby>探<rt>さが</rt></ruby>します", "english": "to look for, search" },
+      { "japanese": "<ruby>遅<rt>おく</rt></ruby>れます", "english": "to be late" },
+      { "japanese": "<ruby>時間<rt>じかん</rt></ruby>に<ruby>遅<rt>おく</rt></ruby>れます", "english": "to be late (for an appointment, etc)" },
+      { "japanese": "<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>います", "english": "to be in time" },
+      { "japanese": "<ruby>時間<rt>じかん</rt></ruby>に<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>います", "english": "to be in time (for an appointment, etc)" },
+      { "japanese": "やります", "english": "to do (conversational)" },
+      { "japanese": "やったー!", "english": "I did it!" },
+      { "japanese": "<ruby>参加<rt>さんか</rt></ruby>します", "english": "to attend, to take part in" },
+      { "japanese": "パーティーに<ruby>参加<rt>さんか</rt></ruby>します", "english": "to attend a party" },
+      { "japanese": "<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みます", "english": "to apply for, to enter for" },
+      { "japanese": "<ruby>落<rt>お</rt></ruby>とします", "english": "to drop, lose" },
+      { "japanese": "<ruby>拾<rt>ひろ</rt></ruby>います", "english": "to pick up" },
+      { "japanese": "<ruby>都合<rt>つごう</rt></ruby>がいい", "english": "convenient (concerning time)" },
+      { "japanese": "<ruby>都合<rt>つごう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い", "english": "inconvenient (concerning time)" },
+      { "japanese": "<ruby>気分<rt>きぶん</rt></ruby>がいい", "english": "feel well" },
+      { "japanese": "<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い", "english": "feel ill" },
+      { "japanese": "<ruby>場所<rt>ばしょ</rt></ruby>", "english": "place" },
+      { "japanese": "ボランティア", "english": "volunteer" },
+      { "japanese": "こんど", "english": "next time, another time" },
+      { "japanese": "ずいぶん", "english": "pretty, very" },
+      { "japanese": "<ruby>直接<rt>ちょくせつ</rt></ruby>", "english": "directly" },
+      { "japanese": "いつでも", "english": "anytime" },
+      { "japanese": "どこでも", "english": "anywhere" },
+      { "japanese": "だれでも", "english": "anybody" },
+      { "japanese": "なんでも", "english": "anything" },
+      { "japanese": "こんな", "english": "like this" },
+      { "japanese": "そんな", "english": "like that (near the listener)" },
+      { "japanese": "あんな", "english": "like that (far from both the speaker and listener)" },
+      { "japanese": "ごみ", "english": "garbage, trash, dust" },
+      { "japanese": "<ruby>置<rt>お</rt></ruby>き<ruby>場<rt>ば</rt></ruby>", "english": "place for something" },
+      { "japanese": "よこ", "english": "side" },
+      { "japanese": "びん", "english": "bottle" },
+      { "japanese": "かん", "english": "can" },
+      { "japanese": "<ruby>助<rt>たす</rt></ruby>けます", "english": "to help, save" },
+      { "japanese": "なきます", "english": "to cry" },
+      { "japanese": "<ruby>怠<rt>なま</rt></ruby>け<ruby>者<rt>もの</rt></ruby>", "english": "lazy person" },
+      { "japanese": "<ruby>怒<rt>おこ</rt></ruby>ります", "english": "to be angry" },
+      { "japanese": "うれしい", "english": "glad, happy" },
+      { "japanese": "かなしい", "english": "sad" },
+      { "japanese": "<ruby>弁護士<rt>べんごし</rt></ruby>", "english": "lawyer" }
     ],
-    "Level 3": [
-      {
-        "kanji": "百",
-        "kunyomi": ["もも"],
-        "onyomi": ["ヒャク"],
-        "pitch_accent": { "もも": "HL" },
-        "example_sentences": {
-          "もも": [
-            { "sentence": "百円を拾う。", "translation": "I pick up a hundred yen." }
-          ],
-          "ヒャク": [
-            { "sentence": "百貨店に行く。", "translation": "I go to the department store." }
-          ]
-        },
-        "vocabulary": ["百年", "百分"],
-        "vocabulary_translation": ["hundred years", "percent"],
-        "translation": ["hundred"],
-        "radicals": ["白"]
-      },
-      {
-        "kanji": "千",
-        "kunyomi": ["ち"],
-        "onyomi": ["セン"],
-        "pitch_accent": { "ち": "H" },
-        "example_sentences": {
-          "ち": [
-            { "sentence": "千円を払う。", "translation": "I pay a thousand yen." }
-          ],
-          "セン": [
-            { "sentence": "千葉県に住む。", "translation": "I live in Chiba Prefecture." }
-          ]
-        },
-        "vocabulary": ["千年", "千円"],
-        "vocabulary_translation": ["thousand years", "thousand yen"],
-        "translation": ["thousand"],
-        "radicals": ["丿", "十"]
-      },
-      {
-        "kanji": "万",
-        "kunyomi": ["よろず"],
-        "onyomi": ["マン", "バン"],
-        "pitch_accent": { "よろず": "LHH" },
-        "example_sentences": {
-          "よろず": [
-            { "sentence": "万事順調だ。", "translation": "Everything is going well." }
-          ],
-          "マン": [
-            { "sentence": "一万円を借りる。", "translation": "I borrow ten thousand yen." }
-          ],
-          "バン": [
-            { "sentence": "万年筆を買う。", "translation": "I buy a fountain pen." }
-          ]
-        },
-        "vocabulary": ["一万", "万歳"],
-        "vocabulary_translation": ["ten thousand", "banzai"],
-        "translation": ["ten thousand"],
-        "radicals": ["一", "丿"]
-      },
-      {
-        "kanji": "円",
-        "kunyomi": ["まる", "まる.い"],
-        "onyomi": ["エン"],
-        "pitch_accent": { "まる": "HL", "まる.い": "LHH" },
-        "example_sentences": {
-          "まる": [
-            { "sentence": "円い月を見る。", "translation": "I see a round moon." }
-          ],
-          "まる.い": [
-            { "sentence": "円いテーブルだ。", "translation": "It’s a round table." }
-          ],
-          "エン": [
-            { "sentence": "百円を払う。", "translation": "I pay a hundred yen." }
-          ]
-        },
-        "vocabulary": ["百円", "円形"],
-        "vocabulary_translation": ["100 yen", "circle"],
-        "translation": ["yen", "circle"],
-        "radicals": ["冂", "丶"]
-      },
-      {
-        "kanji": "年",
-        "kunyomi": ["とし"],
-        "onyomi": ["ネン"],
-        "pitch_accent": { "とし": "HL" },
-        "example_sentences": {
-          "とし": [
-            { "sentence": "今年は忙しい。", "translation": "This year is busy." }
-          ],
-          "ネン": [
-            { "sentence": "来年旅行する。", "translation": "I travel next year." }
-          ]
-        },
-        "vocabulary": ["今年", "来年"],
-        "vocabulary_translation": ["this year", "next year"],
-        "translation": ["year"],
-        "radicals": ["丿", "丨", "干"]
-      },
-      {
-        "kanji": "上",
-        "kunyomi": ["うえ", "あ.げる", "のぼ.る"],
-        "onyomi": ["ジョウ", "ショウ"],
-        "pitch_accent": { "うえ": "HL", "あ.げる": "LHH", "のぼ.る": "LHH" },
-        "example_sentences": {
-          "うえ": [
-            { "sentence": "机の上に本がある。", "translation": "There’s a book on the desk." }
-          ],
-          "あ.げる": [
-            { "sentence": "手を上げる。", "translation": "I raise my hand." }
-          ],
-          "のぼ.る": [
-            { "sentence": "山に登る。", "translation": "I climb the mountain." }
-          ],
-          "ジョウ": [
-            { "sentence": "上級を学ぶ。", "translation": "I study advanced level." }
-          ]
-        },
-        "vocabulary": ["上る", "上手"],
-        "vocabulary_translation": ["climb", "skilled"],
-        "translation": ["above", "up", "raise", "climb"],
-        "radicals": ["一", "卜"]
-      },
-      {
-        "kanji": "下",
-        "kunyomi": ["した", "さ.げる", "お.りる"],
-        "onyomi": ["カ", "ゲ"],
-        "pitch_accent": { "した": "HL", "さ.げる": "LHH", "お.りる": "LHH" },
-        "example_sentences": {
-          "した": [
-            { "sentence": "机の下に猫がいる。", "translation": "There’s a cat under the desk." }
-          ],
-          "さ.げる": [
-            { "sentence": "荷物を下げる。", "translation": "I lower the luggage." }
-          ],
-          "お.りる": [
-            { "sentence": "階段を下りる。", "translation": "I go down the stairs." }
-          ],
-          "カ": [
-            { "sentence": "下水道を掃除する。", "translation": "I clean the sewer." }
-          ]
-        },
-        "vocabulary": ["下げる", "下手"],
-        "vocabulary_translation": ["lower", "unskilled"],
-        "translation": ["below", "down", "lower", "descend"],
-        "radicals": ["一", "丨"]
-      },
-      {
-        "kanji": "中",
-        "kunyomi": ["なか", "あた.る"],
-        "onyomi": ["チュウ", "ジュウ"],
-        "pitch_accent": { "なか": "HL", "あた.る": "LHH" },
-        "example_sentences": {
-          "なか": [
-            { "sentence": "部屋の中にいる。", "translation": "I’m inside the room." }
-          ],
-          "あた.る": [
-            { "sentence": "宝くじに当たる。", "translation": "I win the lottery." }
-          ],
-          "チュウ": [
-            { "sentence": "中学に行く。", "translation": "I go to junior high school." }
-          ]
-        },
-        "vocabulary": ["中学校", "中心"],
-        "vocabulary_translation": ["junior high school", "center"],
-        "translation": ["middle", "inside", "hit"],
-        "radicals": ["口", "丨"]
-      },
-      {
-        "kanji": "半",
-        "kunyomi": ["はん", "なか.ば"],
-        "onyomi": ["ハン"],
-        "pitch_accent": { "はん": "H", "なか.ば": "LHH" },
-        "example_sentences": {
-          "はん": [
-            { "sentence": "半分を食べる。", "translation": "I eat half." }
-          ],
-          "なか.ば": [
-            { "sentence": "本の半ばを読む。", "translation": "I read halfway through the book." }
-          ],
-          "ハン": [
-            { "sentence": "半額で買う。", "translation": "I buy it at half price." }
-          ]
-        },
-        "vocabulary": ["半分", "半年"],
-        "vocabulary_translation": ["half", "half a year"],
-        "translation": ["half"],
-        "radicals": ["丷", "十"]
-      },
-      {
-        "kanji": "分",
-        "kunyomi": ["わ.ける", "わ.かる", "ぶ"],
-        "onyomi": ["ブン", "フン"],
-        "pitch_accent": { "わ.ける": "LHH", "わ.かる": "LHH", "ぶ": "H" },
-        "example_sentences": {
-          "わ.ける": [
-            { "sentence": "ケーキを分ける。", "translation": "I divide the cake." }
-          ],
-          "わ.かる": [
-            { "sentence": "問題が分かる。", "translation": "I understand the problem." }
-          ],
-          "ぶ": [
-            { "sentence": "五分待つ。", "translation": "I wait five minutes." }
-          ],
-          "ブン": [
-            { "sentence": "分析する。", "translation": "I analyze." }
-          ]
-        },
-        "vocabulary": ["分ける", "一分"],
-        "vocabulary_translation": ["divide", "one minute"],
-        "translation": ["to divide", "to understand", "minute"],
-        "radicals": ["八", "刀"]
-      }
+    "unit 2": [
+      { "japanese": "<ruby>飼<rt>か</rt></ruby>います", "english": "to keep (a pet), raise (an animal)" },
+      { "japanese": "<ruby>建<rt>た</rt></ruby>てます", "english": "to build" },
+      { "japanese": "<ruby>走<rt>はし</rt></ruby>ります", "english": "to run" },
+      { "japanese": "<ruby>見<rt>み</rt></ruby>えます", "english": "can be seen" },
+      { "japanese": "<ruby>山<rt>やま</rt></ruby>が<ruby>見<rt>み</rt></ruby>えます", "english": "mountain can be seen" },
+      { "japanese": "<ruby>聞<rt>き</rt></ruby>こえます", "english": "can be heard" },
+      { "japanese": "<ruby>音<rt>おと</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえます", "english": "sound can be heard" },
+      { "japanese": "できます", "english": "to be made, be completed, come into existence" },
+      { "japanese": "<ruby>開<rt>ひら</rt></ruby>きます", "english": "to set up, open, hold" },
+      { "japanese": "ペット", "english": "pet" },
+      { "japanese": "<ruby>鳥<rt>とり</rt></ruby>", "english": "bird" },
+      { "japanese": "<ruby>声<rt>こえ</rt></ruby>", "english": "voice" },
+      { "japanese": "<ruby>波<rt>なみ</rt></ruby>", "english": "wave" },
+      { "japanese": "<ruby>花火<rt>はなび</rt></ruby>", "english": "fireworks" },
+      { "japanese": "<ruby>景色<rt>けしき</rt></ruby>", "english": "scenery, view" },
+      { "japanese": "<ruby>昼間<rt>ひるま</rt></ruby>", "english": "daytime" },
+      { "japanese": "<ruby>昔<rt>むかし</rt></ruby>", "english": "old days, ancient times" },
+      { "japanese": "<ruby>道具<rt>どうぐ</rt></ruby>", "english": "tool" },
+      { "japanese": "<ruby>自動販売機<rt>じどうはんばいき</rt></ruby>", "english": "vending machine" },
+      { "japanese": "<ruby>通信販売<rt>つうしんはんばい</rt></ruby>", "english": "mail order" },
+      { "japanese": "クリーニング", "english": "dry cleaning" },
+      { "japanese": "マンション", "english": "large apartment" },
+      { "japanese": "<ruby>台所<rt>だいどころ</rt></ruby>", "english": "kitchen" },
+      { "japanese": "<ruby>教室<rt>きょうしつ</rt></ruby>", "english": "~ class" },
+      { "japanese": "パーティールーム", "english": "Party room" },
+      { "japanese": "ご", "english": "after ~ (during of time)" },
+      { "japanese": "しか", "english": "only ~ (used instead of だけ, with negatives)" },
+      { "japanese": "ほかの", "english": "other" },
+      { "japanese": "はっきり", "english": "clearly" },
+      { "japanese": "ほとんど", "english": "almost; hardly" },
+      { "japanese": "<ruby>本棚<rt>ほんだな</rt></ruby>", "english": "bookshelf" },
+      { "japanese": "<ruby>夢<rt>ゆめ</rt></ruby>", "english": "dream" },
+      { "japanese": "いつか", "english": "sometime, someday" },
+      { "japanese": "すばらしい", "english": "wonderful" },
+      { "japanese": "<ruby>形<rt>かたち</rt></ruby>", "english": "shape" },
+      { "japanese": "ロボット", "english": "robot" },
+      { "japanese": "<ruby>不思議<rt>ふしぎ</rt></ruby>な", "english": "strange; mysterious; miraculous" },
+      { "japanese": "ポケット", "english": "pocket" },
+      { "japanese": "たとえば", "english": "for example" },
+      { "japanese": "つけます", "english": "to attach, to put on" },
+      { "japanese": "<ruby>自由<rt>じゆう</rt></ruby>に", "english": "freely" },
+      { "japanese": "<ruby>空<rt>そら</rt></ruby>", "english": "sky" },
+      { "japanese": "<ruby>飛<rt>と</rt></ruby>びます", "english": "to fly" },
+      { "japanese": "<ruby>自分<rt>じぶん</rt></ruby>", "english": "oneself" },
+      { "japanese": "<ruby>将来<rt>しょうらい</rt></ruby>", "english": "future (usually near)" },
+      { "japanese": "しか", "english": "deer" }
     ],
-    "Level 4": [
-      {
-        "kanji": "人",
-        "kunyomi": ["ひと", "じん"],
-        "onyomi": ["ジン", "ニン"],
-        "pitch_accent": { "ひと": "HL", "じん": "H" },
-        "example_sentences": {
-          "ひと": [
-            { "sentence": "人が多い。", "translation": "There are many people." }
-          ],
-          "ジン": [
-            { "sentence": "人間は考える。", "translation": "Humans think." }
-          ],
-          "ニン": [
-            { "sentence": "三人いる。", "translation": "There are three people." }
-          ]
-        },
-        "vocabulary": ["人間", "日本人"],
-        "vocabulary_translation": ["human", "Japanese person"],
-        "translation": ["person"],
-        "radicals": ["人"]
-      },
-      {
-        "kanji": "子",
-        "kunyomi": ["こ", "ね"],
-        "onyomi": ["シ", "ス"],
-        "pitch_accent": { "こ": "H", "ね": "H" },
-        "example_sentences": {
-          "こ": [
-            { "sentence": "子が遊ぶ。", "translation": "The child plays." }
-          ],
-          "ね": [
-            { "sentence": "子猫が寝る。", "translation": "The kitten sleeps." }
-          ],
-          "シ": [
-            { "sentence": "親子で歩く。", "translation": "Parent and child walk together." }
-          ]
-        },
-        "vocabulary": ["子供", "女子"],
-        "vocabulary_translation": ["child", "girl"],
-        "translation": ["child"],
-        "radicals": ["子"]
-      },
-      {
-        "kanji": "女",
-        "kunyomi": ["おんな", "め"],
-        "onyomi": ["ジョ", "ニョ"],
-        "pitch_accent": { "おんな": "LHH", "め": "H" },
-        "example_sentences": {
-          "おんな": [
-            { "sentence": "女が歌う。", "translation": "The woman sings." }
-          ],
-          "め": [
-            { "sentence": "女神を信じる。", "translation": "I believe in the goddess." }
-          ],
-          "ジョ": [
-            { "sentence": "女子校に行く。", "translation": "I go to a girls’ school." }
-          ]
-        },
-        "vocabulary": ["女の子", "女性"],
-        "vocabulary_translation": ["girl", "woman"],
-        "translation": ["woman"],
-        "radicals": ["女"]
-      },
-      {
-        "kanji": "男",
-        "kunyomi": ["おとこ", "お"],
-        "onyomi": ["ダン", "ナン"],
-        "pitch_accent": { "おとこ": "LHH", "お": "H" },
-        "example_sentences": {
-          "おとこ": [
-            { "sentence": "男が走る。", "translation": "The man runs." }
-          ],
-          "お": [
-            { "sentence": "雄犬を飼う。", "translation": "I keep a male dog." }
-          ],
-          "ダン": [
-            { "sentence": "男子校だ。", "translation": "It’s a boys’ school." }
-          ]
-        },
-        "vocabulary": ["男の子", "男性"],
-        "vocabulary_translation": ["boy", "man"],
-        "translation": ["man"],
-        "radicals": ["田", "力"]
-      },
-      {
-        "kanji": "目",
-        "kunyomi": ["め", "ま"],
-        "onyomi": ["モク", "ボク"],
-        "pitch_accent": { "め": "H", "ま": "H" },
-        "example_sentences": {
-          "め": [
-            { "sentence": "目で見る。", "translation": "I see with my eyes." }
-          ],
-          "ま": [
-            { "sentence": "一目で分かる。", "translation": "I understand at a glance." }
-          ],
-          "モク": [
-            { "sentence": "目的を決める。", "translation": "I decide the purpose." }
-          ]
-        },
-        "vocabulary": ["目立つ", "目的"],
-        "vocabulary_translation": ["stand out", "purpose"],
-        "translation": ["eye"],
-        "radicals": ["目"]
-      },
-      {
-        "kanji": "口",
-        "kunyomi": ["くち"],
-        "onyomi": ["コウ", "ク"],
-        "pitch_accent": { "くち": "HL" },
-        "example_sentences": {
-          "くち": [
-            { "sentence": "口で話す。", "translation": "I speak with my mouth." }
-          ],
-          "コウ": [
-            { "sentence": "人口が増える。", "translation": "The population increases." }
-          ],
-          "ク": [
-            { "sentence": "出口を探す。", "translation": "I look for the exit." }
-          ]
-        },
-        "vocabulary": ["人口", "出口"],
-        "vocabulary_translation": ["population", "exit"],
-        "translation": ["mouth"],
-        "radicals": ["口"]
-      },
-      {
-        "kanji": "耳",
-        "kunyomi": ["みみ"],
-        "onyomi": ["ジ", "ニ"],
-        "pitch_accent": { "みみ": "HL" },
-        "example_sentences": {
-          "みみ": [
-            { "sentence": "耳で聞く。", "translation": "I hear with my ears." }
-          ],
-          "ジ": [
-            { "sentence": "耳鼻科に行く。", "translation": "I go to the ENT clinic." }
-          ]
-        },
-        "vocabulary": ["耳鼻科", "聞き耳"],
-        "vocabulary_translation": ["ENT clinic", "listening attentively"],
-        "translation": ["ear"],
-        "radicals": ["耳"]
-      },
-      {
-        "kanji": "手",
-        "kunyomi": ["て"],
-        "onyomi": ["シュ"],
-        "pitch_accent": { "て": "H" },
-        "example_sentences": {
-          "て": [
-            { "sentence": "手で書く。", "translation": "I write with my hand." }
-          ],
-          "シュ": [
-            { "sentence": "手術をする。", "translation": "I perform surgery." }
-          ]
-        },
-        "vocabulary": ["手紙", "手術"],
-        "vocabulary_translation": ["letter", "surgery"],
-        "translation": ["hand"],
-        "radicals": ["手"]
-      },
-      {
-        "kanji": "足",
-        "kunyomi": ["あし", "た.りる"],
-        "onyomi": ["ソク"],
-        "pitch_accent": { "あし": "HL", "た.りる": "LHH" },
-        "example_sentences": {
-          "あし": [
-            { "sentence": "足で歩く。", "translation": "I walk with my feet." }
-          ],
-          "た.りる": [
-            { "sentence": "お金が足りる。", "translation": "The money is enough." }
-          ],
-          "ソク": [
-            { "sentence": "速度を上げる。", "translation": "I increase the speed." }
-          ]
-        },
-        "vocabulary": ["足りる", "速度"],
-        "vocabulary_translation": ["to suffice", "speed"],
-        "translation": ["foot", "leg", "to suffice"],
-        "radicals": ["足"]
-      },
-      {
-        "kanji": "力",
-        "kunyomi": ["ちから"],
-        "onyomi": ["リョク", "リキ"],
-        "pitch_accent": { "ちから": "LHH" },
-        "example_sentences": {
-          "ちから": [
-            { "sentence": "力を出す。", "translation": "I exert strength." }
-          ],
-          "リョク": [
-            { "sentence": "体力をつける。", "translation": "I build physical strength." }
-          ]
-        },
-        "vocabulary": ["力持ち", "体力"],
-        "vocabulary_translation": ["strong person", "physical strength"],
-        "translation": ["strength"],
-        "radicals": ["力"]
-      }
+    "unit 3": [
+      { "japanese": "<ruby>売<rt>う</rt></ruby>れます", "english": "to sell, be sold" },
+      { "japanese": "<ruby>パン<rt>パン</rt></ruby>が<ruby>売<rt>う</rt></ruby>れます", "english": "to sell bread" },
+      { "japanese": "<ruby>踊<rt>おど</rt></ruby>ります", "english": "to dance" },
+      { "japanese": "<ruby>噛<rt>か</rt></ruby>みます", "english": "to bite, to chew" },
+      { "japanese": "<ruby>選<rt>えら</rt></ruby>びます", "english": "to choose" },
+      { "japanese": "<ruby>違<rt>ちが</rt></ruby>います", "english": "to be different; wrong" },
+      { "japanese": "<ruby>通<rt>かよ</rt></ruby>います", "english": "to go to and from; to commute" },
+      { "japanese": "<ruby>大学<rt>だいがく</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>います", "english": "to commute to university" },
+      { "japanese": "メモします", "english": "to take a memo" },
+      { "japanese": "<ruby>歩<rt>ある</rt></ruby>きます", "english": "to walk" },
+      { "japanese": "まじめ", "english": "serious" },
+      { "japanese": "<ruby>熱心<rt>ねっしん</rt></ruby>", "english": "earnest" },
+      { "japanese": "やさしい", "english": "gentle, kind" },
+      { "japanese": "えらい", "english": "great, admirable" },
+      { "japanese": "ちょうどいい", "english": "proper, just right" },
+      { "japanese": "<ruby>習慣<rt>しゅうかん</rt></ruby>", "english": "custom" },
+      { "japanese": "<ruby>経験<rt>けいけん</rt></ruby>", "english": "experience" },
+      { "japanese": "<ruby>力<rt>ちから</rt></ruby>", "english": "power" },
+      { "japanese": "<ruby>人気<rt>にんき</rt></ruby>", "english": "popularity" },
+      { "japanese": "<ruby>人<rt>ひと</rt></ruby>に<ruby>人気<rt>にんき</rt></ruby>があります", "english": "to be popular with people" },
+      { "japanese": "<ruby>形<rt>かたち</rt></ruby>", "english": "form, shape" },
+      { "japanese": "<ruby>色<rt>いろ</rt></ruby>", "english": "colour" },
+      { "japanese": "<ruby>味<rt>あじ</rt></ruby>", "english": "taste" },
+      { "japanese": "ガム", "english": "chewing gum" },
+      { "japanese": "<ruby>値段<rt>ねだん</rt></ruby>", "english": "price" },
+      { "japanese": "<ruby>給料<rt>きゅうりょう</rt></ruby>", "english": "salary" },
+      { "japanese": "ボーナス", "english": "bonus" },
+      { "japanese": "<ruby>番組<rt>ばんぐみ</rt></ruby>", "english": "program" },
+      { "japanese": "ドラマ", "english": "drama" },
+      { "japanese": "<ruby>小説<rt>しょうせつ</rt></ruby>", "english": "novel" },
+      { "japanese": "<ruby>小説家<rt>しょうせつか</rt></ruby>", "english": "novelist" },
+      { "japanese": "<ruby>歌手<rt>かしゅ</rt></ruby>", "english": "singer" },
+      { "japanese": "<ruby>管理人<rt>かんりにん</rt></ruby>", "english": "janitor, caretaker" },
+      { "japanese": "<ruby>息子<rt>むすこ</rt></ruby>", "english": "(my) son" },
+      { "japanese": "<ruby>息子<rt>むすこ</rt></ruby>さん", "english": "(another's) son" },
+      { "japanese": "<ruby>娘<rt>むすめ</rt></ruby>", "english": "(my) daughter" },
+      { "japanese": "<ruby>娘<rt>むすめ</rt></ruby>さん", "english": "(another's) daughter" },
+      { "japanese": "しばらく", "english": "a little while" },
+      { "japanese": "たいてい", "english": "usually, mostly" },
+      { "japanese": "それに", "english": "in addition" },
+      { "japanese": "それで", "english": "and so" },
+      { "japanese": "<ruby>お知<rt>し</rt></ruby>らせ", "english": "notice" },
+      { "japanese": "<ruby>日付<rt>ひにち</rt></ruby>", "english": "date" },
+      { "japanese": "<ruby>体育館<rt>たいいくかん</rt></ruby>", "english": "gymnasium" },
+      { "japanese": "<ruby>無料<rt>むりょう</rt></ruby>", "english": "free of charge" },
+      { "japanese": "ながら", "english": "while ~ing, during, although" },
+      { "japanese": "うるさい", "english": "noisy" },
+      { "japanese": "うらやましい", "english": "envious" },
+      { "japanese": "さいこう", "english": "superb, fantastic, the best" },
+      { "japanese": "ています", "english": "expresses a customary action" },
+      { "japanese": "つまらない", "english": "boring" },
+      { "japanese": "こたつ", "english": "kotatsu; heated table with a coverlet" },
+      { "japanese": "たこ", "english": "octopus" },
+      { "japanese": "<ruby>匂<rt>にお</rt></ruby>い", "english": "smell, scent" }
     ],
-    "Level 5": [
-      {
-        "kanji": "父",
-        "kunyomi": ["とう", "ちち"],
-        "onyomi": ["フ"],
-        "pitch_accent": { "とう": "HL", "ちち": "HL" },
-        "example_sentences": {
-          "とう": [
-            { "sentence": "父は医者だ。", "translation": "My father is a doctor." }
-          ],
-          "ちち": [
-            { "sentence": "父と話す。", "translation": "I talk with my father." }
-          ],
-          "フ": [
-            { "sentence": "父母が旅行する。", "translation": "My parents travel." }
-          ]
-        },
-        "vocabulary": ["お父さん", "父母"],
-        "vocabulary_translation": ["dad (polite)", "parents"],
-        "translation": ["father"],
-        "radicals": ["父"]
-      },
-      {
-        "kanji": "母",
-        "kunyomi": ["はは", "かあ"],
-        "onyomi": ["ボ"],
-        "pitch_accent": { "はは": "HL", "かあ": "HL" },
-        "example_sentences": {
-          "はは": [
-            { "sentence": "母は料理する。", "translation": "My mother cooks." }
-          ],
-          "かあ": [
-            { "sentence": "おかあさんが笑う。", "translation": "Mom laughs." }
-          ],
-          "ボ": [
-            { "sentence": "母国に帰る。", "translation": "I return to my homeland." }
-          ]
-        },
-        "vocabulary": ["お母さん", "母国"],
-        "vocabulary_translation": ["mom (polite)", "motherland"],
-        "translation": ["mother"],
-        "radicals": ["母"]
-      },
-      {
-        "kanji": "先",
-        "kunyomi": ["さき", "まず"],
-        "onyomi": ["セン"],
-        "pitch_accent": { "さき": "HL", "まず": "HL" },
-        "example_sentences": {
-          "さき": [
-            { "sentence": "先に食べる。", "translation": "I eat first." }
-          ],
-          "まず": [
-            { "sentence": "まず水を飲む。", "translation": "First, I drink water." }
-          ],
-          "セン": [
-            { "sentence": "先生に聞く。", "translation": "I ask the teacher." }
-          ]
-        },
-        "vocabulary": ["先生", "先週"],
-        "vocabulary_translation": ["teacher", "last week"],
-        "translation": ["ahead", "first"],
-        "radicals": ["丿", "儿"]
-      },
-      {
-        "kanji": "生",
-        "kunyomi": ["う.まれる", "い.きる", "なま", "う.む", "は.える", "お.う"],
-        "onyomi": ["セイ", "ショウ"],
-        "pitch_accent": { "う.まれる": "LHHH", "い.きる": "LHH" },
-        "example_sentences": {
-          "う.まれる": [
-            { "sentence": "子が生まれる。", "translation": "A child is born." }
-          ],
-          "い.きる": [
-            { "sentence": "長く生きる。", "translation": "I live long." }
-          ],
-          "なま": [
-            { "sentence": "生魚を食べる。", "translation": "I eat raw fish." }
-          ],
-          "セイ": [
-            { "sentence": "生徒が集まる。", "translation": "Students gather." }
-          ]
-        },
-        "vocabulary": ["生徒", "生活"],
-        "vocabulary_translation": ["student", "life/lifestyle"],
-        "translation": ["to be born", "to live", "raw"],
-        "radicals": ["生"]
-      },
-      {
-        "kanji": "学",
-        "kunyomi": ["まな.ぶ"],
-        "onyomi": ["ガク"],
-        "pitch_accent": { "まな.ぶ": "LHH" },
-        "example_sentences": {
-          "まな.ぶ": [
-            { "sentence": "日本語を学ぶ。", "translation": "I learn Japanese." }
-          ],
-          "ガク": [
-            { "sentence": "大学に行く。", "translation": "I go to university." }
-          ]
-        },
-        "vocabulary": ["学校", "学生"],
-        "vocabulary_translation": ["school", "student"],
-        "translation": ["to learn"],
-        "radicals": ["亠", "冖", "子"]
-      },
-      {
-        "kanji": "校",
-        "kunyomi": [],
-        "onyomi": ["コウ"],
-        "pitch_accent": {},
-        "example_sentences": {
-          "コウ": [
-            { "sentence": "学校に行く。", "translation": "I go to school." }
-          ]
-        },
-        "vocabulary": ["学校", "高校"],
-        "vocabulary_translation": ["school", "high school"],
-        "translation": ["school"],
-        "radicals": ["木", "交"]
-      },
-      {
-        "kanji": "友",
-        "kunyomi": ["とも"],
-        "onyomi": ["ユウ"],
-        "pitch_accent": { "とも": "HL" },
-        "example_sentences": {
-          "とも": [
-            { "sentence": "友達と遊ぶ。", "translation": "I play with friends." }
-          ],
-          "ユウ": [
-            { "sentence": "友情は大事だ。", "translation": "Friendship is important." }
-          ]
-        },
-        "vocabulary": ["友達", "友情"],
-        "vocabulary_translation": ["friend", "friendship"],
-        "translation": ["friend"],
-        "radicals": ["丿", "又"]
-      },
-      {
-        "kanji": "本",
-        "kunyomi": ["ほん", "もと"],
-        "onyomi": ["ホン"],
-        "pitch_accent": { "ほん": "HL", "もと": "HL" },
-        "example_sentences": {
-          "ほん": [
-            { "sentence": "本を読む。", "translation": "I read a book." }
-          ],
-          "もと": [
-            { "sentence": "元に戻る。", "translation": "I return to the origin." }
-          ],
-          "ホン": [
-            { "sentence": "日本に住む。", "translation": "I live in Japan." }
-          ]
-        },
-        "vocabulary": ["本", "日本"],
-        "vocabulary_translation": ["book", "Japan"],
-        "translation": ["book", "root"],
-        "radicals": ["木", "一"]
-      },
-      {
-        "kanji": "毎",
-        "kunyomi": ["まい"],
-        "onyomi": ["マイ"],
-        "pitch_accent": { "まい": "HL" },
-        "example_sentences": {
-          "まい": [
-            { "sentence": "毎朝走る。", "translation": "I run every morning." }
-          ],
-          "マイ": [
-            { "sentence": "毎週会う。", "translation": "We meet every week." }
-          ]
-        },
-        "vocabulary": ["毎日", "毎週"],
-        "vocabulary_translation": ["every day", "every week"],
-        "translation": ["every"],
-        "radicals": ["丿", "毋"]
-      },
-      {
-        "kanji": "何",
-        "kunyomi": ["なに", "なん"],
-        "onyomi": ["カ"],
-        "pitch_accent": { "なに": "HL", "なん": "HL" },
-        "example_sentences": {
-          "なに": [
-            { "sentence": "何を食べる？", "translation": "What do you eat?" }
-          ],
-          "なん": [
-            { "sentence": "何時ですか？", "translation": "What time is it?" }
-          ],
-          "カ": [
-            { "sentence": "何回行く？", "translation": "How many times do you go?" }
-          ]
-        },
-        "vocabulary": ["何時", "何か"],
-        "vocabulary_translation": ["what time", "something"],
-        "translation": ["what"],
-        "radicals": ["人", "可"]
-      }
+    "unit 4": [
+      { "japanese": "<ruby>開<rt>あ</rt></ruby>きます", "english": "open (a door) -- intransitive" },
+      { "japanese": "<ruby>閉<rt>し</rt></ruby>まります", "english": "close (a door) -- intransitive" },
+      { "japanese": "<ruby>点<rt>つ</rt></ruby>きます", "english": "come on (a light) -- intransitive" },
+      { "japanese": "<ruby>消<rt>き</rt></ruby>えます", "english": "go off, disappear (a light) -- intransitive" },
+      { "japanese": "<ruby>込<rt>こ</rt></ruby>みます", "english": "get crowded (a road) -- intransitive" },
+      { "japanese": "<ruby>空<rt>す</rt></ruby>きます", "english": "get empty (a road) -- intransitive" },
+      { "japanese": "<ruby>壊<rt>こわ</rt></ruby>れます", "english": "break (a chair) -- intransitive" },
+      { "japanese": "<ruby>割<rt>わ</rt></ruby>れます", "english": "break, smash (a glass) -- intransitive" },
+      { "japanese": "<ruby>折<rt>お</rt></ruby>れます", "english": "break, snap (a tree) -- intransitive" },
+      { "japanese": "<ruby>破<rt>やぶ</rt></ruby>れます", "english": "tear (paper) -- intransitive" },
+      { "japanese": "<ruby>汚<rt>よご</rt></ruby>れます", "english": "get dirty (clothes) -- intransitive" },
+      { "japanese": "<ruby>付<rt>つ</rt></ruby>きます", "english": "be attached (a pocket) -- intransitive" },
+      { "japanese": "<ruby>外<rt>はず</rt></ruby>れます", "english": "be undone (button) -- intransitive" },
+      { "japanese": "<ruby>止<rt>と</rt></ruby>まります", "english": "stop (elevator) -- intransitive" },
+      { "japanese": "<ruby>掛<rt>か</rt></ruby>かります", "english": "be locked -- intransitive" },
+      { "japanese": "<ruby>倒<rt>たお</rt></ruby>れます", "english": "to fall down" },
+      { "japanese": "きたない", "english": "dirty" },
+      { "japanese": "ひどい", "english": "key is locked" },
+      { "japanese": "<ruby>間違<rt>まちが</rt></ruby>えます", "english": "to make a mistake" },
+      { "japanese": "<ruby>落<rt>お</rt></ruby>とします", "english": "to drop, lose" },
+      { "japanese": "<ruby>お皿<rt>さら</rt></ruby>", "english": "plate, dish" },
+      { "japanese": "<ruby>お茶碗<rt>ちゃわん</rt></ruby>", "english": "rice bowl" },
+      { "japanese": "コップ", "english": "glass (vessel)" },
+      { "japanese": "ガラス", "english": "glass (material)" },
+      { "japanese": "<ruby>袋<rt>ふくろ</rt></ruby>", "english": "bag" },
+      { "japanese": "<ruby>枝<rt>えだ</rt></ruby>", "english": "branch, twig" },
+      { "japanese": "<ruby>駅員<rt>えきいん</rt></ruby>", "english": "station employee" },
+      { "japanese": "へん", "english": "vicinity, proximity, around" },
+      { "japanese": "<ruby>地震<rt>じしん</rt></ruby>", "english": "earthquake" },
+      { "japanese": "<ruby>壁<rt>かべ</rt></ruby>", "english": "wall" },
+      { "japanese": "<ruby>針<rt>はり</rt></ruby>", "english": "needle, hands (of a clock)" },
+      { "japanese": "<ruby>方<rt>ほう</rt></ruby>", "english": "direction" },
+      { "japanese": "<ruby>手袋<rt>てぶくろ</rt></ruby>", "english": "gloves" },
+      { "japanese": "<ruby>死<rt>し</rt></ruby>にます", "english": "to die" }
     ],
-    "Level 6": [
-      {
-        "kanji": "前",
-        "kunyomi": ["まえ"],
-        "onyomi": ["ゼン"],
-        "pitch_accent": { "まえ": "HL" },
-        "example_sentences": {
-          "まえ": [
-            { "sentence": "家の前に車がある。", "translation": "There’s a car in front of the house." }
-          ],
-          "ゼン": [
-            { "sentence": "前半は楽しかった。", "translation": "The first half was fun." }
-          ]
-        },
-        "vocabulary": ["前", "去年"],
-        "vocabulary_translation": ["front", "last year"],
-        "translation": ["front", "before"],
-        "radicals": ["刂", "月", "丷"]
-      },
-      {
-        "kanji": "後",
-        "kunyomi": ["あと", "うし.ろ"],
-        "onyomi": ["ゴ", "コウ"],
-        "pitch_accent": { "あと": "HL", "うし.ろ": "LHH" },
-        "example_sentences": {
-          "あと": [
-            { "sentence": "後で会う。", "translation": "I’ll meet you later." }
-          ],
-          "うし.ろ": [
-            { "sentence": "後ろに猫がいる。", "translation": "There’s a cat behind." }
-          ],
-          "ゴ": [
-            { "sentence": "午後に寝る。", "translation": "I sleep in the afternoon." }
-          ]
-        },
-        "vocabulary": ["後ろ", "午後"],
-        "vocabulary_translation": ["behind", "afternoon"],
-        "translation": ["behind", "after"],
-        "radicals": ["彳", "幺", "夂"]
-      },
-      {
-        "kanji": "外",
-        "kunyomi": ["そと", "はず.れる", "はず.す"],
-        "onyomi": ["ガイ", "ゲ"],
-        "pitch_accent": { "そと": "HL" },
-        "example_sentences": {
-          "そと": [
-            { "sentence": "外で遊ぶ。", "translation": "I play outside." }
-          ],
-          "ガイ": [
-            { "sentence": "外国に行く。", "translation": "I go to a foreign country." }
-          ],
-          "ゲ": [
-            { "sentence": "外科医になる。", "translation": "I become a surgeon." }
-          ]
-        },
-        "vocabulary": ["外国", "外科"],
-        "vocabulary_translation": ["foreign country", "surgery"],
-        "translation": ["outside"],
-        "radicals": ["夕", "卜"]
-      },
-      {
-        "kanji": "左",
-        "kunyomi": ["ひだり"],
-        "onyomi": ["サ"],
-        "pitch_accent": { "ひだり": "LHH" },
-        "example_sentences": {
-          "ひだり": [
-            { "sentence": "左に曲がる。", "translation": "I turn left." }
-          ],
-          "サ": [
-            { "sentence": "左側に座る。", "translation": "I sit on the left side." }
-          ]
-        },
-        "vocabulary": ["左手", "左側"],
-        "vocabulary_translation": ["left hand", "left side"],
-        "translation": ["left"],
-        "radicals": ["工", "丿"]
-      },
-      {
-        "kanji": "右",
-        "kunyomi": ["みぎ"],
-        "onyomi": ["ユウ"],
-        "pitch_accent": { "みぎ": "HL" },
-        "example_sentences": {
-          "みぎ": [
-            { "sentence": "右に曲がる。", "translation": "I turn right." }
-          ],
-          "ユウ": [
-            { "sentence": "右翼が飛ぶ。", "translation": "The right wing flies." }
-          ]
-        },
-        "vocabulary": ["右手", "右側"],
-        "vocabulary_translation": ["right hand", "right side"],
-        "translation": ["right"],
-        "radicals": ["口", "丿"]
-      },
-      {
-        "kanji": "東",
-        "kunyomi": ["ひがし"],
-        "onyomi": ["トウ"],
-        "pitch_accent": { "ひがし": "LHH" },
-        "example_sentences": {
-          "ひがし": [
-            { "sentence": "東に旅行する。", "translation": "I travel east." }
-          ],
-          "トウ": [
-            { "sentence": "東京に住む。", "translation": "I live in Tokyo." }
-          ]
-        },
-        "vocabulary": ["東京", "東側"],
-        "vocabulary_translation": ["Tokyo", "east side"],
-        "translation": ["east"],
-        "radicals": ["木", "日"]
-      },
-      {
-        "kanji": "西",
-        "kunyomi": ["にし"],
-        "onyomi": ["セイ", "サイ"],
-        "pitch_accent": { "にし": "HL" },
-        "example_sentences": {
-          "にし": [
-            { "sentence": "西に行く。", "translation": "I go west." }
-          ],
-          "セイ": [
-            { "sentence": "西洋を学ぶ。", "translation": "I study the West." }
-          ]
-        },
-        "vocabulary": ["西洋", "西側"],
-        "vocabulary_translation": ["West", "west side"],
-        "translation": ["west"],
-        "radicals": ["西"]
-      },
-      {
-        "kanji": "南",
-        "kunyomi": ["みなみ"],
-        "onyomi": ["ナン"],
-        "pitch_accent": { "みなみ": "LHH" },
-        "example_sentences": {
-          "みなみ": [
-            { "sentence": "南に飛ぶ。", "translation": "I fly south." }
-          ],
-          "ナン": [
-            { "sentence": "南極に行く。", "translation": "I go to the South Pole." }
-          ]
-        },
-        "vocabulary": ["南極", "南側"],
-        "vocabulary_translation": ["South Pole", "south side"],
-        "translation": ["south"],
-        "radicals": ["十", "冂", "丷"]
-      },
-      {
-        "kanji": "北",
-        "kunyomi": ["きた"],
-        "onyomi": ["ホク"],
-        "pitch_accent": { "きた": "HL" },
-        "example_sentences": {
-          "きた": [
-            { "sentence": "北に歩く。", "translation": "I walk north." }
-          ],
-          "ホク": [
-            { "sentence": "北極は寒い。", "translation": "The North Pole is cold." }
-          ]
-        },
-        "vocabulary": ["北極", "北側"],
-        "vocabulary_translation": ["North Pole", "north side"],
-        "translation": ["north"],
-        "radicals": ["匕", "丨"]
-      },
-      {
-        "kanji": "名",
-        "kunyomi": ["な", "めい"],
-        "onyomi": ["メイ", "ミョウ"],
-        "pitch_accent": { "な": "H", "めい": "HL" },
-        "example_sentences": {
-          "な": [
-            { "sentence": "名前を言う。", "translation": "I say my name." }
-          ],
-          "メイ": [
-            { "sentence": "有名な人だ。", "translation": "He’s a famous person." }
-          ]
-        },
-        "vocabulary": ["名前", "有名"],
-        "vocabulary_translation": ["name", "famous"],
-        "translation": ["name"],
-        "radicals": ["夕", "口"]
-      }
+    "unit 5": [
+      { "japanese": "<ruby>貼<rt>は</rt></ruby>ります", "english": "to put up, post, paste" },
+      { "japanese": "<ruby>掛<rt>か</rt></ruby>けます", "english": "to hang" },
+      { "japanese": "<ruby>飾<rt>かざ</rt></ruby>ります", "english": "to display, decorate" },
+      { "japanese": "<ruby>並<rt>なら</rt></ruby>べます", "english": "to arrange, line up" },
+      { "japanese": "<ruby>植<rt>う</rt></ruby>えます", "english": "to plant" },
+      { "japanese": "<ruby>戻<rt>もど</rt></ruby>します", "english": "to return, to put back" },
+      { "japanese": "<ruby>まとめます", "english": "to put together, put in shape, sum up" },
+      { "japanese": "<ruby>片付<rt>かたづ</rt></ruby>けます", "english": "to put things in order, to tidy up" },
+      { "japanese": "<ruby>仕舞<rt>しま</rt></ruby>います", "english": "to put things in their proper place" },
+      { "japanese": "<ruby>決<rt>き</rt></ruby>めます", "english": "to decide" },
+      { "japanese": "<ruby>知<rt>し</rt></ruby>らせます", "english": "to inform" },
+      { "japanese": "<ruby>相談<rt>そうだん</rt></ruby>します", "english": "to consult, discuss" },
+      { "japanese": "<ruby>予習<rt>よしゅう</rt></ruby>します", "english": "to prepare one's lesson" },
+      { "japanese": "<ruby>復習<rt>ふくしゅう</rt></ruby>します", "english": "to review one's lesson" },
+      { "japanese": "<ruby>お子<rt>こ</rt></ruby>さん", "english": "(someone else's) child" },
+      { "japanese": "<ruby>授業<rt>じゅぎょう</rt></ruby>", "english": "lesson" },
+      { "japanese": "<ruby>講義<rt>こうぎ</rt></ruby>", "english": "lecture" },
+      { "japanese": "ミーティング", "english": "meeting" },
+      { "japanese": "<ruby>予定<rt>よてい</rt></ruby>", "english": "plan, schedule" },
+      { "japanese": "<ruby>お知<rt>し</rt></ruby>らせ", "english": "notice" },
+      { "japanese": "<ruby>案内書<rt>あんないしょ</rt></ruby>", "english": "guidebook" },
+      { "japanese": "カレンダー", "english": "calendar" },
+      { "japanese": "ポスター", "english": "poster" },
+      { "japanese": "<ruby>ゴミ箱<rt>ごみばこ</rt></ruby>", "english": "rubbish bin, trash can" },
+      { "japanese": "<ruby>人形<rt>にんぎょう</rt></ruby>", "english": "doll" },
+      { "japanese": "<ruby>花瓶<rt>かびん</rt></ruby>", "english": "(flower) vase" },
+      { "japanese": "<ruby>鏡<rt>かがみ</rt></ruby>", "english": "mirror" },
+      { "japanese": "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>し", "english": "drawer" },
+      { "japanese": "<ruby>玄関<rt>げんかん</rt></ruby>", "english": "front door, porch, entrance hall" },
+      { "japanese": "<ruby>廊下<rt>ろうか</rt></ruby>", "english": "corridor, hallway" },
+      { "japanese": "<ruby>壁<rt>かべ</rt></ruby>", "english": "wall" },
+      { "japanese": "<ruby>池<rt>いけ</rt></ruby>", "english": "pond" },
+      { "japanese": "<ruby>交番<rt>こうばん</rt></ruby>", "english": "police box, police booth" },
+      { "japanese": "<ruby>元<rt>もと</rt></ruby>のところ", "english": "original place" },
+      { "japanese": "<ruby>回<rt>まわ</rt></ruby>り", "english": "round, around" },
+      { "japanese": "<ruby>真<rt>ま</rt></ruby>ん<ruby>中<rt>なか</rt></ruby>", "english": "centre" },
+      { "japanese": "すみ", "english": "corner (inside, inner)" },
+      { "japanese": "まだ", "english": "still" },
+      { "japanese": "ほど", "english": "about ~" },
+      { "japanese": "<ruby>丸<rt>まる</rt></ruby>い", "english": "round" },
+      { "japanese": "<ruby>地球<rt>ちきゅう</rt></ruby>", "english": "earth" },
+      { "japanese": "いや", "english": "unwilling, reluctant (な)" },
+      { "japanese": "すると", "english": "and, then" },
+      { "japanese": "<ruby>目<rt>め</rt></ruby>が<ruby>覚<rt>さ</rt></ruby>めます", "english": "to wake up" }
     ],
-    "Level 7": [
-      {
-        "kanji": "牛",
-        "kunyomi": ["うし"],
-        "onyomi": ["ギュウ"],
-        "pitch_accent": { "うし": "HL" },
-        "example_sentences": {
-          "うし": [
-            { "sentence": "牛が草を食べる。", "translation": "The cow eats grass." }
-          ],
-          "ギュウ": [
-            { "sentence": "牛肉を食べる。", "translation": "I eat beef." }
-          ]
-        },
-        "vocabulary": ["牛肉", "牛乳"],
-        "vocabulary_translation": ["beef", "milk"],
-        "translation": ["cow"],
-        "radicals": ["牛"]
-      },
-      {
-        "kanji": "馬",
-        "kunyomi": ["うま", "ま"],
-        "onyomi": ["バ"],
-        "pitch_accent": { "うま": "HL" },
-        "example_sentences": {
-          "うま": [
-            { "sentence": "馬に乗る。", "translation": "I ride a horse." }
-          ],
-          "バ": [
-            { "sentence": "競馬を見る。", "translation": "I watch horse racing." }
-          ]
-        },
-        "vocabulary": ["馬車", "競馬"],
-        "vocabulary_translation": ["horse carriage", "horse racing"],
-        "translation": ["horse"],
-        "radicals": ["馬"]
-      },
-      {
-        "kanji": "魚",
-        "kunyomi": ["うお", "さかな"],
-        "onyomi": ["ギョ"],
-        "pitch_accent": { "さかな": "LHH" },
-        "example_sentences": {
-          "さかな": [
-            { "sentence": "魚を食べる。", "translation": "I eat fish." }
-          ],
-          "ギョ": [
-            { "sentence": "魚市場に行く。", "translation": "I go to the fish market." }
-          ]
-        },
-        "vocabulary": ["魚屋", "金魚"],
-        "vocabulary_translation": ["fish shop", "goldfish"],
-        "translation": ["fish"],
-        "radicals": ["魚"]
-      },
-      {
-        "kanji": "貝",
-        "kunyomi": ["かい"],
-        "onyomi": ["バイ"],
-        "pitch_accent": { "かい": "HL" },
-        "example_sentences": {
-          "かい": [
-            { "sentence": "貝を拾う。", "translation": "I pick up a shellfish." }
-          ],
-          "バイ": [
-            { "sentence": "貝類が好きだ。", "translation": "I like shellfish." }
-          ]
-        },
-        "vocabulary": ["貝殻", "貝類"],
-        "vocabulary_translation": ["shell", "shellfish"],
-        "translation": ["shellfish"],
-        "radicals": ["貝"]
-      },
-      {
-        "kanji": "雨",
-        "kunyomi": ["あめ", "あま"],
-        "onyomi": ["ウ"],
-        "pitch_accent": { "あめ": "HL" },
-        "example_sentences": {
-          "あめ": [
-            { "sentence": "雨が降る。", "translation": "It’s raining." }
-          ],
-          "ウ": [
-            { "sentence": "雨天で中止だ。", "translation": "It’s canceled due to rain." }
-          ]
-        },
-        "vocabulary": ["雨具", "降雨"],
-        "vocabulary_translation": ["rain gear", "rainfall"],
-        "translation": ["rain"],
-        "radicals": ["雨"]
-      },
-      {
-        "kanji": "天",
-        "kunyomi": ["てん", "あま"],
-        "onyomi": ["テン"],
-        "pitch_accent": { "てん": "HL" },
-        "example_sentences": {
-          "てん": [
-            { "sentence": "天気が良い。", "translation": "The weather is good." }
-          ],
-          "テン": [
-            { "sentence": "天皇が話す。", "translation": "The emperor speaks." }
-          ]
-        },
-        "vocabulary": ["天気", "天空"],
-        "vocabulary_translation": ["weather", "sky"],
-        "translation": ["heaven", "sky"],
-        "radicals": ["一", "大"]
-      },
-      {
-        "kanji": "気",
-        "kunyomi": ["き", "け"],
-        "onyomi": ["キ", "ケ"],
-        "pitch_accent": { "き": "H" },
-        "example_sentences": {
-          "き": [
-            { "sentence": "気を付ける。", "translation": "I take care." }
-          ],
-          "け": [
-            { "sentence": "元気だ。", "translation": "I’m healthy." }
-          ]
-        },
-        "vocabulary": ["元気", "気分"],
-        "vocabulary_translation": ["healthy/energetic", "mood"],
-        "translation": ["spirit", "energy"],
-        "radicals": ["气", "乂"]
-      },
-      {
-        "kanji": "車",
-        "kunyomi": ["くるま"],
-        "onyomi": ["シャ"],
-        "pitch_accent": { "くるま": "LHH" },
-        "example_sentences": {
-          "くるま": [
-            { "sentence": "車に乗る。", "translation": "I ride a car." }
-          ],
-          "シャ": [
-            { "sentence": "電車で行く。", "translation": "I go by train." }
-          ]
-        },
-        "vocabulary": ["自動車", "電車"],
-        "vocabulary_translation": ["automobile", "train"],
-        "translation": ["car"],
-        "radicals": ["車"]
-      },
-      {
-        "kanji": "問",
-        "kunyomi": ["と.う", "と.い"],
-        "onyomi": ["モン"],
-        "pitch_accent": { "と.う": "LH" },
-        "example_sentences": {
-          "と.う": [
-            { "sentence": "先生に問う。", "translation": "I ask the teacher." }
-          ],
-          "モン": [
-            { "sentence": "問題を解く。", "translation": "I solve the problem." }
-          ]
-        },
-        "vocabulary": ["問題", "質問"],
-        "vocabulary_translation": ["problem", "question"],
-        "translation": ["to ask"],
-        "radicals": ["門", "口"]
-      },
-      {
-        "kanji": "午",
-        "kunyomi": ["うま"],
-        "onyomi": ["ゴ"],
-        "pitch_accent": { "うま": "HL" },
-        "example_sentences": {
-          "うま": [
-            { "sentence": "午の刻に会う。", "translation": "We meet at noon." }
-          ],
-          "ゴ": [
-            { "sentence": "午後に寝る。", "translation": "I sleep in the afternoon." }
-          ]
-        },
-        "vocabulary": ["午後", "正午"],
-        "vocabulary_translation": ["afternoon", "noon"],
-        "translation": ["noon"],
-        "radicals": ["丿", "十"]
-      }
+    "unit 6": [
+      { "japanese": "<ruby>始<rt>はじ</rt></ruby>まります", "english": "to begin, start" },
+      { "japanese": "<ruby>式<rt>しき</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まります", "english": "to begin a ceremony" },
+      { "japanese": "<ruby>続<rt>つづ</rt></ruby>けます", "english": "to continue" },
+      { "japanese": "<ruby>見<rt>み</rt></ruby>つけます", "english": "to find" },
+      { "japanese": "<ruby>受<rt>う</rt></ruby>けます", "english": "to take (an exam)" },
+      { "japanese": "<ruby>入学<rt>にゅうがく</rt></ruby>します", "english": "to enter (a university)" },
+      { "japanese": "<ruby>大学<rt>だいがく</rt></ruby>に<ruby>入学<rt>にゅうがく</rt></ruby>します", "english": "to enter a university" },
+      { "japanese": "<ruby>卒業<rt>そつぎょう</rt></ruby>します", "english": "to graduate (from a university)" },
+      { "japanese": "<ruby>出席<rt>しゅっせき</rt></ruby>します", "english": "to attend (a meeting)" },
+      { "japanese": "<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出席<rt>しゅっせき</rt></ruby>します", "english": "to attend a meeting" },
+      { "japanese": "<ruby>休憩<rt>きゅうけい</rt></ruby>します", "english": "to take a break, to take a rest" },
+      { "japanese": "<ruby>連休<rt>れんきゅう</rt></ruby>", "english": "consecutive holidays" },
+      { "japanese": "<ruby>作文<rt>さくぶん</rt></ruby>", "english": "writing (an essay, prose, etc.)" },
+      { "japanese": "<ruby>展覧会<rt>てんらんかい</rt></ruby>", "english": "exhibition" },
+      { "japanese": "<ruby>結婚式<rt>けっこんしき</rt></ruby>", "english": "marriage ceremony" },
+      { "japanese": "<ruby>お葬式<rt>そうしき</rt></ruby>", "english": "funeral" },
+      { "japanese": "<ruby>式<rt>しき</rt></ruby>", "english": "ceremony" },
+      { "japanese": "<ruby>本社<rt>ほんしゃ</rt></ruby>", "english": "main/central/head office" },
+      { "japanese": "<ruby>支店<rt>してん</rt></ruby>", "english": "branch office" },
+      { "japanese": "<ruby>教会<rt>きょうかい</rt></ruby>", "english": "church" },
+      { "japanese": "<ruby>大学院<rt>だいがくいん</rt></ruby>", "english": "graduate school" },
+      { "japanese": "<ruby>動物園<rt>どうぶつえん</rt></ruby>", "english": "zoo" },
+      { "japanese": "<ruby>温泉<rt>おんせん</rt></ruby>", "english": "hot spring" },
+      { "japanese": "<ruby>お客<rt>きゃく</rt></ruby>さん", "english": "guest; visitor; client; customer" },
+      { "japanese": "だれか", "english": "someone" },
+      { "japanese": "のほう", "english": "place toward ~, direction of ~" },
+      { "japanese": "ずっと", "english": "throughout, the whole time, all the time" },
+      { "japanese": "<ruby>残<rt>のこ</rt></ruby>ります", "english": "to remain, to be left" },
+      { "japanese": "<ruby>月<rt>つき</rt></ruby>に", "english": "per month" },
+      { "japanese": "<ruby>普通<rt>ふつう</rt></ruby>の", "english": "ordinary, common, usual" },
+      { "japanese": "<ruby>村<rt>むら</rt></ruby>", "english": "village" },
+      { "japanese": "<ruby>映画館<rt>えいがかん</rt></ruby>", "english": "movie theatre (theater)" },
+      { "japanese": "<ruby>閉<rt>と</rt></ruby>じます", "english": "to close" },
+      { "japanese": "<ruby>都会<rt>とかい</rt></ruby>", "english": "city" },
+      { "japanese": "<ruby>自由<rt>じゆう</rt></ruby>に", "english": "freely" },
+      { "japanese": "<ruby>世界中<rt>せかいじゅう</rt></ruby>", "english": "all over the world" },
+      { "japanese": "<ruby>集<rt>あつ</rt></ruby>まります", "english": "to gather" },
+      { "japanese": "<ruby>美<rt>うつく</rt></ruby>しい", "english": "beautiful" },
+      { "japanese": "<ruby>自然<rt>しぜん</rt></ruby>", "english": "nature" },
+      { "japanese": "<ruby>素晴<rt>すば</rt></ruby>らしさ", "english": "goodness, virtue" },
+      { "japanese": "<ruby>気<rt>き</rt></ruby>が<ruby>付<rt>つ</rt></ruby>きます", "english": "to notice, become aware of" }
     ],
-    "Level 8": [
-      {
-        "kanji": "大",
-        "kunyomi": ["おお.きい", "おお"],
-        "onyomi": ["ダイ", "タイ"],
-        "pitch_accent": { "おお.きい": "LHHH" },
-        "example_sentences": {
-          "おお.きい": [
-            { "sentence": "大きい家に住む。", "translation": "I live in a big house." }
-          ],
-          "ダイ": [
-            { "sentence": "大学に行く。", "translation": "I go to university." }
-          ]
-        },
-        "vocabulary": ["大学", "大きい"],
-        "vocabulary_translation": ["university", "big"],
-        "translation": ["big"],
-        "radicals": ["大"]
-      },
-      {
-        "kanji": "小",
-        "kunyomi": ["ちい.さい", "こ"],
-        "onyomi": ["ショウ"],
-        "pitch_accent": { "ちい.さい": "LHHHH" },
-        "example_sentences": {
-          "ちい.さい": [
-            { "sentence": "小さい犬が吠える。", "translation": "The small dog barks." }
-          ],
-          "ショウ": [
-            { "sentence": "小学校に行く。", "translation": "I go to elementary school." }
-          ]
-        },
-        "vocabulary": ["小学校", "小さい"],
-        "vocabulary_translation": ["elementary school", "small"],
-        "translation": ["small"],
-        "radicals": ["小"]
-      },
-      {
-        "kanji": "高",
-        "kunyomi": ["たか.い", "たか"],
-        "onyomi": ["コウ"],
-        "pitch_accent": { "たか.い": "LHH" },
-        "example_sentences": {
-          "たか.い": [
-            { "sentence": "高い山に登る。", "translation": "I climb a high mountain." }
-          ],
-          "コウ": [
-            { "sentence": "高校生だ。", "translation": "I’m a high school student." }
-          ]
-        },
-        "vocabulary": ["高校", "高い"],
-        "vocabulary_translation": ["high school", "high/tall"],
-        "translation": ["high", "tall"],
-        "radicals": ["亠", "口", "冂"]
-      },
-      {
-        "kanji": "安",
-        "kunyomi": ["やす.い", "やす"],
-        "onyomi": ["アン"],
-        "pitch_accent": { "やす.い": "LHH" },
-        "example_sentences": {
-          "やす.い": [
-            { "sentence": "安い本を買う。", "translation": "I buy a cheap book." }
-          ],
-          "アン": [
-            { "sentence": "安全を確認する。", "translation": "I check safety." }
-          ]
-        },
-        "vocabulary": ["安全", "安い"],
-        "vocabulary_translation": ["safe", "cheap"],
-        "translation": ["cheap", "peaceful"],
-        "radicals": ["宀", "女"]
-      },
-      {
-        "kanji": "新",
-        "kunyomi": ["あたら.しい", "あら.た"],
-        "onyomi": ["シン"],
-        "pitch_accent": { "あたら.しい": "LHHHH" },
-        "example_sentences": {
-          "あたら.しい": [
-            { "sentence": "新しい車を買う。", "translation": "I buy a new car." }
-          ],
-          "シン": [
-            { "sentence": "新聞を読む。", "translation": "I read the newspaper." }
-          ]
-        },
-        "vocabulary": ["新聞", "新しい"],
-        "vocabulary_translation": ["newspaper", "new"],
-        "translation": ["new"],
-        "radicals": ["立", "木", "斤"]
-      },
-      {
-        "kanji": "古",
-        "kunyomi": ["ふる.い", "ふる"],
-        "onyomi": ["コ"],
-        "pitch_accent": { "ふる.い": "LHH" },
-        "example_sentences": {
-          "ふる.い": [
-            { "sentence": "古い本を読む。", "translation": "I read an old book." }
-          ],
-          "コ": [
-            { "sentence": "古文を習う。", "translation": "I learn classical literature." }
-          ]
-        },
-        "vocabulary": ["古い", "古典"],
-        "vocabulary_translation": ["old", "classics"],
-        "translation": ["old"],
-        "radicals": ["十", "口"]
-      },
-      {
-        "kanji": "長",
-        "kunyomi": ["なが.い", "なが"],
-        "onyomi": ["チョウ"],
-        "pitch_accent": { "なが.い": "LHH" },
-        "example_sentences": {
-          "なが.い": [
-            { "sentence": "長い道を歩く。", "translation": "I walk a long road." }
-          ],
-          "チョウ": [
-            { "sentence": "校長に会う。", "translation": "I meet the principal." }
-          ]
-        },
-        "vocabulary": ["長い", "部長"],
-        "vocabulary_translation": ["long", "department chief"],
-        "translation": ["long"],
-        "radicals": ["長"]
-      },
-      {
-        "kanji": "多",
-        "kunyomi": ["おお.い", "おお"],
-        "onyomi": ["タ"],
-        "pitch_accent": { "おお.い": "LHH" },
-        "example_sentences": {
-          "おお.い": [
-            { "sentence": "人が多い。", "translation": "There are many people." }
-          ],
-          "タ": [
-            { "sentence": "多数決で決める。", "translation": "We decide by majority." }
-          ]
-        },
-        "vocabulary": ["多い", "多数"],
-        "vocabulary_translation": ["many", "majority"],
-        "translation": ["many"],
-        "radicals": ["夕"]
-      },
-      {
-        "kanji": "少",
-        "kunyomi": ["すく.ない", "すこ.し"],
-        "onyomi": ["ショウ"],
-        "pitch_accent": { "すく.ない": "LHHH" },
-        "example_sentences": {
-          "すく.ない": [
-            { "sentence": "お金が少ない。", "translation": "I have little money." }
-          ],
-          "すこ.し": [
-            { "sentence": "少し食べる。", "translation": "I eat a little." }
-          ]
-        },
-        "vocabulary": ["少し", "少年"],
-        "vocabulary_translation": ["a little", "boy"],
-        "translation": ["few", "a little"],
-        "radicals": ["小", "丿"]
-      },
-      {
-        "kanji": "早",
-        "kunyomi": ["はや.い"],
-        "onyomi": ["ソウ"],
-        "pitch_accent": { "はや.い": "LHH" },
-        "example_sentences": {
-          "はや.い": [
-            { "sentence": "朝が早い。", "translation": "The morning is early." }
-          ],
-          "ソウ": [
-            { "sentence": "早朝に起きる。", "translation": "I wake up early in the morning." }
-          ]
-        },
-        "vocabulary": ["早い", "早朝"],
-        "vocabulary_translation": ["early/fast", "early morning"],
-        "translation": ["early", "fast"],
-        "radicals": ["日", "十"]
-      }
+    "unit 7": [
+      { "japanese": "<ruby>運動<rt>うんどう</rt></ruby>します", "english": "to take exercise" },
+      { "japanese": "<ruby>成功<rt>せいこう</rt></ruby>します", "english": "to succeed" },
+      { "japanese": "<ruby>失敗<rt>しっぱい</rt></ruby>します", "english": "to fail" },
+      { "japanese": "<ruby>試験<rt>しけん</rt></ruby>に<ruby>失敗<rt>しっぱい</rt></ruby>します", "english": "to fail an examination" },
+      { "japanese": "<ruby>合格<rt>ごうかく</rt></ruby>します", "english": "to pass (as in, passing an exam)" },
+      { "japanese": "<ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>します", "english": "to pass an examination" },
+      { "japanese": "<ruby>戻<rt>もど</rt></ruby>ります", "english": "to return" },
+      { "japanese": "<ruby>雨<rt>あめ</rt></ruby>がやみます", "english": "to stop raining" },
+      { "japanese": "<ruby>晴<rt>は</rt></ruby>れます", "english": "to clear up (weather)" },
+      { "japanese": "<ruby>曇<rt>くも</rt></ruby>ります", "english": "to get cloudy" },
+      { "japanese": "<ruby>風<rt>かぜ</rt></ruby>が<ruby>吹<rt>ふ</rt></ruby>きます", "english": "to blow - wind" },
+      { "japanese": "<ruby>治<rt>なお</rt></ruby>ります", "english": "to recover from, get well, be fixed, be repaired" },
+      { "japanese": "<ruby>病気<rt>びょうき</rt></ruby>が<ruby>治<rt>なお</rt></ruby>ります", "english": "to recover from sickness" },
+      { "japanese": "<ruby>故障<rt>こしょう</rt></ruby>が<ruby>治<rt>なお</rt></ruby>ります", "english": "to be fixed, be repaired" },
+      { "japanese": "<ruby>続<rt>つづ</rt></ruby>きます", "english": "to continue" },
+      { "japanese": "<ruby>熱<rt>ねつ</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>きます", "english": "to continue - high temperature" },
+      { "japanese": "<ruby>風邪<rt>かぜ</rt></ruby>をひきます", "english": "to catch a cold" },
+      { "japanese": "<ruby>冷<rt>ひ</rt></ruby>やします", "english": "to cool" },
+      { "japanese": "<ruby>心配<rt>しんぱい</rt></ruby>", "english": "worried, anxious (な)" },
+      { "japanese": "<ruby>十分<rt>じゅうぶん</rt></ruby>", "english": "enough, sufficient (な)" },
+      { "japanese": "おかしい", "english": "funny; strange" },
+      { "japanese": "うるさい", "english": "noisy" },
+      { "japanese": "やけど", "english": "burn" },
+      { "japanese": "やけどをします", "english": "to get burned" },
+      { "japanese": "けが", "english": "injury" },
+      { "japanese": "けがをします", "english": "to get injured" },
+      { "japanese": "<ruby>咳<rt>せき</rt></ruby>", "english": "cough" },
+      { "japanese": "<ruby>咳<rt>せき</rt></ruby>がでます", "english": "to have a cough" },
+      { "japanese": "インフルエンザ", "english": "influenza" },
+      { "japanese": "<ruby>空<rt>そら</rt></ruby>", "english": "sky" },
+      { "japanese": "<ruby>太陽<rt>たいよう</rt></ruby>", "english": "sun" },
+      { "japanese": "<ruby>星<rt>ほし</rt></ruby>", "english": "star" },
+      { "japanese": "<ruby>月<rt>つき</rt></ruby>", "english": "moon" },
+      { "japanese": "<ruby>風<rt>かぜ</rt></ruby>", "english": "wind" },
+      { "japanese": "<ruby>北<rt>きた</rt></ruby>", "english": "north" },
+      { "japanese": "<ruby>南<rt>みなみ</rt></ruby>", "english": "south" },
+      { "japanese": "<ruby>西<rt>にし</rt></ruby>", "english": "west" },
+      { "japanese": "<ruby>東<rt>ひがし</rt></ruby>", "english": "east" },
+      { "japanese": "うそ", "english": "lie" },
+      { "japanese": "うそをつきます", "english": "to lie" },
+      { "japanese": "<ruby>嘘<rt>うそ</rt></ruby>つき", "english": "liar" },
+      { "japanese": "<ruby>水道<rt>すいどう</rt></ruby>", "english": "faucet, tap, water supply" },
+      { "japanese": "エンジン", "english": "engine" },
+      { "japanese": "チーム", "english": "team" },
+      { "japanese": "こんや", "english": "this evening" },
+      { "japanese": "<ruby>夕方<rt>ゆうがた</rt></ruby>", "english": "early evening, late afternoon" },
+      { "japanese": "おそく", "english": "late (time)" },
+      { "japanese": "こんなに", "english": "like this" },
+      { "japanese": "そんなに", "english": "like that (concerning a matter related to the listener)" },
+      { "japanese": "あんなに", "english": "like that (concerning a matter not related to speaker/listener), that much" },
+      { "japanese": "もしかしたら", "english": "adverb expresses less of a possibility, and is used with かもしれません -- 10-20%" },
+      { "japanese": "<ruby>胃<rt>い</rt></ruby>", "english": "stomach" },
+      { "japanese": "<ruby>星占<rt>ほしうら</rt></ruby>い", "english": "astrology" },
+      { "japanese": "こまります", "english": "to be in trouble, to have a problem" },
+      { "japanese": "<ruby>宝くじ<rt>たからくじ</rt></ruby>", "english": "lottery" },
+      { "japanese": "<ruby>当<rt>あ</rt></ruby>たります", "english": "to hit the mark, to win (the lottery)" },
+      { "japanese": "<ruby>健康<rt>けんこう</rt></ruby>", "english": "health" },
+      { "japanese": "<ruby>恋愛<rt>れんあい</rt></ruby>", "english": "romantic love" },
+      { "japanese": "<ruby>恋人<rt>こいびと</rt></ruby>", "english": "sweetheart, boyfriend, girlfriend" },
+      { "japanese": "<ruby>お金持<rt>かねも</rt></ruby>ち", "english": "rich person" }
     ],
-    "Level 9": [
-      {
-        "kanji": "行",
-        "kunyomi": ["い.く", "ゆ.く", "おこな.う"],
-        "onyomi": ["コウ", "ギョウ"],
-        "pitch_accent": { "い.く": "LH" },
-        "example_sentences": {
-          "い.く": [
-            { "sentence": "学校に行く。", "translation": "I go to school." }
-          ],
-          "おこな.う": [
-            { "sentence": "祭りを行う。", "translation": "I hold a festival." }
-          ]
-        },
-        "vocabulary": ["行く", "旅行"],
-        "vocabulary_translation": ["go", "travel"],
-        "translation": ["to go", "to perform"],
-        "radicals": ["彳", "亍"]
-      },
-      {
-        "kanji": "来",
-        "kunyomi": ["く.る", "きた.る"],
-        "onyomi": ["ライ"],
-        "pitch_accent": { "く.る": "LH" },
-        "example_sentences": {
-          "く.る": [
-            { "sentence": "友達が来る。", "translation": "My friend comes." }
-          ],
-          "ライ": [
-            { "sentence": "来年会う。", "translation": "We meet next year." }
-          ]
-        },
-        "vocabulary": ["来る", "未来"],
-        "vocabulary_translation": ["come", "future"],
-        "translation": ["to come"],
-        "radicals": ["木", "米"]
-      },
-      {
-        "kanji": "食",
-        "kunyomi": ["た.べる", "く.う"],
-        "onyomi": ["ショク", "ジキ"],
-        "pitch_accent": { "た.べる": "LHH" },
-        "example_sentences": {
-          "た.べる": [
-            { "sentence": "ご飯を食べる。", "translation": "I eat rice." }
-          ],
-          "ショク": [
-            { "sentence": "食事を作る。", "translation": "I prepare a meal." }
-          ]
-        },
-        "vocabulary": ["食べる", "食事"],
-        "vocabulary_translation": ["eat", "meal"],
-        "translation": ["to eat", "food"],
-        "radicals": ["食"]
-      },
-      {
-        "kanji": "見",
-        "kunyomi": ["み.る", "み.える"],
-        "onyomi": ["ケン"],
-        "pitch_accent": { "み.る": "LH" },
-        "example_sentences": {
-          "み.る": [
-            { "sentence": "本を見る。", "translation": "I look at a book." }
-          ],
-          "み.える": [
-            { "sentence": "山が見える。", "translation": "I can see the mountain." }
-          ]
-        },
-        "vocabulary": ["見る", "意見"],
-        "vocabulary_translation": ["see", "opinion"],
-        "translation": ["to see", "to be visible"],
-        "radicals": ["目", "見"]
-      },
-      {
-        "kanji": "入",
-        "kunyomi": ["い.る", "はい.る"],
-        "onyomi": ["ニュウ"],
-        "pitch_accent": { "はい.る": "LHH" },
-        "example_sentences": {
-          "はい.る": [
-            { "sentence": "部屋にはいる。", "translation": "I enter the room." }
-          ],
-          "ニュウ": [
-            { "sentence": "入場する。", "translation": "I enter the venue." }
-          ]
-        },
-        "vocabulary": ["入れる", "入場"],
-        "vocabulary_translation": ["put in", "admission"],
-        "translation": ["to enter"],
-        "radicals": ["入"]
-      },
-      {
-        "kanji": "出",
-        "kunyomi": ["で.る", "だ.す"],
-        "onyomi": ["シュツ"],
-        "pitch_accent": { "で.る": "LH" },
-        "example_sentences": {
-          "で.る": [
-            { "sentence": "家を出る。", "translation": "I leave the house." }
-          ],
-          "だ.す": [
-            { "sentence": "手紙を出す。", "translation": "I send a letter." }
-          ]
-        },
-        "vocabulary": ["出る", "出す"],
-        "vocabulary_translation": ["go out", "send out"],
-        "translation": ["to go out", "to send"],
-        "radicals": ["山", "凵"]
-      },
-      {
-        "kanji": "立",
-        "kunyomi": ["た.つ", "た.てる"],
-        "onyomi": ["リツ", "リュウ"],
-        "pitch_accent": { "た.つ": "LH" },
-        "example_sentences": {
-          "た.つ": [
-            { "sentence": "ここに立つ。", "translation": "I stand here." }
-          ],
-          "リツ": [
-            { "sentence": "独立する。", "translation": "I become independent." }
-          ]
-        },
-        "vocabulary": ["立つ", "独立"],
-        "vocabulary_translation": ["stand", "independence"],
-        "translation": ["to stand"],
-        "radicals": ["立"]
-      },
-      {
-        "kanji": "書",
-        "kunyomi": ["か.く"],
-        "onyomi": ["ショ"],
-        "pitch_accent": { "か.く": "LH" },
-        "example_sentences": {
-          "か.く": [
-            { "sentence": "手紙を書く。", "translation": "I write a letter." }
-          ],
-          "ショ": [
-            { "sentence": "書道を習う。", "translation": "I learn calligraphy." }
-          ]
-        },
-        "vocabulary": ["書く", "書道"],
-        "vocabulary_translation": ["write", "calligraphy"],
-        "translation": ["to write"],
-        "radicals": ["聿", "日"]
-      },
-      {
-        "kanji": "言",
-        "kunyomi": ["い.う", "こと"],
-        "onyomi": ["ゲン", "ゴン"],
-        "pitch_accent": { "い.う": "LH" },
-        "example_sentences": {
-          "い.う": [
-            { "sentence": "名前を言う。", "translation": "I say my name." }
-          ],
-          "ゲン": [
-            { "sentence": "言語を学ぶ。", "translation": "I learn a language." }
-          ]
-        },
-        "vocabulary": ["言う", "言語"],
-        "vocabulary_translation": ["say", "language"],
-        "translation": ["to say", "word"],
-        "radicals": ["言"]
-      },
-      {
-        "kanji": "飲",
-        "kunyomi": ["の.む"],
-        "onyomi": ["イン"],
-        "pitch_accent": { "の.む": "LH" },
-        "example_sentences": {
-          "の.む": [
-            { "sentence": "水を飲む。", "translation": "I drink water." }
-          ],
-          "イン": [
-            { "sentence": "飲酒は禁止だ。", "translation": "Drinking alcohol is prohibited." }
-          ]
-        },
-        "vocabulary": ["飲む", "飲み物"],
-        "vocabulary_translation": ["drink", "beverage"],
-        "translation": ["to drink"],
-        "radicals": ["食", "欠"]
-      }
+    "unit 8": [
+      { "japanese": "<ruby>逃<rt>に</rt></ruby>げます", "english": "to run away" },
+      { "japanese": "<ruby>騒<rt>さわ</rt></ruby>ぎます", "english": "to make a noise" },
+      { "japanese": "<ruby>諦<rt>あきら</rt></ruby>めます", "english": "to give up" },
+      { "japanese": "<ruby>投<rt>な</rt></ruby>げます", "english": "to throw" },
+      { "japanese": "<ruby>守<rt>まも</rt></ruby>ります", "english": "to keep, follow, obey, protect" },
+      { "japanese": "<ruby>お守<rt>まも</rt></ruby>り", "english": "charm" },
+      { "japanese": "<ruby>上<rt>あ</rt></ruby>げます", "english": "to raise, lift up" },
+      { "japanese": "<ruby>下<rt>さ</rt></ruby>げます", "english": "to lower, pull down" },
+      { "japanese": "<ruby>伝<rt>つた</rt></ruby>えます", "english": "to convey (a message)" },
+      { "japanese": "<ruby>注意<rt>ちゅうい</rt></ruby>します", "english": "to be careful (e.g., of cars)" },
+      { "japanese": "<ruby>車<rt>くるま</rt></ruby>に<ruby>注意<rt>ちゅうい</rt></ruby>します", "english": "to be careful of cars" },
+      { "japanese": "<ruby>席<rt>せき</rt></ruby>をはずします", "english": "to be away from one's desk" },
+      { "japanese": "だめ", "english": "no good, not permitted, impossible (な adj)" },
+      { "japanese": "<ruby>席<rt>せき</rt></ruby>", "english": "seat" },
+      { "japanese": "ファイト", "english": "fight" },
+      { "japanese": "マーク", "english": "mark, logo, label" },
+      { "japanese": "ボール", "english": "ball" },
+      { "japanese": "<ruby>洗濯機<rt>せんたくき</rt></ruby>", "english": "washing machine" },
+      { "japanese": "～き", "english": "~ machine" },
+      { "japanese": "<ruby>規則<rt>きそく</rt></ruby>", "english": "regulation, rule" },
+      { "japanese": "<ruby>使用禁止<rt>しようきんし</rt></ruby>", "english": "Do not use." },
+      { "japanese": "<ruby>立入禁止<rt>たちいりきんし</rt></ruby>", "english": "Keep out. (no trespassing)" },
+      { "japanese": "<ruby>入口<rt>いりぐち</rt></ruby>", "english": "entrance" },
+      { "japanese": "<ruby>出口<rt>でぐち</rt></ruby>", "english": "exit" },
+      { "japanese": "<ruby>非常口<rt>ひじょうぐち</rt></ruby>", "english": "emergency exit" },
+      { "japanese": "<ruby>無料<rt>むりょう</rt></ruby>", "english": "free of charge" },
+      { "japanese": "<ruby>本日休業<rt>ほんじつきゅうぎょう</rt></ruby>", "english": "closed today" },
+      { "japanese": "<ruby>営業中<rt>えいぎょうちゅう</rt></ruby>", "english": "open for business" },
+      { "japanese": "<ruby>使用中<rt>しようちゅう</rt></ruby>", "english": "in use" },
+      { "japanese": "ちゅう", "english": "~ ing" },
+      { "japanese": "どういう", "english": "what kind of ~" },
+      { "japanese": "もう", "english": "(not) any longer (used with negatives)" },
+      { "japanese": "あと", "english": "~ left (the amount left used, the rest)" },
+      { "japanese": "<ruby>駐車違反<rt>ちゅうしゃいはん</rt></ruby>", "english": "parking violation" },
+      { "japanese": "そりゃあ", "english": "well" },
+      { "japanese": "いない", "english": "within" },
+      { "japanese": "<ruby>警察<rt>けいさつ</rt></ruby>", "english": "police" },
+      { "japanese": "<ruby>罰金<rt>ばっきん</rt></ruby>", "english": "fine" },
+      { "japanese": "<ruby>電報<rt>でんぽう</rt></ruby>", "english": "telegram" },
+      { "japanese": "<ruby>人々<rt>ひとびと</rt></ruby>", "english": "people" },
+      { "japanese": "<ruby>急用<rt>きゅうよう</rt></ruby>", "english": "urgent business" },
+      { "japanese": "<ruby>打<rt>う</rt></ruby>ちます", "english": "to send (a telegram)" },
+      { "japanese": "<ruby>電報代<rt>でんぽうだい</rt></ruby>", "english": "telegram charge" },
+      { "japanese": "できるだけ", "english": "as much as one can" },
+      { "japanese": "<ruby>短<rt>みじか</rt></ruby>く", "english": "shortly, briefly" },
+      { "japanese": "また", "english": "and" },
+      { "japanese": "たとえば", "english": "for example" },
+      { "japanese": "きとく", "english": "in a critical condition" },
+      { "japanese": "<ruby>重<rt>おも</rt></ruby>い<ruby>病気<rt>びょうき</rt></ruby>", "english": "serious illness" },
+      { "japanese": "あす", "english": "tomorrow" },
+      { "japanese": "るす", "english": "absence" },
+      { "japanese": "<ruby>留守番<rt>るすばん</rt></ruby>", "english": "house-sitting" },
+      { "japanese": "<ruby>お祝<rt>いわ</rt></ruby>い", "english": "celebration, gift" },
+      { "japanese": "<ruby>亡<rt>な</rt></ruby>くなります", "english": "to pass away, to die" },
+      { "japanese": "<ruby>悲<rt>かな</rt></ruby>しみ", "english": "sadness, sorrow" },
+      { "japanese": "<ruby>利用<rt>りよう</rt></ruby>します", "english": "to make use of (taking advantage of its features, benefits, or convenience)" }
     ],
-    "Level 10": [
-      {
-        "kanji": "話",
-        "kunyomi": ["はな.す", "はなし"],
-        "onyomi": ["ワ"],
-        "pitch_accent": { "はな.す": "LHH" },
-        "example_sentences": {
-          "はな.す": [
-            { "sentence": "友達と話す。", "translation": "I talk with a friend." }
-          ],
-          "ワ": [
-            { "sentence": "会話が楽しい。", "translation": "The conversation is fun." }
-          ]
-        },
-        "vocabulary": ["話す", "電話"],
-        "vocabulary_translation": ["speak", "telephone"],
-        "translation": ["to talk", "story"],
-        "radicals": ["言", "舌"]
-      },
-      {
-        "kanji": "読",
-        "kunyomi": ["よ.む"],
-        "onyomi": ["ドク"],
-        "pitch_accent": { "よ.む": "LH" },
-        "example_sentences": {
-          "よ.む": [
-            { "sentence": "本を読む。", "translation": "I read a book." }
-          ],
-          "ドク": [
-            { "sentence": "読書が好きだ。", "translation": "I like reading." }
-          ]
-        },
-        "vocabulary": ["読む", "読書"],
-        "vocabulary_translation": ["read", "reading books"],
-        "translation": ["to read"],
-        "radicals": ["言", "売"]
-      },
-      {
-        "kanji": "語",
-        "kunyomi": ["かた.る"],
-        "onyomi": ["ゴ"],
-        "pitch_accent": { "かた.る": "LHH" },
-        "example_sentences": {
-          "かた.る": [
-            { "sentence": "物語を語る。", "translation": "I tell a story." }
-          ],
-          "ゴ": [
-            { "sentence": "日本語を学ぶ。", "translation": "I learn Japanese." }
-          ]
-        },
-        "vocabulary": ["物語", "日本語"],
-        "vocabulary_translation": ["story", "Japanese language"],
-        "translation": ["to narrate", "language"],
-        "radicals": ["言", "吾"]
-      },
-      {
-        "kanji": "間",
-        "kunyomi": ["あいだ", "ま"],
-        "onyomi": ["カン", "ケン"],
-        "pitch_accent": { "あいだ": "LHH" },
-        "example_sentences": {
-          "あいだ": [
-            { "sentence": "木の間に立つ。", "translation": "I stand between the trees." }
-          ],
-          "カン": [
-            { "sentence": "時間がない。", "translation": "There’s no time." }
-          ]
-        },
-        "vocabulary": ["時間", "人間"],
-        "vocabulary_translation": ["time", "human"],
-        "translation": ["interval", "space"],
-        "radicals": ["門", "日"]
-      },
-      {
-        "kanji": "聞",
-        "kunyomi": ["き.く", "き.こえる"],
-        "onyomi": ["ブン", "モン"],
-        "pitch_accent": { "き.く": "LH" },
-        "example_sentences": {
-          "き.く": [
-            { "sentence": "音楽を聞く。", "translation": "I listen to music." }
-          ],
-          "き.こえる": [
-            { "sentence": "声が聞こえる。", "translation": "I can hear a voice." }
-          ]
-        },
-        "vocabulary": ["聞く", "新聞"],
-        "vocabulary_translation": ["hear/listen", "newspaper"],
-        "translation": ["to hear", "to listen"],
-        "radicals": ["耳", "門"]
-      },
-      {
-        "kanji": "買",
-        "kunyomi": ["か.う"],
-        "onyomi": ["バイ"],
-        "pitch_accent": { "か.う": "LH" },
-        "example_sentences": {
-          "か.う": [
-            { "sentence": "本を買う。", "translation": "I buy a book." }
-          ],
-          "バイ": [
-            { "sentence": "購買部に行く。", "translation": "I go to the purchasing department." }
-          ]
-        },
-        "vocabulary": ["買う", "買い物"],
-        "vocabulary_translation": ["buy", "shopping"],
-        "translation": ["to buy"],
-        "radicals": ["罒", "貝"]
-      },
-      {
-        "kanji": "休",
-        "kunyomi": ["やす.む"],
-        "onyomi": ["キュウ"],
-        "pitch_accent": { "やす.む": "LHH" },
-        "example_sentences": {
-          "やす.む": [
-            { "sentence": "学校を休む。", "translation": "I take a break from school." }
-          ],
-          "キュウ": [
-            { "sentence": "休日を過ごす。", "translation": "I spend a holiday." }
-          ]
-        },
-        "vocabulary": ["休む", "休日"],
-        "vocabulary_translation": ["rest", "holiday"],
-        "translation": ["to rest"],
-        "radicals": ["亻", "木"]
-      },
-      {
-        "kanji": "時",
-        "kunyomi": ["とき", "じ"],
-        "onyomi": ["ジ"],
-        "pitch_accent": { "とき": "HL" },
-        "example_sentences": {
-          "とき": [
-            { "sentence": "良い時に来る。", "translation": "I come at a good time." }
-          ],
-          "ジ": [
-            { "sentence": "三時に会う。", "translation": "We meet at three o’clock." }
-          ]
-        },
-        "vocabulary": ["時間", "時計"],
-        "vocabulary_translation": ["time", "clock"],
-        "translation": ["time", "hour"],
-        "radicals": ["日", "寺"]
-      },
-      {
-        "kanji": "週",
-        "kunyomi": [],
-        "onyomi": ["シュウ"],
-        "pitch_accent": {},
-        "example_sentences": {
-          "シュウ": [
-            { "sentence": "毎週遊ぶ。", "translation": "I play every week." }
-          ]
-        },
-        "vocabulary": ["毎週", "一週間"],
-        "vocabulary_translation": ["every week", "one week"],
-        "translation": ["week"],
-        "radicals": ["彳", "周"]
-      },
-      {
-        "kanji": "道",
-        "kunyomi": ["みち"],
-        "onyomi": ["ドウ"],
-        "pitch_accent": { "みち": "HL" },
-        "example_sentences": {
-          "みち": [
-            { "sentence": "道を歩く。", "translation": "I walk the road." }
-          ],
-          "ドウ": [
-            { "sentence": "書道を習う。", "translation": "I learn calligraphy." }
-          ]
-        },
-        "vocabulary": ["道", "道路"],
-        "vocabulary_translation": ["road", "road/highway"],
-        "translation": ["road", "path"],
-        "radicals": ["辶", "首"]
-      }
+    "unit 9": [
+      { "japanese": "<ruby>磨<rt>みが</rt></ruby>きます", "english": "to brush, to polish" },
+      { "japanese": "<ruby>歯<rt>は</rt></ruby>を<ruby>磨<rt>みが</rt></ruby>きます", "english": "to brush one's teeth" },
+      { "japanese": "<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てます", "english": "to assemble" },
+      { "japanese": "<ruby>折<rt>お</rt></ruby>ります", "english": "to bend, fold, break, snap" },
+      { "japanese": "<ruby>気<rt>き</rt></ruby>が<ruby>付<rt>つ</rt></ruby>きます", "english": "to notice, become aware of" },
+      { "japanese": "<ruby>見<rt>み</rt></ruby>つかります", "english": "to be found" },
+      { "japanese": "<ruby>質問<rt>しつもん</rt></ruby>します", "english": "to ask a question" },
+      { "japanese": "<ruby>細<rt>ほそ</rt></ruby>い", "english": "slender, thin (of small diameter)" },
+      { "japanese": "<ruby>太<rt>ふと</rt></ruby>い", "english": "fat, thick (of large diameter)" },
+      { "japanese": "<ruby>盆踊<rt>ぼんおど</rt></ruby>り", "english": "\"Bon\" dance (Japanese traditional dance)" },
+      { "japanese": "スポーツクラブ", "english": "sports club" },
+      { "japanese": "<ruby>家具<rt>かぐ</rt></ruby>", "english": "furniture" },
+      { "japanese": "シートベルト", "english": "seat belt" },
+      { "japanese": "<ruby>説明<rt>せつめい</rt></ruby>", "english": "explanation" },
+      { "japanese": "<ruby>説明書<rt>せつめいしょ</rt></ruby>", "english": "instruction manual, explanatory pamphlet" },
+      { "japanese": "ず", "english": "figure (e.g. Fig 1); graph; chart" },
+      { "japanese": "<ruby>線<rt>せん</rt></ruby>", "english": "line" },
+      { "japanese": "<ruby>矢印<rt>やじるし</rt></ruby>", "english": "arrow (mark or symbol)" },
+      { "japanese": "<ruby>黒<rt>くろ</rt></ruby>", "english": "black (noun)" },
+      { "japanese": "<ruby>白<rt>しろ</rt></ruby>", "english": "white (noun)" },
+      { "japanese": "<ruby>赤<rt>あか</rt></ruby>", "english": "red (noun)" },
+      { "japanese": "<ruby>青<rt>あお</rt></ruby>", "english": "blue (noun)" },
+      { "japanese": "こん", "english": "navy blue, dark blue (noun)" },
+      { "japanese": "<ruby>黄色<rt>きいろ</rt></ruby>", "english": "yellow (noun)" },
+      { "japanese": "<ruby>茶色<rt>ちゃいろ</rt></ruby>", "english": "light brown (noun)" },
+      { "japanese": "<ruby>醤油<rt>しょうゆ</rt></ruby>", "english": "soy sauce" },
+      { "japanese": "ソース", "english": "sauce, Worcestershire sauce" },
+      { "japanese": "か", "english": "~ or ~" },
+      { "japanese": "ゆうべ", "english": "last night" },
+      { "japanese": "さっき", "english": "a short while ago" },
+      { "japanese": "<ruby>茶道<rt>さどう</rt></ruby>", "english": "tea ceremony" },
+      { "japanese": "さきに", "english": "first (when doing something before something else)" },
+      { "japanese": "<ruby>乗<rt>の</rt></ruby>せます", "english": "to place on, to load onto, to let ride" },
+      { "japanese": "<ruby>苦<rt>にが</rt></ruby>い", "english": "bitter" },
+      { "japanese": "<ruby>親子丼<rt>おやこどんぶり</rt></ruby>", "english": "bowl of cooked rice with chicken and egg" },
+      { "japanese": "<ruby>材料<rt>ざいりょう</rt></ruby>", "english": "material, ingredient" },
+      { "japanese": "<ruby>一<rt>いち</rt></ruby><ruby>分<rt>ぶん</rt></ruby>", "english": "portion for ~ (used for indicating quantity)" },
+      { "japanese": "<ruby>鶏肉<rt>とりにく</rt></ruby>", "english": "chicken meat" },
+      { "japanese": "グラム", "english": "grams" },
+      { "japanese": "こ", "english": "counter for small objects" },
+      { "japanese": "<ruby>玉<rt>たま</rt></ruby>ねぎ", "english": "onion (edible plant, Allium cepa)" },
+      { "japanese": "<ruby>調味料<rt>ちょうみりょう</rt></ruby>", "english": "flavoring (e.g. salt, sugar, soy sauce, vinegar, etc.)" },
+      { "japanese": "<ruby>鍋<rt>なべ</rt></ruby>", "english": "saucepan" },
+      { "japanese": "<ruby>火<rt>ひ</rt></ruby>", "english": "fire" },
+      { "japanese": "<ruby>煮<rt>に</rt></ruby>ます", "english": "to cook, boil (transitive)" },
+      { "japanese": "<ruby>煮<rt>に</rt></ruby>えます", "english": "to be cooked, be boiled (intransitive)" },
+      { "japanese": "<ruby>丼<rt>どんぶり</rt></ruby>", "english": "ceramic bowl" },
+      { "japanese": "す", "english": "vinegar" },
+      { "japanese": "<ruby>油<rt>あぶら</rt></ruby>", "english": "oil, fat" },
+      { "japanese": "<ruby>胡椒<rt>こしょう</rt></ruby>", "english": "pepper" },
+      { "japanese": "<ruby>唐辛子<rt>とうがらし</rt></ruby>", "english": "capsicum (Capsicum annuum, esp. the cultivated chili peppers)" },
+      { "japanese": "<ruby>生姜<rt>しょうが</rt></ruby>", "english": "ginger (Zingiber officinale)" }
     ],
-    "Level 11": [
-      {
-        "kanji": "今",
-        "kunyomi": ["いま"],
-        "onyomi": ["コン", "キン"],
-        "pitch_accent": { "いま": "HL" },
-        "example_sentences": {
-          "いま": [
-            { "sentence": "今、勉強する。", "translation": "I study now." }
-          ],
-          "コン": [
-            { "sentence": "今晩、会う。", "translation": "We meet tonight." }
-          ]
-        },
-        "vocabulary": ["今", "今日"],
-        "vocabulary_translation": ["now", "today"],
-        "translation": ["now"],
-        "radicals": ["人", "亼"]
-      },
-      {
-        "kanji": "会",
-        "kunyomi": ["あ.う"],
-        "onyomi": ["カイ"],
-        "pitch_accent": { "あ.う": "LH" },
-        "example_sentences": {
-          "あ.う": [
-            { "sentence": "友達に会う。", "translation": "I meet a friend." }
-          ],
-          "カイ": [
-            { "sentence": "会議がある。", "translation": "There is a meeting." }
-          ]
-        },
-        "vocabulary": ["会う", "会社"],
-        "vocabulary_translation": ["meet", "company"],
-        "translation": ["to meet"],
-        "radicals": ["人", "云"]
-      },
-      {
-        "kanji": "社",
-        "kunyomi": [],
-        "onyomi": ["シャ"],
-        "pitch_accent": {},
-        "example_sentences": {
-          "シャ": [
-            { "sentence": "会社で働く。", "translation": "I work at a company." }
-          ]
-        },
-        "vocabulary": ["会社", "社会"],
-        "vocabulary_translation": ["company", "society"],
-        "translation": ["company", "society"],
-        "radicals": ["示", "土"]
-      },
-      {
-        "kanji": "店",
-        "kunyomi": ["みせ"],
-        "onyomi": ["テン"],
-        "pitch_accent": { "みせ": "HL" },
-        "example_sentences": {
-          "みせ": [
-            { "sentence": "店に行く。", "translation": "I go to the shop." }
-          ],
-          "テン": [
-            { "sentence": "商店街を歩く。", "translation": "I walk through the shopping street." }
-          ]
-        },
-        "vocabulary": ["お店", "商店"],
-        "vocabulary_translation": ["shop (polite)", "store"],
-        "translation": ["shop"],
-        "radicals": ["广", "占"]
-      },
-      {
-        "kanji": "駅",
-        "kunyomi": [],
-        "onyomi": ["エキ"],
-        "pitch_accent": {},
-        "example_sentences": {
-          "エキ": [
-            { "sentence": "駅に行く。", "translation": "I go to the station." }
-          ]
-        },
-        "vocabulary": ["駅前", "東京駅"],
-        "vocabulary_translation": ["in front of the station", "Tokyo Station"],
-        "translation": ["station"],
-        "radicals": ["馬", "尺"]
-      },
-      {
-        "kanji": "花",
-        "kunyomi": ["はな"],
-        "onyomi": ["カ"],
-        "pitch_accent": { "はな": "HL" },
-        "example_sentences": {
-          "はな": [
-            { "sentence": "花が咲く。", "translation": "The flower blooms." }
-          ],
-          "カ": [
-            { "sentence": "花火を見る。", "translation": "I watch fireworks." }
-          ]
-        },
-        "vocabulary": ["花見", "花火"],
-        "vocabulary_translation": ["cherry blossom viewing", "fireworks"],
-        "translation": ["flower"],
-        "radicals": ["艹", "化"]
-      },
-      {
-        "kanji": "国",
-        "kunyomi": ["くに"],
-        "onyomi": ["コク"],
-        "pitch_accent": { "くに": "HL" },
-        "example_sentences": {
-          "くに": [
-            { "sentence": "国に帰る。", "translation": "I return to my country." }
-          ],
-          "コク": [
-            { "sentence": "国民が投票する。", "translation": "Citizens vote." }
-          ]
-        },
-        "vocabulary": ["日本", "国民"],
-        "vocabulary_translation": ["Japan", "citizen"],
-        "translation": ["country"],
-        "radicals": ["囗", "玉"]
-      },
-      {
-        "kanji": "白",
-        "kunyomi": ["しろ", "しろ.い"],
-        "onyomi": ["ハク"],
-        "pitch_accent": { "しろ.い": "LHH" },
-        "example_sentences": {
-          "しろ": [
-            { "sentence": "白い紙を使う。", "translation": "I use white paper." }
-          ],
-          "しろ.い": [
-            { "sentence": "雪が白い。", "translation": "The snow is white." },
-            { "sentence": "白い花がきれいだ。", "translation": "The white flower is beautiful." }
-          ],
-          "ハク": [
-            { "sentence": "白紙で提出する。", "translation": "Submit on blank paper." }
-          ]
-        },
-        "vocabulary": ["白い", "空白"],
-        "vocabulary_translation": ["white", "blank/empty space"],
-        "translation": ["white"],
-        "radicals": ["白"]
-      },
-      {
-        "kanji": "空",
-        "kunyomi": ["そら", "から", "あ.く"],
-        "onyomi": ["クウ", "ク"],
-        "pitch_accent": { "そら": "HL", "から": "HL" },
-        "example_sentences": {
-          "そら": [
-            { "sentence": "空が青い。", "translation": "The sky is blue." },
-            { "sentence": "空を見上げる。", "translation": "I look up at the sky." }
-          ],
-          "から": [
-            { "sentence": "空の箱だ。", "translation": "It’s an empty box." }
-          ],
-          "あ.く": [
-            { "sentence": "席が空く。", "translation": "A seat becomes available." }
-          ],
-          "クウ": [
-            { "sentence": "空港に行く。", "translation": "I go to the airport." }
-          ]
-        },
-        "vocabulary": ["空", "空港", "空っぽ"],
-        "vocabulary_translation": ["sky", "airport", "empty"],
-        "translation": ["sky", "empty", "air"],
-        "radicals": ["穴", "工"]
-      },
-      {
-        "kanji": "電",
-        "kunyomi": [],
-        "onyomi": ["デン"],
-        "pitch_accent": {},
-        "example_sentences": {
-          "デン": [
-            { "sentence": "電車に乗る。", "translation": "I ride the train." },
-            { "sentence": "電気を消す。", "translation": "I turn off the light." }
-          ]
-        },
-        "vocabulary": ["電車", "電気", "電池"],
-        "vocabulary_translation": ["train", "electricity", "battery"],
-        "translation": ["electricity", "electric"],
-        "radicals": ["雨", "田"]
-      }
+    "unit 10": [
+      { "japanese": "<ruby>楽<rt>らく</rt></ruby>", "english": "comfortable, easy (な adj)" },
+      { "japanese": "<ruby>正<rt>ただ</rt></ruby>しい", "english": "correct, right" },
+      { "japanese": "<ruby>珍<rt>めず</rt></ruby>らしい", "english": "rare, unusual, uncommon" },
+      { "japanese": "<ruby>向<rt>む</rt></ruby>こう", "english": "opposite side, over there, the other side" },
+      { "japanese": "<ruby>島<rt>しま</rt></ruby>", "english": "island" },
+      { "japanese": "<ruby>村<rt>むら</rt></ruby>", "english": "village" },
+      { "japanese": "<ruby>港<rt>みなと</rt></ruby>", "english": "port, harbour" },
+      { "japanese": "<ruby>近所<rt>きんじょ</rt></ruby>", "english": "neighbourhood, vicinity" },
+      { "japanese": "<ruby>屋上<rt>おくじょう</rt></ruby>", "english": "rooftop" },
+      { "japanese": "<ruby>海外<rt>かいがい</rt></ruby>", "english": "overseas, foreign" },
+      { "japanese": "<ruby>山登<rt>やまのぼ</rt></ruby>り", "english": "mountain climbing" },
+      { "japanese": "ハイキング", "english": "hiking" },
+      { "japanese": "<ruby>機会<rt>きかい</rt></ruby>", "english": "chance, upportunity" },
+      { "japanese": "<ruby>許可<rt>きょか</rt></ruby>", "english": "permission" },
+      { "japanese": "<ruby>丸<rt>まる</rt></ruby>", "english": "circle" },
+      { "japanese": "<ruby>操作<rt>そうさ</rt></ruby>", "english": "operation (of a machine)" },
+      { "japanese": "<ruby>方法<rt>ほうほう</rt></ruby>", "english": "method, manner, way, means, technique" },
+      { "japanese": "<ruby>設備<rt>せつび</rt></ruby>", "english": "equipment, facilities" },
+      { "japanese": "カーテン", "english": "curtain" },
+      { "japanese": "<ruby>紐<rt>ひも</rt></ruby>", "english": "string" },
+      { "japanese": "<ruby>靴<rt>くつ</rt></ruby>の<ruby>紐<rt>ひも</rt></ruby>", "english": "shoelace" },
+      { "japanese": "<ruby>蓋<rt>ふた</rt></ruby>", "english": "lid, cover, cap" },
+      { "japanese": "<ruby>葉<rt>は</rt></ruby>", "english": "leaf" },
+      { "japanese": "<ruby>曲<rt>きょく</rt></ruby>", "english": "piece of music, tune" },
+      { "japanese": "<ruby>楽<rt>たの</rt></ruby>しみ", "english": "enjoyment, pleasure, expectation" },
+      { "japanese": "もっと", "english": "more" },
+      { "japanese": "<ruby>初<rt>はじ</rt></ruby>めに", "english": "first" },
+      { "japanese": "それなら", "english": "in that case" },
+      { "japanese": "<ruby>夜行<rt>やこう</rt></ruby>バス", "english": "night bus" },
+      { "japanese": "<ruby>旅行社<rt>りょこうしゃ</rt></ruby>", "english": "travel agency" },
+      { "japanese": "<ruby>詳<rt>くわ</rt></ruby>しい", "english": "detailed" },
+      { "japanese": "スキーじょう", "english": "ski resort, ski ground" },
+      { "japanese": "<ruby>朱<rt>しゅ</rt></ruby>", "english": "red, scarlet" },
+      { "japanese": "<ruby>交<rt>まじ</rt></ruby>わります", "english": "to cross, to intersect, to associate with, to mingle with" },
+      { "japanese": "<ruby>諺<rt>ことわざ</rt></ruby>", "english": "proverb" },
+      { "japanese": "<ruby>仲良<rt>なかよ</rt></ruby>くします", "english": "to be on good terms with" },
+      { "japanese": "<ruby>必要<rt>ひつよう</rt></ruby>", "english": "necessary, essential (な)" },
+      { "japanese": "おすすめ", "english": "recommendation" }
+    ],
+    "unit 11": [
+      { "japanese": "<ruby>貯金<rt>ちょきん</rt></ruby>します", "english": "to save money" },
+      { "japanese": "<ruby>太<rt>ふと</rt></ruby>ります", "english": "to get fat" },
+      { "japanese": "<ruby>痩<rt>や</rt></ruby>せます", "english": "to get slim, to lose weight" },
+      { "japanese": "～を　<ruby>過<rt>す</rt></ruby>ぎます", "english": "to pass, to go past" },
+      { "japanese": "～に　なれます", "english": "to get accustomed to" },
+      { "japanese": "かたい", "english": "hard, tough, solid" },
+      { "japanese": "やわらかい", "english": "soft, tender" },
+      { "japanese": "<ruby>電子<rt>でんし</rt></ruby>", "english": "electronic" },
+      { "japanese": "<ruby>携帯<rt>けいたい</rt></ruby>", "english": "portable" },
+      { "japanese": "<ruby>工場<rt>こうじょう</rt></ruby>", "english": "factory" },
+      { "japanese": "<ruby>健康<rt>けんこう</rt></ruby>", "english": "health" },
+      { "japanese": "<ruby>剣道<rt>けんどう</rt></ruby>", "english": "Kendo (Japanese style fencing)" },
+      { "japanese": "やっと", "english": "finally" },
+      { "japanese": "かなり", "english": "fairly" },
+      { "japanese": "かならず", "english": "without fail, by any means" },
+      { "japanese": "ぜったいに", "english": "absolutely (used with negatives)" },
+      { "japanese": "<ruby>上<rt>じょう</rt></ruby>ずに", "english": "well, skillfully" },
+      { "japanese": "できるだけ", "english": "as much as one can" },
+      { "japanese": "このごろ", "english": "these days" },
+      { "japanese": "ずつ", "english": "per" },
+      { "japanese": "そのほうが", "english": "That is more ~" },
+      { "japanese": "<ruby>お客<rt>きゃく</rt></ruby>さま", "english": "guest, customer" },
+      { "japanese": "<ruby>特別<rt>とくべつ</rt></ruby>", "english": "special (な)" },
+      { "japanese": "<ruby>水泳<rt>すいえい</rt></ruby>", "english": "swimming" },
+      { "japanese": "チャレンジします", "english": "to challenge, take on a challenge" },
+      { "japanese": "<ruby>乗物<rt>のりもの</rt></ruby>", "english": "vehicle" },
+      { "japanese": "<ruby>歴史<rt>れきし</rt></ruby>", "english": "history" },
+      { "japanese": "<ruby>大勢<rt>おおぜい</rt></ruby>の", "english": "many (people)" },
+      { "japanese": "<ruby>世紀<rt>せいき</rt></ruby>", "english": "-th century" },
+      { "japanese": "<ruby>遠<rt>とお</rt></ruby>く", "english": "far, remote place" },
+      { "japanese": "<ruby>運<rt>はこ</rt></ruby>びます", "english": "to carry, transport" },
+      { "japanese": "<ruby>飛<rt>と</rt></ruby>びます", "english": "to fly" },
+      { "japanese": "<ruby>汽車<rt>きしゃ</rt></ruby>", "english": "locomotive, (steam) train" },
+      { "japanese": "<ruby>汽船<rt>きせん</rt></ruby>", "english": "steam boat" },
+      { "japanese": "<ruby>安全<rt>あんぜん</rt></ruby>", "english": "safe (な)" },
+      { "japanese": "<ruby>宇宙<rt>うちゅう</rt></ruby>", "english": "universe, space" },
+      { "japanese": "<ruby>地球<rt>ちきゅう</rt></ruby>", "english": "earth" }
+    ],
+    "unit 12": [
+      { "japanese": "<ruby>褒<rt>ほ</rt></ruby>めます", "english": "to praise" },
+      { "japanese": "<ruby>叱<rt>しか</rt></ruby>ります", "english": "to scold" },
+      { "japanese": "<ruby>誘<rt>さそ</rt></ruby>います", "english": "to invite, ask someone to join" },
+      { "japanese": "<ruby>起<rt>お</rt></ruby>こします", "english": "to wake (someone) up" },
+      { "japanese": "<ruby>招待<rt>しょうたい</rt></ruby>します", "english": "to invite" },
+      { "japanese": "<ruby>頼<rt>たの</rt></ruby>みます", "english": "to ask, request" },
+      { "japanese": "<ruby>注意<rt>ちゅうい</rt></ruby>します", "english": "to warn, advise" },
+      { "japanese": "<ruby>取<rt>と</rt></ruby>ります", "english": "to rob, steal" },
+      { "japanese": "<ruby>踏<rt>ふ</rt></ruby>みます", "english": "to step on (someone's foot)" },
+      { "japanese": "<ruby>壊<rt>こわ</rt></ruby>します", "english": "to break, destroy" },
+      { "japanese": "<ruby>汚<rt>よご</rt></ruby>します", "english": "to make dirty" },
+      { "japanese": "<ruby>行<rt>おこな</rt></ruby>います", "english": "to hold, carry out, practice" },
+      { "japanese": "<ruby>輸出<rt>ゆしゅつ</rt></ruby>します", "english": "to export" },
+      { "japanese": "<ruby>輸入<rt>ゆにゅう</rt></ruby>します", "english": "to import" },
+      { "japanese": "<ruby>翻訳<rt>ほんやく</rt></ruby>します", "english": "to translate" },
+      { "japanese": "<ruby>発明<rt>はつめい</rt></ruby>します", "english": "to invent" },
+      { "japanese": "<ruby>発見<rt>はっけん</rt></ruby>します", "english": "to discover" },
+      { "japanese": "<ruby>設計<rt>せっけい</rt></ruby>します", "english": "to design, plan" },
+      { "japanese": "<ruby>米<rt>こめ</rt></ruby>", "english": "rice (dry)" },
+      { "japanese": "<ruby>麦<rt>むぎ</rt></ruby>", "english": "barley, wheat" },
+      { "japanese": "<ruby>石油<rt>せきゆ</rt></ruby>", "english": "(unrefined) oil" },
+      { "japanese": "<ruby>原料<rt>げんりょう</rt></ruby>", "english": "raw material" },
+      { "japanese": "デート", "english": "date" },
+      { "japanese": "どろぼう", "english": "thief, robber" },
+      { "japanese": "<ruby>警官<rt>けいかん</rt></ruby>", "english": "policeman" },
+      { "japanese": "<ruby>建築家<rt>けんちくか</rt></ruby>", "english": "architect" },
+      { "japanese": "<ruby>科学者<rt>かがくしゃ</rt></ruby>", "english": "scientist" },
+      { "japanese": "<ruby>漫画<rt>まんが</rt></ruby>", "english": "comic book" },
+      { "japanese": "<ruby>世界中<rt>せかいじゅう</rt></ruby>", "english": "all over the world" },
+      { "japanese": "<ruby>豪華<rt>ごうか</rt></ruby>", "english": "gorgeous, extravagance, splendor (な)" },
+      { "japanese": "<ruby>彫刻<rt>ちょうこく</rt></ruby>", "english": "engraving, carving, sculpture" },
+      { "japanese": "<ruby>眠<rt>ねむ</rt></ruby>ります", "english": "to sleep" },
+      { "japanese": "<ruby>彫<rt>ほ</rt></ruby>ります", "english": "to engrave, to carve" },
+      { "japanese": "<ruby>仲間<rt>なかま</rt></ruby>", "english": "colleague, friend" },
+      { "japanese": "そのあと", "english": "after that" },
+      { "japanese": "<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>", "english": "with all one's effort" },
+      { "japanese": "<ruby>鼠<rt>ねずみ</rt></ruby>", "english": "mouse" }
+    ],
+    "unit 13": [
+      { "japanese": "<ruby>育<rt>そだ</rt></ruby>てます", "english": "to breed; bring up" },
+      { "japanese": "<ruby>運<rt>はこ</rt></ruby>びます", "english": "to carry, transport" },
+      { "japanese": "<ruby>亡<rt>な</rt></ruby>くなります", "english": "to pass away, to die" },
+      { "japanese": "<ruby>死<rt>し</rt></ruby>にます", "english": "to die" },
+      { "japanese": "<ruby>入院<rt>にゅういん</rt></ruby>します", "english": "to enter hospital" },
+      { "japanese": "<ruby>退院<rt>たいいん</rt></ruby>します", "english": "to leave hospital" },
+      { "japanese": "<ruby>電源<rt>でんげん</rt></ruby>を<ruby>入<rt>い</rt></ruby>れます", "english": "to turn on the power switch" },
+      { "japanese": "<ruby>電源<rt>でんげん</rt></ruby>を<ruby>切<rt>き</rt></ruby>ります", "english": "to turn off the power switch" },
+      { "japanese": "<ruby>鍵<rt>かぎ</rt></ruby>をかけます", "english": "to lock" },
+      { "japanese": "<ruby>気持<rt>きも</rt></ruby>ちがいい", "english": "pleasant, agreeable" },
+      { "japanese": "<ruby>気持<rt>きも</rt></ruby>ち(が)<ruby>悪<rt>わる</rt></ruby>い", "english": "unpleasant, disgusting" },
+      { "japanese": "<ruby>大<rt>おお</rt></ruby>きな", "english": "large ~" },
+      { "japanese": "<ruby>小<rt>ちい</rt></ruby>さな", "english": "small ~" },
+      { "japanese": "<ruby>赤<rt>あか</rt></ruby>ちゃん", "english": "baby" },
+      { "japanese": "<ruby>小学校<rt>しょうがっこう</rt></ruby>", "english": "primary school" },
+      { "japanese": "<ruby>中学校<rt>ちゅうがっこう</rt></ruby>", "english": "junior high school" },
+      { "japanese": "<ruby>駅前<rt>えきまえ</rt></ruby>", "english": "area in front of a station" },
+      { "japanese": "<ruby>海岸<rt>かいがん</rt></ruby>", "english": "seaside, seashore" },
+      { "japanese": "<ruby>書類<rt>しょるい</rt></ruby>", "english": "documents, papers" },
+      { "japanese": "<ruby>電源<rt>でんげん</rt></ruby>", "english": "power switch" },
+      { "japanese": "~せい", "english": "made in ~" },
+      { "japanese": "<ruby>回覧<rt>かいらん</rt></ruby>", "english": "Circular (document), sending round" },
+      { "japanese": "<ruby>研究室<rt>けんきゅうしつ</rt></ruby>", "english": "study room, professor's office, laboratory" },
+      { "japanese": "<ruby>整理<rt>せいり</rt></ruby>します", "english": "to put things in order, tidy up" },
+      { "japanese": "<ruby>判子<rt>はんこ</rt></ruby>", "english": "seal (used for signature)" },
+      { "japanese": "<ruby>双子<rt>ふたご</rt></ruby>", "english": "twins" },
+      { "japanese": "<ruby>姉妹<rt>しまい</rt></ruby>", "english": "sisters" },
+      { "japanese": "<ruby>性格<rt>せいかく</rt></ruby>", "english": "one's personality, character" },
+      { "japanese": "<ruby>点<rt>てん</rt></ruby>", "english": "point, score" }
+    ],
+    "unit 14": [
+      { "japanese": "～に　<ruby>答<rt>こた</rt></ruby>えます", "english": "to answer (eg. a question)" },
+      { "japanese": "<ruby>安心<rt>あんしん</rt></ruby>します", "english": "to be relieved" },
+      { "japanese": "<ruby>遅刻<rt>ちこく</rt></ruby>します", "english": "to be late, come late" },
+      { "japanese": "<ruby>早退<rt>そうたい</rt></ruby>します", "english": "to leave (work or school) earlier than usual" },
+      { "japanese": "<ruby>離婚<rt>りこん</rt></ruby>します", "english": "to divorce" },
+      { "japanese": "<ruby>複雑<rt>ふくざつ</rt></ruby>", "english": "complex (な)" },
+      { "japanese": "じゃま", "english": "obstructive, in the way (な)" },
+      { "japanese": "きたない", "english": "dirty" },
+      { "japanese": "うれしい", "english": "glad, happy" },
+      { "japanese": "かなしい", "english": "sad" },
+      { "japanese": "はずかしい", "english": "embarrassed" },
+      { "japanese": "<ruby>地震<rt>じしん</rt></ruby>", "english": "earthquake" },
+      { "japanese": "<ruby>台風<rt>たいふう</rt></ruby>", "english": "typhoon" },
+      { "japanese": "<ruby>火事<rt>かじ</rt></ruby>", "english": "(destructive) fire" },
+      { "japanese": "<ruby>事故<rt>じこ</rt></ruby>", "english": "accident" },
+      { "japanese": "<ruby>お見合<rt>みあ</rt></ruby>い", "english": "interview with a view to marriage" },
+      { "japanese": "<ruby>電話代<rt>でんわだい</rt></ruby>", "english": "telephone charge" },
+      { "japanese": "だい", "english": "charge, fair, fee" },
+      { "japanese": "<ruby>号室<rt>ごうしつ</rt></ruby>", "english": "room number" },
+      { "japanese": "<ruby>汗<rt>あせ</rt></ruby>", "english": "sweat" },
+      { "japanese": "<ruby>汗<rt>あせ</rt></ruby>をかきます", "english": "to sweat" },
+      { "japanese": "<ruby>石鹸<rt>せっけん</rt></ruby>", "english": "soap" },
+      { "japanese": "<ruby>大勢<rt>おおぜい</rt></ruby>", "english": "a great number of people" },
+      { "japanese": "<ruby>お疲<rt>つか</rt></ruby>れさまでした", "english": "Thank you for your hard work. (used towards a subordinate)" },
+      { "japanese": "<ruby>伺<rt>うかが</rt></ruby>います", "english": "I'm coming (humble way of saying いきます)" },
+      { "japanese": "とちゅうで", "english": "on the way, in the midst of" },
+      { "japanese": "<ruby>並<rt>なら</rt></ruby>びます", "english": "to stand in a queue, line up" },
+      { "japanese": "<ruby>大人<rt>おとな</rt></ruby>", "english": "adult" },
+      { "japanese": "<ruby>洋服<rt>ようふく</rt></ruby>", "english": "Western clothes" },
+      { "japanese": "<ruby>西洋化<rt>せいようか</rt></ruby>します", "english": "to be Westernized" },
+      { "japanese": "<ruby>合<rt>あ</rt></ruby>います", "english": "to fit, suit" },
+      { "japanese": "<ruby>成人式<rt>せいじんしき</rt></ruby>", "english": "coming-of-age celebration" },
+      { "japanese": "<ruby>北西<rt>ほくせい</rt></ruby>", "english": "north west" },
+      { "japanese": "<ruby>北東<rt>ほくとう</rt></ruby>", "english": "north east" },
+      { "japanese": "<ruby>笑<rt>わら</rt></ruby>います", "english": "to laugh, smile" },
+      { "japanese": "こまります", "english": "to be in trouble, to have a problem" },
+      { "japanese": "はずかしい", "english": "embarrassed" },
+      { "japanese": "うらやましい", "english": "envious" },
+      { "japanese": "なつかしい", "english": "dear (old things), fondly-remembered" }
+    ],
+    "unit 15": [
+      { "japanese": "<ruby>数<rt>かぞ</rt></ruby>えます", "english": "to count" },
+      { "japanese": "<ruby>測<rt>はか</rt></ruby>ります", "english": "to measure, weigh" },
+      { "japanese": "<ruby>確<rt>たし</rt></ruby>かめます", "english": "to confirm, make sure" },
+      { "japanese": "サイズが<ruby>合<rt>あ</rt></ruby>います", "english": "the size fits" },
+      { "japanese": "<ruby>出発<rt>しゅっぱつ</rt></ruby>します", "english": "to depart" },
+      { "japanese": "<ruby>到着<rt>とうちゃく</rt></ruby>します", "english": "to arrive" },
+      { "japanese": "よいます", "english": "to get drunk" },
+      { "japanese": "<ruby>危険<rt>きけん</rt></ruby>", "english": "danger (な)" },
+      { "japanese": "<ruby>必要<rt>ひつよう</rt></ruby>", "english": "necessary, essential (な)" },
+      { "japanese": "<ruby>宇宙<rt>うちゅう</rt></ruby>", "english": "universe, space" },
+      { "japanese": "<ruby>地球<rt>ちきゅう</rt></ruby>", "english": "earth" },
+      { "japanese": "<ruby>忘年会<rt>ぼうねんかい</rt></ruby>", "english": "year-end party" },
+      { "japanese": "<ruby>新年会<rt>しんねんかい</rt></ruby>", "english": "New Year's party" },
+      { "japanese": "<ruby>二次会<rt>にじかい</rt></ruby>", "english": "afterparty" },
+      { "japanese": "<ruby>大会<rt>たいかい</rt></ruby>", "english": "mass meeting, convention" },
+      { "japanese": "<ruby>表<rt>おもて</rt></ruby>", "english": "surface (i.e. the visible side of an object), face, front" },
+      { "japanese": "<ruby>裏<rt>うら</rt></ruby>", "english": "back (side)" },
+      { "japanese": "<ruby>返事<rt>へんじ</rt></ruby>", "english": "reply" },
+      { "japanese": "<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>み", "english": "application" },
+      { "japanese": "<ruby>本当<rt>ほんとう</rt></ruby>", "english": "truth" },
+      { "japanese": "<ruby>間違<rt>まちが</rt></ruby>い", "english": "mistake" },
+      { "japanese": "<ruby>傷<rt>きず</rt></ruby>", "english": "wound" },
+      { "japanese": "<ruby>長<rt>なが</rt></ruby>さ", "english": "length" },
+      { "japanese": "<ruby>重<rt>おも</rt></ruby>さ", "english": "weight" },
+      { "japanese": "<ruby>高<rt>たか</rt></ruby>さ", "english": "height" },
+      { "japanese": "<ruby>大<rt>おお</rt></ruby>きさ", "english": "size, scale" },
+      { "japanese": "びん", "english": "flight, flight number" },
+      { "japanese": "ごう", "english": "train number, typhoon number" },
+      { "japanese": "グラム", "english": "grams" },
+      { "japanese": "<ruby>以上<rt>いじょう</rt></ruby>", "english": "not less than ~, over ~" },
+      { "japanese": "<ruby>以下<rt>いか</rt></ruby>", "english": "not more than ~, under ~" },
+      { "japanese": "<ruby>成績<rt>せいせき</rt></ruby>", "english": "performance, score, result" },
+      { "japanese": "ところで", "english": "by the way" },
+      { "japanese": "<ruby>様子<rt>ようす</rt></ruby>", "english": "situation, condition, appearance" },
+      { "japanese": "<ruby>事件<rt>じけん</rt></ruby>", "english": "incident, case" },
+      { "japanese": "<ruby>爆弾<rt>ばくだん</rt></ruby>", "english": "bomb" },
+      { "japanese": "<ruby>積<rt>つ</rt></ruby>みます", "english": "to load, pile up" },
+      { "japanese": "<ruby>運転手<rt>うんてんしゅ</rt></ruby>", "english": "driver" },
+      { "japanese": "<ruby>離<rt>はな</rt></ruby>れた", "english": "remote" },
+      { "japanese": "<ruby>急<rt>きゅう</rt></ruby>に", "english": "suddenly" },
+      { "japanese": "<ruby>動<rt>うご</rt></ruby>かします", "english": "to start, operate, move" },
+      { "japanese": "<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>", "english": "with all one's effort" },
+      { "japanese": "<ruby>犯人<rt>はんにん</rt></ruby>", "english": "suspect, criminal" },
+      { "japanese": "<ruby>手<rt>て</rt></ruby>に<ruby>入<rt>い</rt></ruby>れます", "english": "to obtain, get" },
+      { "japanese": "いまでも", "english": "even now" }
+    ],
+    "unit 16": [
+      { "japanese": "<ruby>取<rt>と</rt></ruby>り<ruby>替<rt>か</rt></ruby>えます", "english": "to exchange" },
+      { "japanese": "<ruby>親切<rt>しんせつ</rt></ruby>にします", "english": "to be kind to" },
+      { "japanese": "かわいい", "english": "cute" },
+      { "japanese": "<ruby>お祝<rt>いわ</rt></ruby>い", "english": "celebration, gift" },
+      { "japanese": "<ruby>お祝<rt>いわ</rt></ruby>いをします", "english": "to celebrate" },
+      { "japanese": "<ruby>お年玉<rt>としだま</rt></ruby>", "english": "New Year's gift (usu. money given to a child by relatives and visitors)" },
+      { "japanese": "<ruby>お見舞<rt>みま</rt></ruby>い", "english": "visiting ill or distressed people" },
+      { "japanese": "<ruby>興味<rt>きょうみ</rt></ruby>", "english": "interest (in something)" },
+      { "japanese": "<ruby>興味<rt>きょうみ</rt></ruby>があります", "english": "to be interested (in something)" },
+      { "japanese": "<ruby>情報<rt>じょうほう</rt></ruby>", "english": "information" },
+      { "japanese": "<ruby>文法<rt>ぶんぽう</rt></ruby>", "english": "grammar" },
+      { "japanese": "<ruby>発音<rt>はつおん</rt></ruby>", "english": "pronunciation" },
+      { "japanese": "さる", "english": "monkey (esp. the Japanese macaque, Macaca fuscata)" },
+      { "japanese": "えさ", "english": "feed, bait" },
+      { "japanese": "<ruby>連<rt>つ</rt></ruby>れて<ruby>行<rt>い</rt></ruby>きます", "english": "to take someone (of lower status) along" },
+      { "japanese": "<ruby>送<rt>おく</rt></ruby>ります", "english": "to take or escort (a person somewhere); to see off (a person)" },
+      { "japanese": "<ruby>直<rt>なお</rt></ruby>します", "english": "to fix, to correct, to repair" },
+      { "japanese": "おもちゃ", "english": "toy" },
+      { "japanese": "<ruby>絵本<rt>えほん</rt></ruby>", "english": "picture book" },
+      { "japanese": "<ruby>絵葉書<rt>えはがき</rt></ruby>", "english": "picture postcard" },
+      { "japanese": "<ruby>靴下<rt>くつした</rt></ruby>", "english": "socks" },
+      { "japanese": "<ruby>手袋<rt>てぶくろ</rt></ruby>", "english": "gloves (bag for hands)" },
+      { "japanese": "<ruby>指輪<rt>ゆびわ</rt></ruby>", "english": "(finger) ring" },
+      { "japanese": "<ruby>祖父<rt>そふ</rt></ruby>", "english": "(my) grandfather" },
+      { "japanese": "<ruby>祖母<rt>そぼ</rt></ruby>", "english": "(my) grandmother" },
+      { "japanese": "まご", "english": "grandchild" },
+      { "japanese": "<ruby>叔父<rt>おじ</rt></ruby>さん", "english": "(someone else's) uncle" },
+      { "japanese": "<ruby>叔母<rt>おば</rt></ruby>", "english": "(my) aunt" },
+      { "japanese": "<ruby>叔母<rt>おば</rt></ruby>さん", "english": "(someone else's) aunt" },
+      { "japanese": "おととし", "english": "year before last" },
+      { "japanese": "<ruby>昔話<rt>むかしばなし</rt></ruby>", "english": "old tale, folklore" },
+      { "japanese": "<ruby>申<rt>もう</rt></ruby>し<ruby>訳<rt>わけ</rt></ruby>ありません", "english": "I'm sorry / Excuse me" },
+      { "japanese": "<ruby>預<rt>あず</rt></ruby>かります", "english": "to keep, receive (a thing) in trust" },
+      { "japanese": "<ruby>先日<rt>せんじつ</rt></ruby>", "english": "the other day" },
+      { "japanese": "<ruby>助<rt>たす</rt></ruby>かります", "english": "to be of help" },
+      { "japanese": "<ruby>助<rt>たす</rt></ruby>けます", "english": "to help, save" },
+      { "japanese": "<ruby>お城<rt>しろ</rt></ruby>", "english": "castle" },
+      { "japanese": "<ruby>お姫様<rt>ひめさま</rt></ruby>", "english": "princess" },
+      { "japanese": "<ruby>楽<rt>たの</rt></ruby>しく", "english": "happily, merrily" },
+      { "japanese": "<ruby>暮<rt>く</rt></ruby>らします", "english": "to live, lead a life" },
+      { "japanese": "<ruby>陸<rt>りく</rt></ruby>", "english": "land, shore" },
+      { "japanese": "<ruby>煙<rt>けむり</rt></ruby>", "english": "smoke" },
+      { "japanese": "<ruby>真<rt>ま</rt></ruby>っ<ruby>白<rt>しろ</rt></ruby>", "english": "pure white (な)" },
+      { "japanese": "<ruby>中身<rt>なかみ</rt></ruby>", "english": "content" }
+    ],
+    "unit 17": [
+      { "japanese": "<ruby>包<rt>つつ</rt></ruby>みます", "english": "to wrap" },
+      { "japanese": "<ruby>沸<rt>わ</rt></ruby>かします", "english": "to boil" },
+      { "japanese": "<ruby>混<rt>ま</rt></ruby>ぜます", "english": "to mix" },
+      { "japanese": "<ruby>計算<rt>けいさん</rt></ruby>します", "english": "to calculate" },
+      { "japanese": "<ruby>厚<rt>あつ</rt></ruby>い", "english": "thick" },
+      { "japanese": "<ruby>薄<rt>うす</rt></ruby>い", "english": "weak (taste), light (colour)" },
+      { "japanese": "<ruby>弁護士<rt>べんごし</rt></ruby>", "english": "lawyer" },
+      { "japanese": "<ruby>音楽家<rt>おんがくか</rt></ruby>", "english": "musician" },
+      { "japanese": "<ruby>子供<rt>こども</rt></ruby>たち", "english": "children" },
+      { "japanese": "<ruby>二人<rt>ふたり</rt></ruby>", "english": "couple" },
+      { "japanese": "<ruby>教育<rt>きょういく</rt></ruby>", "english": "education" },
+      { "japanese": "<ruby>歴史<rt>れきし</rt></ruby>", "english": "history" },
+      { "japanese": "<ruby>文化<rt>ぶんか</rt></ruby>", "english": "culture" },
+      { "japanese": "<ruby>社会<rt>しゃかい</rt></ruby>", "english": "society" },
+      { "japanese": "<ruby>法律<rt>ほうりつ</rt></ruby>", "english": "law" },
+      { "japanese": "<ruby>戦争<rt>せんそう</rt></ruby>", "english": "war" },
+      { "japanese": "<ruby>平和<rt>へいわ</rt></ruby>", "english": "peace" },
+      { "japanese": "<ruby>目的<rt>もくてき</rt></ruby>", "english": "purpose" },
+      { "japanese": "<ruby>安全<rt>あんぜん</rt></ruby>", "english": "safe (な)" },
+      { "japanese": "<ruby>論文<rt>ろんぶん</rt></ruby>", "english": "thesis, academic paper" },
+      { "japanese": "<ruby>関係<rt>かんけい</rt></ruby>", "english": "relation, connection" },
+      { "japanese": "<ruby>書類<rt>しょるい</rt></ruby>", "english": "documents, papers" },
+      { "japanese": "<ruby>整理<rt>せいり</rt></ruby>", "english": "sorting, arrangement, adjustment, regulation" },
+      { "japanese": "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>し", "english": "moving (dwelling, office, etc.)" },
+      { "japanese": "<ruby>調<rt>しら</rt></ruby>べます", "english": "to examine, check, investigate, search" },
+      { "japanese": "<ruby>薬缶<rt>やかん</rt></ruby>", "english": "kettle" },
+      { "japanese": "<ruby>栓抜<rt>せんぬ</rt></ruby>き", "english": "bottle opener; corkscrew" },
+      { "japanese": "<ruby>缶切<rt>かんき</rt></ruby>り", "english": "can opener" },
+      { "japanese": "<ruby>缶詰<rt>かんづめ</rt></ruby>", "english": "canned food, tinned food" },
+      { "japanese": "<ruby>風呂敷<rt>ふろしき</rt></ruby>", "english": "wrapping cloth used to carry things" },
+      { "japanese": "そろばん", "english": "abacus" },
+      { "japanese": "<ruby>体温計<rt>たいおんけい</rt></ruby>", "english": "medical thermometer" },
+      { "japanese": "<ruby>材料<rt>ざいりょう</rt></ruby>", "english": "material, ingredient" },
+      { "japanese": "<ruby>石<rt>いし</rt></ruby>", "english": "stone" },
+      { "japanese": "<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>", "english": "with all one's effort" },
+      { "japanese": "なぜ", "english": "why" },
+      { "japanese": "こくれん", "english": "united Nations" },
+      { "japanese": "あと～", "english": "~ left (the amount left used, the rest)" },
+      { "japanese": "<ruby>鍋<rt>なべ</rt></ruby>", "english": "saucepan" },
+      { "japanese": "<ruby>丼<rt>どんぶり</rt></ruby>", "english": "ceramic bowl" },
+      { "japanese": "<ruby>食品<rt>しょくひん</rt></ruby>", "english": "food, commodity, foodstuff" },
+      { "japanese": "<ruby>調査<rt>ちょうさ</rt></ruby>", "english": "investigation, survey" },
+      { "japanese": "のかわりに", "english": "in place of, instead of" },
+      { "japanese": "どこででも", "english": "in any place" },
+      { "japanese": "いまでは", "english": "now, nowadays" }
+    ],
+    "unit 18": [
+      { "japanese": "<ruby>増<rt>ふ</rt></ruby>えます", "english": "[exports] to increase" },
+      { "japanese": "<ruby>輸出<rt>ゆしゅつ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えます", "english": "exports to increase" },
+      { "japanese": "<ruby>減<rt>へ</rt></ruby>ります", "english": "[imports] to decrease" },
+      { "japanese": "<ruby>輸入<rt>ゆにゅう</rt></ruby>が<ruby>減<rt>へ</rt></ruby>ります", "english": "imports to decrease" },
+      { "japanese": "<ruby>上<rt>あ</rt></ruby>がります", "english": "[price] to rise" },
+      { "japanese": "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がります", "english": "the price to rise" },
+      { "japanese": "<ruby>下<rt>さ</rt></ruby>がります", "english": "[price] to fall" },
+      { "japanese": "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がります", "english": "the price to fall" },
+      { "japanese": "<ruby>切<rt>き</rt></ruby>れます", "english": "[a string] to break, snap" },
+      { "japanese": "<ruby>紐<rt>ひも</rt></ruby>が<ruby>切<rt>き</rt></ruby>れます", "english": "a string to break, snap" },
+      { "japanese": "<ruby>落<rt>お</rt></ruby>ちます", "english": "[baggage] to fall down" },
+      { "japanese": "<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちます", "english": "baggage to fall down" },
+      { "japanese": "<ruby>無<rt>な</rt></ruby>くなります", "english": "[petrol] to run out, be lost" },
+      { "japanese": "じょうぶ", "english": "strong, healthy (な)" },
+      { "japanese": "へん", "english": "strange, peculiar (な)" },
+      { "japanese": "しあわせ", "english": "happy (な)" },
+      { "japanese": "まずい", "english": "unappetising" },
+      { "japanese": "つまらない", "english": "boring" },
+      { "japanese": "<ruby>火<rt>ひ</rt></ruby>", "english": "fire" },
+      { "japanese": "<ruby>暖房<rt>だんぼう</rt></ruby>", "english": "heating" },
+      { "japanese": "<ruby>冷房<rt>れいぼう</rt></ruby>", "english": "cooling (air-conditioning)" },
+      { "japanese": "いまにも", "english": "at any moment (used to describe a situation just before it changes)" },
+      { "japanese": "<ruby>会員<rt>かいいん</rt></ruby>", "english": "member" },
+      { "japanese": "<ruby>適当<rt>てきとう</rt></ruby>", "english": "suitable, proper (な)" },
+      { "japanese": "<ruby>年齢<rt>ねんれい</rt></ruby>", "english": "age (of a person)" },
+      { "japanese": "<ruby>収入<rt>しゅうにゅう</rt></ruby>", "english": "income" },
+      { "japanese": "そのうえ", "english": "in addition to that, moreover" },
+      { "japanese": "ばら", "english": "rose" },
+      { "japanese": "なきます", "english": "to cry" },
+      { "japanese": "<ruby>笑<rt>わら</rt></ruby>います", "english": "to laugh, smile" },
+      { "japanese": "<ruby>乾<rt>かわ</rt></ruby>きます", "english": "to dry" },
+      { "japanese": "<ruby>滑<rt>すべ</rt></ruby>ります", "english": "to slip" },
+      { "japanese": "<ruby>起<rt>お</rt></ruby>きます", "english": "[accident] to happen" },
+      { "japanese": "<ruby>事故<rt>じこ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きます", "english": "an accident to happen" },
+      { "japanese": "<ruby>調節<rt>ちょうせつ</rt></ruby>します", "english": "to adjust" },
+      { "japanese": "<ruby>安全<rt>あんぜん</rt></ruby>", "english": "safe (な)" },
+      { "japanese": "<ruby>丁寧<rt>ていねい</rt></ruby>", "english": "polite, courteous, careful (な)" },
+      { "japanese": "<ruby>細<rt>こま</rt></ruby>かい", "english": "small, fine" },
+      { "japanese": "<ruby>濃<rt>こ</rt></ruby>い", "english": "strong (taste), dark (colour)" },
+      { "japanese": "<ruby>薄<rt>うす</rt></ruby>い", "english": "weak (taste), light (colour)" },
+      { "japanese": "<ruby>空気<rt>くうき</rt></ruby>", "english": "air" },
+      { "japanese": "<ruby>涙<rt>なみだ</rt></ruby>", "english": "tear" },
+      { "japanese": "<ruby>和食<rt>わしょく</rt></ruby>", "english": "Japanese dish" },
+      { "japanese": "<ruby>洋食<rt>ようしょく</rt></ruby>", "english": "Western dish" },
+      { "japanese": "さいきん", "english": "most recent, these days, right now, recently, nowadays" }
+    ],
+    "unit 19": [
+      { "japanese": "なきます", "english": "to cry" },
+      { "japanese": "<ruby>笑<rt>わら</rt></ruby>います", "english": "to laugh, smile" },
+      { "japanese": "<ruby>乾<rt>かわ</rt></ruby>きます", "english": "to dry" },
+      { "japanese": "<ruby>滑<rt>すべ</rt></ruby>ります", "english": "to slip" },
+      { "japanese": "<ruby>起<rt>お</rt></ruby>きます", "english": "[accident] to happen" },
+      { "japanese": "<ruby>事故<rt>じこ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きます", "english": "an accident to happen" },
+      { "japanese": "<ruby>調節<rt>ちょうせつ</rt></ruby>します", "english": "to adjust" },
+      { "japanese": "<ruby>安全<rt>あんぜん</rt></ruby>", "english": "safe (な)" },
+      { "japanese": "<ruby>丁寧<rt>ていねい</rt></ruby>", "english": "polite, courteous, careful (な)" },
+      { "japanese": "<ruby>細<rt>こま</rt></ruby>かい", "english": "small, fine" },
+      { "japanese": "<ruby>濃<rt>こ</rt></ruby>い", "english": "strong (taste), dark (colour)" },
+      { "japanese": "<ruby>薄<rt>うす</rt></ruby>い", "english": "weak (taste), light (colour)" },
+      { "japanese": "<ruby>空気<rt>くうき</rt></ruby>", "english": "air" },
+      { "japanese": "<ruby>涙<rt>なみだ</rt></ruby>", "english": "tear" },
+      { "japanese": "<ruby>和食<rt>わしょく</rt></ruby>", "english": "Japanese dish" },
+      { "japanese": "<ruby>洋食<rt>ようしょく</rt></ruby>", "english": "Western dish" },
+      { "japanese": "さいきん", "english": "most recent, these days, right now, recently, nowadays" },
+      { "japanese": "<ruby>量<rt>りょう</rt></ruby>", "english": "quantity" },
+      { "japanese": "ばい", "english": "double, ～times (as much)" },
+      { "japanese": "<ruby>半分<rt>はんぶん</rt></ruby>", "english": "half" },
+      { "japanese": "たんす", "english": "chest of drawers" },
+      { "japanese": "<ruby>洗濯物<rt>せんたくもの</rt></ruby>", "english": "washing, laundry" },
+      { "japanese": "<ruby>理由<rt>りゆう</rt></ruby>", "english": "reason" },
+      { "japanese": "<ruby>嫌<rt>いや</rt></ruby>がります", "english": "to dislike" },
+      { "japanese": "<ruby>順序<rt>じゅんじょ</rt></ruby>", "english": "order, sequence" },
+      { "japanese": "<ruby>表現<rt>ひょうげん</rt></ruby>", "english": "expression" },
+      { "japanese": "<ruby>別<rt>わか</rt></ruby>れます", "english": "to part, separate" },
+      { "japanese": "これら", "english": "these things" }
+    ],
+    "unit 20": [
+      { "japanese": "<ruby>謝<rt>あやま</rt></ruby>ります", "english": "to apologise" },
+      { "japanese": "<ruby>事故<rt>じこ</rt></ruby>に<ruby>遭<rt>あ</rt></ruby>います", "english": "to encounter an accident" },
+      { "japanese": "<ruby>信<rt>しん</rt></ruby>じます", "english": "to believe, trust" },
+      { "japanese": "<ruby>用意<rt>ようい</rt></ruby>します", "english": "to prepare" },
+      { "japanese": "<ruby>保証書<rt>ほしょうしょ</rt></ruby>", "english": "guarantee" },
+      { "japanese": "<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>", "english": "(formal) receipt" },
+      { "japanese": "<ruby>贈<rt>おく</rt></ruby>り<ruby>物<rt>もの</rt></ruby>", "english": "gift, present" },
+      { "japanese": "かかり", "english": "person in charge" },
+      { "japanese": "<ruby>中止<rt>ちゅうし</rt></ruby>", "english": "calling off, cancelling, suspension" },
+      { "japanese": "<ruby>円札<rt>えんさつ</rt></ruby>", "english": "yen note, bill" },
+      { "japanese": "<ruby>会場<rt>かいじょう</rt></ruby>", "english": "meeting place, hall" },
+      { "japanese": "<ruby>急<rt>きゅう</rt></ruby>に", "english": "suddenly" },
+      { "japanese": "<ruby>楽<rt>たの</rt></ruby>しみにしています", "english": "to be looking forward to, be expecting" },
+      { "japanese": "<ruby>以上<rt>いじょう</rt></ruby>です", "english": "That's all" },
+      { "japanese": "<ruby>係員<rt>かかりいん</rt></ruby>", "english": "person in charge, attendant" },
+      { "japanese": "い", "english": "-th (ranking)" },
+      { "japanese": "<ruby>優勝<rt>ゆうしょう</rt></ruby>します", "english": "to win the championship" },
+      { "japanese": "なやみ", "english": "trouble, worry" },
+      { "japanese": "<ruby>目覚<rt>めざ</rt></ruby>まし<ruby>時計<rt>どけい</rt></ruby>", "english": "alarm-clock" },
+      { "japanese": "<ruby>眠<rt>ねむ</rt></ruby>ります", "english": "to sleep" },
+      { "japanese": "<ruby>目<rt>め</rt></ruby>が<ruby>覚<rt>さ</rt></ruby>めます", "english": "to wake up" },
+      { "japanese": "<ruby>大学生<rt>だいがくせい</rt></ruby>", "english": "university student" },
+      { "japanese": "<ruby>回答<rt>かいとう</rt></ruby>", "english": "answer, reply" },
+      { "japanese": "なります", "english": "to ring" }
+    ],
+    "unit 21": [
+      { "japanese": "<ruby>焼<rt>や</rt></ruby>きます", "english": "to bake, grill, roast" },
+      { "japanese": "<ruby>渡<rt>わた</rt></ruby>します", "english": "to hand over" },
+      { "japanese": "<ruby>帰<rt>かえ</rt></ruby>ってきます", "english": "to come back" },
+      { "japanese": "バスがでます", "english": "a bus to leave, depart" },
+      { "japanese": "るす", "english": "absence" },
+      { "japanese": "<ruby>宅配便<rt>たくはいびん</rt></ruby>", "english": "delivery service" },
+      { "japanese": "<ruby>原因<rt>げんいん</rt></ruby>", "english": "cause" },
+      { "japanese": "<ruby>注射<rt>ちゅうしゃ</rt></ruby>", "english": "injection" },
+      { "japanese": "<ruby>食欲<rt>しょくよく</rt></ruby>", "english": "appetite (for food)" },
+      { "japanese": "のところ", "english": "the place around ~" },
+      { "japanese": "ちょうど", "english": "just, exactly" },
+      { "japanese": "たったいま", "english": "just now (used with the past tense; indicates completion)" },
+      { "japanese": "ぐあい", "english": "condition (i.e. shape or health)" },
+      { "japanese": "どちらさまでしょうか", "english": "Who is this, please?" },
+      { "japanese": "<ruby>向<rt>む</rt></ruby>かいます", "english": "to head for" },
+      { "japanese": "<ruby>お待<rt>ま</rt></ruby>たせしました", "english": "Sorry to have kept you waiting" },
+      { "japanese": "<ruby>知識<rt>ちしき</rt></ruby>", "english": "knowledge" },
+      { "japanese": "<ruby>宝庫<rt>ほうこ</rt></ruby>", "english": "treasury" },
+      { "japanese": "<ruby>手<rt>て</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります", "english": "[information] to come in, reach" },
+      { "japanese": "<ruby>一部分<rt>いちぶぶん</rt></ruby>", "english": "one part" },
+      { "japanese": "<ruby>入力<rt>にゅうりょく</rt></ruby>します", "english": "to input" },
+      { "japanese": "びょう", "english": "second (60th of a min)" }
+    ],
+    "unit 22": [
+      { "japanese": "<ruby>長生<rt>ながいき</rt></ruby>きます", "english": "to live long" },
+      { "japanese": "<ruby>音<rt>おと</rt></ruby>がします", "english": "sound to be heard" },
+      { "japanese": "<ruby>声<rt>こえ</rt></ruby>がします", "english": "voice to be heard" },
+      { "japanese": "<ruby>味<rt>あじ</rt></ruby>がします", "english": "to taste" },
+      { "japanese": "<ruby>匂<rt>にお</rt></ruby>いがします", "english": "to smell" },
+      { "japanese": "<ruby>傘<rt>かさ</rt></ruby>をさします", "english": "to put up an umbrella" },
+      { "japanese": "ひどい", "english": "terrible, severe" },
+      { "japanese": "こわい", "english": "frightening, horrible" },
+      { "japanese": "<ruby>天気予報<rt>てんきよほう</rt></ruby>", "english": "weather forecast" },
+      { "japanese": "<ruby>発表<rt>はっぴょう</rt></ruby>", "english": "announcement; presentation" },
+      { "japanese": "<ruby>実験<rt>じっけん</rt></ruby>", "english": "experiment" },
+      { "japanese": "<ruby>人口<rt>じんこう</rt></ruby>", "english": "population" },
+      { "japanese": "<ruby>匂<rt>にお</rt></ruby>い", "english": "smell, scent" },
+      { "japanese": "<ruby>科学<rt>かがく</rt></ruby>", "english": "science" },
+      { "japanese": "<ruby>医学<rt>いがく</rt></ruby>", "english": "medicine, medical science" },
+      { "japanese": "<ruby>文学<rt>ぶんがく</rt></ruby>", "english": "literature" },
+      { "japanese": "<ruby>救急車<rt>きゅうきゅうしゃ</rt></ruby>", "english": "ambulance" },
+      { "japanese": "<ruby>賛成<rt>さんせい</rt></ruby>", "english": "approval, agreement" },
+      { "japanese": "<ruby>反対<rt>はんたい</rt></ruby>", "english": "objection, opposition" },
+      { "japanese": "<ruby>男性<rt>だんせい</rt></ruby>", "english": "male, man" },
+      { "japanese": "<ruby>女性<rt>じょせい</rt></ruby>", "english": "female, woman" },
+      { "japanese": "<ruby>婚約<rt>こんやく</rt></ruby>します", "english": "to get engaged" },
+      { "japanese": "<ruby>相手<rt>あいて</rt></ruby>", "english": "the other person, partner" },
+      { "japanese": "<ruby>知<rt>し</rt></ruby>り<ruby>合<rt>あ</rt></ruby>います", "english": "to get acquainted" },
+      { "japanese": "<ruby>平均寿命<rt>へいきんじゅみょう</rt></ruby>", "english": "average life span" },
+      { "japanese": "<ruby>比<rt>くら</rt></ruby>べます", "english": "to compare" },
+      { "japanese": "<ruby>博士<rt>はかせ</rt></ruby>", "english": "doctor" },
+      { "japanese": "<ruby>脳<rt>のう</rt></ruby>", "english": "brain" },
+      { "japanese": "<ruby>化粧品<rt>けしょうひん</rt></ruby>", "english": "cosmetics" },
+      { "japanese": "<ruby>調<rt>しら</rt></ruby>べ", "english": "survey, research" },
+      { "japanese": "<ruby>化粧<rt>けしょう</rt></ruby>", "english": "make-up (cosmetic)" },
+      { "japanese": "<ruby>化粧<rt>けしょう</rt></ruby>します", "english": "to put on makeup" }
+    ],
+    "unit 23": [
+      { "japanese": "<ruby>下<rt>お</rt></ruby>ろします", "english": "to put down, to lower" },
+      { "japanese": "<ruby>届<rt>とど</rt></ruby>けます", "english": "to deliver, report" },
+      { "japanese": "～の　<ruby>世話<rt>せわ</rt></ruby>をします", "english": "to take care of ~" },
+      { "japanese": "いや", "english": "unwilling, reluctant (な)" },
+      { "japanese": "きびしい", "english": "strict, hard" },
+      { "japanese": "じゅく", "english": "coaching school, cram school" },
+      { "japanese": "<ruby>生徒<rt>せいと</rt></ruby>", "english": "pupil" },
+      { "japanese": "もの", "english": "person (referring to one's relatives or subordinates)" },
+      { "japanese": "<ruby>入管<rt>にゅうかん</rt></ruby>", "english": "Immigration Bureau" },
+      { "japanese": "<ruby>再入国<rt>さいにゅうこく</rt></ruby>ビザ", "english": "re-entry visa" },
+      { "japanese": "<ruby>自由<rt>じゆう</rt></ruby>に", "english": "freely" },
+      { "japanese": "かん", "english": "for ~ (referring to duration)" },
+      { "japanese": "<ruby>迎<rt>むか</rt></ruby>え", "english": "meeting, greeting, welcome" },
+      { "japanese": "<ruby>お忙<rt>いそが</rt></ruby>しいですか", "english": "Are you busy? (used when talking to someone senior or older)" },
+      { "japanese": "<ruby>久<rt>ひさ</rt></ruby>しぶり", "english": "a long time (since the last time)" },
+      { "japanese": "<ruby>営業<rt>えいぎょう</rt></ruby>", "english": "business, sales" },
+      { "japanese": "<ruby>楽<rt>たの</rt></ruby>しみます", "english": "to enjoy oneself" },
+      { "japanese": "もともと", "english": "originally" },
+      { "japanese": "<ruby>世紀<rt>せいき</rt></ruby>", "english": "-th century" },
+      { "japanese": "<ruby>代<rt>か</rt></ruby>わりをします", "english": "to be a substitute, be a replacement" },
+      { "japanese": "<ruby>競争<rt>きょうそう</rt></ruby>します", "english": "to race" },
+      { "japanese": "げい", "english": "performance, trick" },
+      { "japanese": "<ruby>美<rt>うつく</rt></ruby>しい", "english": "beautiful" },
+      { "japanese": "<ruby>姿<rt>すがた</rt></ruby>", "english": "figure, appearance" },
+      { "japanese": "<ruby>心<rt>こころ</rt></ruby>", "english": "heart, mind" }
+    ],
+    "unit 24": [
+      { "japanese": "<ruby>勤<rt>つと</rt></ruby>めます", "english": "to work [for a company]" },
+      { "japanese": "<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>勤<rt>つと</rt></ruby>めます", "english": "to work for a company" },
+      { "japanese": "<ruby>休<rt>やす</rt></ruby>みます", "english": "to go to bed, sleep" },
+      { "japanese": "<ruby>掛<rt>か</rt></ruby>けます", "english": "to sit on [a chair]" },
+      { "japanese": "<ruby>椅子<rt>いす</rt></ruby>に<ruby>掛<rt>か</rt></ruby>けます", "english": "to sit on a chair" },
+      { "japanese": "<ruby>過<rt>す</rt></ruby>ごします", "english": "to spend (time), pass (time)" },
+      { "japanese": "<ruby>寄<rt>よ</rt></ruby>ります", "english": "to drop into [a bank]" },
+      { "japanese": "<ruby>銀行<rt>ぎんこう</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>ります", "english": "to drop into a bank" },
+      { "japanese": "<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がります", "english": "to eat, drink (respectful equivalent of たべます and のみます)" },
+      { "japanese": "<ruby>ご覧<rt>らん</rt></ruby>になります", "english": "to see, look at (respectful equivalent of みます)" },
+      { "japanese": "<ruby>ご存知<rt>ぞんじ</rt></ruby>です", "english": "to know (respectful equivalent of しっています)" },
+      { "japanese": "<ruby>挨拶<rt>あいさつ</rt></ruby>", "english": "greeting, address" },
+      { "japanese": "<ruby>灰皿<rt>はいざら</rt></ruby>", "english": "ashtray" },
+      { "japanese": "<ruby>旅館<rt>りょかん</rt></ruby>", "english": "Japanese-style hotel or inn" },
+      { "japanese": "<ruby>会場<rt>かいじょう</rt></ruby>", "english": "meeting place, hall" },
+      { "japanese": "バスてい", "english": "bus stop" },
+      { "japanese": "<ruby>貿易<rt>ぼうえき</rt></ruby>", "english": "trade (foreign)" },
+      { "japanese": "さま", "english": "respectful equivalent of さん" },
+      { "japanese": "<ruby>帰<rt>かえ</rt></ruby>りに", "english": "on the way back" },
+      { "japanese": "たまに", "english": "once in a while" },
+      { "japanese": "<ruby>遠慮<rt>えんりょ</rt></ruby>なく", "english": "without reserve, without hesitation" },
+      { "japanese": "ーねんーくみ", "english": "class - of -th grade" },
+      { "japanese": "<ruby>熱<rt>ねつ</rt></ruby>をだします", "english": "to run a fever" },
+      { "japanese": "<ruby>よろしくお伝<rt>つた</rt></ruby>えください", "english": "Give my best regards / Please say hello" },
+      { "japanese": "<ruby>失礼<rt>しつれい</rt></ruby>いたします", "english": "Good-bye (humble equivalent of しつれいします)" },
+      { "japanese": "<ruby>講師<rt>こうし</rt></ruby>", "english": "lecturer" },
+      { "japanese": "<ruby>多<rt>おお</rt></ruby>くの", "english": "many ~, much ~" },
+      { "japanese": "<ruby>作品<rt>さくひん</rt></ruby>", "english": "work (e.g. art, book, film, composition, etc.)" },
+      { "japanese": "<ruby>受賞<rt>じゅしょう</rt></ruby>します", "english": "to be awarded a prize" },
+      { "japanese": "<ruby>世界的<rt>せかいてき</rt></ruby>に", "english": "world-wide" },
+      { "japanese": "<ruby>作家<rt>さっか</rt></ruby>", "english": "novelist, writer" },
+      { "japanese": "<ruby>長男<rt>ちょうなん</rt></ruby>", "english": "one's eldest son" },
+      { "japanese": "<ruby>障害<rt>しょうがい</rt></ruby>", "english": "handicap, defect" },
+      { "japanese": "<ruby>作曲<rt>さっきょく</rt></ruby>", "english": "composition (music)" },
+      { "japanese": "<ruby>活動<rt>かつどう</rt></ruby>", "english": "activity" },
+      { "japanese": "<ruby>敬語<rt>けいご</rt></ruby>", "english": "honorific language; polite speech" },
+      { "japanese": "<ruby>尊敬語<rt>そんけいご</rt></ruby>", "english": "honorific (respectful) language" },
+      { "japanese": "<ruby>謙譲語<rt>けんじょうご</rt></ruby>", "english": "humble language" },
+      { "japanese": "<ruby>丁寧語<rt>ていねいご</rt></ruby>", "english": "polite language" }
+    ],
+    "unit 25": [
+      { "japanese": "<ruby>参<rt>まい</rt></ruby>ります", "english": "to go, come (humble equivalent of いきます and きます)" },
+      { "japanese": "<ruby>申<rt>もう</rt></ruby>します", "english": "to say (humble equivalent of いいます)" },
+      { "japanese": "<ruby>拝見<rt>はいけん</rt></ruby>します", "english": "to see (humble equivalent of みます)" },
+      { "japanese": "<ruby>存<rt>ぞん</rt></ruby>じます", "english": "to know (humble equivalent of しります)" },
+      { "japanese": "<ruby>伺<rt>うかが</rt></ruby>います", "english": "to ask, hear, visit (humble equivalent of ききます and いきます)" },
+      { "japanese": "<ruby>お目<rt>め</rt></ruby>にかかります", "english": "to meet (humble equivalent of あいます)" },
+      { "japanese": "わたくし", "english": "I, myself (humble equivalent of わたし)" },
+      { "japanese": "おたく", "english": "(someone else's) house" },
+      { "japanese": "<ruby>郊外<rt>こうがい</rt></ruby>", "english": "suburbs" },
+      { "japanese": "さらいしゅう", "english": "week after next" },
+      { "japanese": "さらいげつ", "english": "month after next" },
+      { "japanese": "さらいねん", "english": "year after next" },
+      { "japanese": "<ruby>半年<rt>はんとし</rt></ruby>", "english": "half a year" },
+      { "japanese": "<ruby>最初<rt>さいしょ</rt></ruby>に", "english": "first of all" },
+      { "japanese": "<ruby>最後<rt>さいご</rt></ruby>に", "english": "lastly" },
+      { "japanese": "ただいま", "english": "now" },
+      { "japanese": "<ruby>緊張<rt>きんちょう</rt></ruby>します", "english": "to become tense, be strained" },
+      { "japanese": "<ruby>放送<rt>ほうそう</rt></ruby>します", "english": "to broadcast" },
+      { "japanese": "とります", "english": "to record, video" },
+      { "japanese": "<ruby>賞金<rt>しょうきん</rt></ruby>", "english": "prize money" },
+      { "japanese": "きりん", "english": "giraffe" },
+      { "japanese": "ぞう", "english": "elephant" },
+      { "japanese": "ころ", "english": "times, days" },
+      { "japanese": "<ruby>叶<rt>かな</rt></ruby>います", "english": "to be realized, to become true (eg. dream)" },
+      { "japanese": "<ruby>協力<rt>きょうりょく</rt></ruby>します", "english": "to cooperate" },
+      { "japanese": "<ruby>心<rt>こころ</rt></ruby>から", "english": "from my heart" },
+      { "japanese": "<ruby>感謝<rt>かんしゃ</rt></ruby>します", "english": "to be grateful, be thankful" },
+      { "japanese": "<ruby>お礼<rt>れい</rt></ruby>", "english": "gratitude, thanks" },
+      { "japanese": "<ruby>拝啓<rt>はいけい</rt></ruby>", "english": "Dear ~" },
+      { "japanese": "<ruby>迷惑<rt>めいわく</rt></ruby>をかけます", "english": "to trouble, annoy, inconvenience" },
+      { "japanese": "<ruby>生<rt>い</rt></ruby>かします", "english": "to make good use of" },
+      { "japanese": "<ruby>お城<rt>しろ</rt></ruby>", "english": "castle" },
+      { "japanese": "<ruby>敬具<rt>けいぐ</rt></ruby>", "english": "Yours sincerely" }
     ]
   }
 }

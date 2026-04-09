@@ -19,7 +19,7 @@ const translation = document.getElementById("translation");
 
 /* CHOOSE LEVEL */
 const jlptLevel = localStorage.getItem("JLPT");
-
+console.log(jlptLevel)
 const step = Number(localStorage.getItem("step"));
 
 /* COUNTER & ACCURACY*/
@@ -37,6 +37,7 @@ async function loadKanji() {
     const response = await fetch(`${BASE_PATH}data/Vocab_data_N${jlptLevel}.json`); // document containing kanji
     if (!response.ok) throw new Error("Failed to load json");
     const data = await response.json();
+    console.log(data);
 
     // Get kanji array
     vocabData = data.units[`unit ${step}`];
@@ -70,7 +71,7 @@ function showVocab() {
     
     const questionIndex = Math.floor(Math.random() * vocabData.length);
     currentWord = vocabData[questionIndex];
-    question.innerText = currentWord.japanese;
+    question.innerHTML = currentWord.japanese;
     if (wordChoices.length === 0) {
         wordChoices = [...vocabData];
     }
@@ -78,7 +79,7 @@ function showVocab() {
     //QUESTION COUNTER & PROGRESS BAR
     questionCounter++;
     progressBarFill.style.width = `${(questionCounter / wordChoices.length) * 100}%`;
-    questionCounterDisplay.innerText = `Question: ${questionCounter}/${wordChoices.length}`;
+    questionCounterDisplay.innerHTML = `Question: ${questionCounter}/${wordChoices.length}`;
 
     // --- BUILD ANSWERS ---
     const answers = new Set();

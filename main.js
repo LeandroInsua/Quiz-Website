@@ -6,19 +6,25 @@ const BASE_PATH = window.location.hostname.includes('github.io')
 const layers = {
     home: document.getElementById("home"),
     kanji: document.getElementById("kanji-level"),
+    steps: document.getElementById('steps'),
     vocab: document.getElementById("vocab-level"),
-    kanjiSteps: document.getElementById('kanji-steps')
+    vocabSteps: document.getElementById("vocab-steps")
+    
 };
 const highScores = JSON.parse(localStorage.getItem("highScores"))
 
 const stepsContainer = document.getElementById("steps-container");
 let kanjiData = []; //hold the current game kanji
 let kanjiCache = {};
+let vocabCache = {};
+
+let pageToGo; //Kanji, vocab, etc
 
 /* Layers and steps buttons */
-let JLPTButtons = document.querySelectorAll("[data-jlpt]")
-const registerBtn = document.getElementById('register-btn')
-const modal = document.getElementById('modal')
+let JLPTButtons = document.querySelectorAll("[data-jlpt]");
+let vocabButtons = document.querySelectorAll("[data-vocabLv]");
+const registerBtn = document.getElementById('register-btn');
+const modal = document.getElementById('modal');
 
 
 /* Buttons in Home layer */
@@ -51,14 +57,15 @@ async function loadKanji(jlpt) {
                 throw new Error("Failed to fetch Kanji data");
             }
             kanjiCache[jlpt] = await response.json();
-         }catch (error) {
+        }catch (error) {
         console.error(error);
         return null;
+        }
     }
-}
 
     const data = kanjiCache[jlpt];
     const levels = Object.keys(data.levels);
+
     stepsContainer.innerHTML = "";
 
     levels.forEach((level, i) => {
@@ -76,13 +83,47 @@ async function loadKanji(jlpt) {
     });
 }
 
+async function loadVocab(jlpt) {
+    if (!vocabCache[jlpt]) {
+        try {
+            const response = await fetch(`./data/Vocab_data_N${jlpt}.json`);
+            if (!response.ok){
+                throw new Error("Failed to fetch vocabulary data");
+            }
+        vocabCache[jlpt] = await response.json();
+        } catch (error) {
+        console.error(error);
+        return null;
+        }
+    }
+    const data = vocabCache[jlpt];
+    const levels = Object.keys(data.units);
+    
+    stepsContainer.innerHTML = "";
+
+    levels.forEach((level, i) => {
+        const step = document.createElement("a");
+        const bar = document.createElement("div");
+        step.className = "btn";
+        step.dataset.step = i + 1;
+        step.textContent = `Step ${i + 1}`;
+        bar.className = "progress-bar";
+        bar.dataset.step = i + 1;
+        bar.style.width = "5rem";
+
+        stepsContainer.appendChild(step);
+        step.appendChild(bar);
+    });
+
+}
+
+
 stepsContainer.addEventListener("click", (e) => {
     if (!e.target.matches("[data-step]")) return;
     const step = e.target.dataset.step;
     localStorage.setItem("step", step);
-    window.location.href = "./kanjiGame.html";
+    window.location.href = pageToGo;
 });
-
 
 kanjiBtn.addEventListener("click", () => showOnly("kanji"));
 vocabularyBtn?.addEventListener("click", () => showOnly("vocab"));
@@ -92,11 +133,22 @@ JLPTButtons.forEach(btn => {
         const jlpt = btn.dataset.jlpt;
         document.getElementById("steps-title").textContent = `Choose N${jlpt} sublevel`;
         localStorage.setItem("JLPT", jlpt);
+        pageToGo = "./kanjiGame.html";
         loadKanji(jlpt);
-        showOnly("kanjiSteps");
+        showOnly("steps");
     });
 });
 
+vocabButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+        const jlpt = btn.dataset.vocablv;
+        document.getElementById("steps-title").textContent = `Choose N${jlpt} sublevel`;
+        localStorage.setItem("VOCAB", jlpt);
+        pageToGo = "./vocabGame.html";
+        loadVocab(jlpt);
+        showOnly("steps");
+    });
+});
 
 backBtns.forEach(btn =>
     btn.addEventListener("click", () => showOnly("home"))

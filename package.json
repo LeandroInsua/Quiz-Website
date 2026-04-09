@@ -1,6 +1,30 @@
 {
   "devDependencies": {
     "chai": "^6.2.2",
-    "mocha": "^11.7.5"
-  }
+    "mocha": "^11.7.5",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1"
+  },
+  "name": "quiz-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weasker/Quiz-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Weasker/Quiz-Website/issues"
+  },
+  "homepage": "https://github.com/Weasker/Quiz-Website#readme"
 }

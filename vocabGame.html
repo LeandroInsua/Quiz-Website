@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz - Play</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="game.css">
+    </head>
+   <body id="body">
+    <header>
+        <div id="hud">
+            <img src="./Audio/speakerOn.png" height="40px" alt="">
+            <div class="sub-hub">
+                <p class="hud-main-text" id="question-Counter"></p>
+                <div id="progress-bar">
+                    <div id="progress-bar-fill"></div>
+                </div>
+            </div>
+            <div class="sub-hub">
+                <p class="hud-prefix" id="accuracy">
+                    Accuracy: 0.00%;
+                </p>
+            </div>
+        </div>
+    </header>
+        <div class="container">
+            <div id="game" class="justify-center grid">
+                <div id="question-container">
+                    <h2 id="question"></h2>
+                    <button id="next-question-btn">></button>
+                    <h3 id="translation">__</h3>
+
+                    <!-- HIDDEN BUTTONS & POPUPS -->
+                    <div class="hidden-info">
+                        <button class="hidden-btn" id="audio">Audio</button>
+                        <button class="hidden-btn" data-modal="example">Example sentences</button>
+
+                            <div class="modal" id="example">
+                                <div class="modal-header">
+                                    <h3>Example sentences</h3>
+                                    <button class="close-modal">&times;</button>
+                                </div>                                
+                                <div class="modal-body" id="example-txt"></div>
+                            </div>
+
+                        <!-- <button class="hidden-btn" data-modal="similar-kanji">Similar kanji</button>
+                            <div class="modal" id="similar-kanji">
+                                <div class="modal-header">
+                                    <h3>Similar kanji</h3>
+                                    <button class="close-modal">&times;</button>
+                                </div>                                
+                                <div class="modal-body" id="example-txt"></div>
+                            </div> -->
+
+                        <button class="hidden-btn" data-modal="radicals">Radicals & Etimology</button>
+                            <div class="modal" id="radicals">
+                                <div class="modal-header">
+                                    <h3>Radicals & Etimology</h3>
+                                    <button class="close-modal">&times;</button>
+                                </div>
+                                <div class="modal-body" id="radicals-txt"></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">1</p>
+                    <p class="choice-text" data-number="1">Text</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">2</p>
+                    <p class="choice-text" data-number="2">Text</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">3</p>
+                    <p class="choice-text" data-number="3">Text</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">4</p>
+                    <p class="choice-text" data-number="4">Text</p>
+                </div>
+                <a class="btn back-btn" href="./index.html">Back</a>
+            </div>
+        </div>
+        <div id="overlay"></div>
+    <script src="vocabGame.js"></script>
+    </body> 
+</html>

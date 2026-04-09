@@ -10,7 +10,7 @@ const hiddenBtns = document.querySelectorAll(".hidden-btn");
 const correctAudio = new Audio("./Audio/correct.wav");
 
 /* kANJI */
-let kanjiData = []; //hold the current game kanji
+let kanjiData = []; //current game kanji
 let currentKanji = null;
 let kanjiChoices = [];
 let acceptingAnswers = false;
@@ -18,7 +18,9 @@ let questionCounter = 0;
 const translation = document.getElementById("translation");
 
 /* CHOOSE LEVEL */
+const game = localStorage.getItem("GAME");
 const jlptLevel = localStorage.getItem("JLPT");
+
 const step = Number(localStorage.getItem("step"));
 
 /* COUNTER & ACCURACY*/
@@ -28,6 +30,10 @@ let accuracy = 0;
 let progressBarFill = document.getElementById("progress-bar-fill");
 
 //LOAD DATA, THEN START
+
+//TO DO: I have to make an if game variable is kanji loadKanji, else loadVocab
+
+
 async function loadKanji() {
     const response = await fetch(`${BASE_PATH}data/kanji_data_N${jlptLevel}.json`); // document containing kanji
     if (!response.ok) throw new Error("Failed to load json");
@@ -38,7 +44,6 @@ async function loadKanji() {
     questionCounter = 0;
     startGame();
 }
-
 
 /* GAME */
 startGame = ()=> {

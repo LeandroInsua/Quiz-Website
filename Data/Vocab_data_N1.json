@@ -1,0 +1,2181 @@
+{
+  "levels": {
+    "Level 1": [
+    {
+      "kanji": "山",
+      "kunyomi": ["やま"],
+      "onyomi": ["サン", "セン"],
+      "pitch_accent": { "やま": "LH" },
+      "example_sentences": {
+        "やま": [
+          { "sentence": "<ruby>山<rt>やま</rt></ruby>に登る。", "translation": "I climb the mountain." },
+          { "sentence": "あの<ruby>山<rt>やま</rt></ruby>は高い。", "translation": "That mountain is high." }
+        ],
+        "サン": [
+          { "sentence": "<ruby>富士山<rt>ふじさん</rt></ruby>は日本一だ。", "translation": "Mount Fuji is Japan's highest." }
+        ],
+        "セン": [
+          { "sentence": "<ruby>山脈<rt>さんみゃく</rt></ruby>が美しい。", "translation": "The mountain range is beautiful." }
+        ]
+      },
+      "vocabulary": ["富士山", "山道"],
+      "vocabulary_translation": ["Mount Fuji", "mountain path"],
+      "translation": ["mountain"],
+      "radicals": ["山"]
+    },
+    {
+      "kanji": "川",
+      "kunyomi": ["かわ"],
+      "onyomi": ["セン"],
+      "pitch_accent": { "かわ": "HL" },
+      "example_sentences": {
+        "かわ": [
+          { "sentence": "<ruby>川<rt>かわ</rt></ruby>で魚を釣る。", "translation": "I fish in the river." },
+          { "sentence": "<ruby>川<rt>かわ</rt></ruby>はとてもきれいだ。", "translation": "The river is very clean." }
+        ],
+        "セン": [
+          { "sentence": "<ruby>河川<rt>かせん</rt></ruby>が氾濫した。", "translation": "The river overflowed." }
+        ]
+      },
+      "vocabulary": ["河川", "川辺"],
+      "vocabulary_translation": ["rivers", "riverside"],
+      "translation": ["river"],
+      "radicals": ["川"]
+    },
+    {
+      "kanji": "田",
+      "kunyomi": ["た"],
+      "onyomi": ["デン", "テン"],
+      "pitch_accent": { "た": "H" },
+      "example_sentences": {
+        "た": [
+          { "sentence": "<ruby>田<rt>た</rt></ruby>で米を作る。", "translation": "Rice is grown in the field." },
+          { "sentence": "<ruby>田<rt>た</rt></ruby>は水でいっぱいだ。", "translation": "The field is full of water." }
+        ],
+        "デン": [
+          { "sentence": "<ruby>田園<rt>でんえん</rt></ruby>風景が好きだ。", "translation": "I like rural scenery." }
+        ],
+        "テン": [
+          { "sentence": "農夫は<ruby>田<rt>た</rt></ruby>を耕す。", "translation": "The farmer plows the field." }
+        ]
+      },
+      "vocabulary": ["田んぼ", "水田"],
+      "vocabulary_translation": ["rice paddy", "paddy field"],
+      "translation": ["rice field", "paddy"],
+      "radicals": ["田"]
+    },
+    {
+      "kanji": "月",
+      "kunyomi": ["つき"],
+      "onyomi": ["ゲツ", "ガツ"],
+      "pitch_accent": { "つき": "HL" },
+      "example_sentences": {
+        "つき": [
+          { "sentence": "<ruby>月<rt>つき</rt></ruby>がきれいだ。", "translation": "The moon is beautiful." },
+          { "sentence": "夜に<ruby>月<rt>つき</rt></ruby>を見る。", "translation": "I look at the moon at night." }
+        ],
+        "ゲツ": [
+          { "sentence": "<ruby>一月<rt>いちがつ</rt></ruby>は寒い。", "translation": "January is cold." }
+        ],
+        "ガツ": [
+          { "sentence": "<ruby>十月<rt>じゅうがつ</rt></ruby>は秋だ。", "translation": "October is autumn." }
+        ]
+      },
+      "vocabulary": ["一月", "月曜日"],
+      "vocabulary_translation": ["January", "Monday"],
+      "translation": ["moon", "month"],
+      "radicals": ["月"]
+    },
+    {
+      "kanji": "火",
+      "kunyomi": ["ひ", "ほ"],
+      "onyomi": ["カ"],
+      "pitch_accent": { "ひ": "H", "ほ": "H" },
+      "example_sentences": {
+        "ひ": [
+          { "sentence": "<ruby>火<rt>ひ</rt></ruby>を消す。", "translation": "I put out the fire." },
+          { "sentence": "<ruby>火<rt>ひ</rt></ruby>で料理する。", "translation": "I cook with fire." }
+        ],
+        "ほ": [
+          { "sentence": "<ruby>火事<rt>かじ</rt></ruby>が怖い。", "translation": "Fires are scary." }
+        ],
+        "カ": [
+          { "sentence": "<ruby>火山<rt>かざん</rt></ruby>が噴火した。", "translation": "The volcano erupted." }
+        ]
+      },
+      "vocabulary": ["火曜日", "火事"],
+      "vocabulary_translation": ["Tuesday", "fire (disaster)"],
+      "translation": ["fire"],
+      "radicals": ["火"]
+    },
+    {
+      "kanji": "水",
+      "kunyomi": ["みず"],
+      "onyomi": ["スイ"],
+      "pitch_accent": { "みず": "HL" },
+      "example_sentences": {
+        "みず": [
+          { "sentence": "<ruby>水<rt>みず</rt></ruby>を飲む。", "translation": "I drink water." },
+          { "sentence": "<ruby>水<rt>みず</rt></ruby>が冷たい。", "translation": "The water is cold." }
+        ],
+        "みず-": [
+          { "sentence": "<ruby>水着<rt>みずぎ</rt></ruby>を着る。", "translation": "I wear a swimsuit." }
+        ],
+        "スイ": [
+          { "sentence": "<ruby>水道水<rt>すいどうみず</rt></ruby>は安全だ。", "translation": "Tap water is safe." }
+        ]
+      },
+      "vocabulary": ["水曜日", "水道"],
+      "vocabulary_translation": ["Wednesday", "tap water"],
+      "translation": ["water"],
+      "radicals": ["水"]
+    },
+    {
+      "kanji": "木",
+      "kunyomi": ["き"],
+      "onyomi": ["モク"],
+      "pitch_accent": { "き": "H", "こ": "H" },
+      "example_sentences": {
+        "き": [
+          { "sentence": "<ruby>木<rt>き</rt></ruby>を切る。", "translation": "I cut the tree." },
+          { "sentence": "<ruby>木<rt>き</rt></ruby>が高い。", "translation": "The tree is tall." }
+        ],
+        "こ": [
+          { "sentence": "<ruby>木々<rt>きぎ</rt></ruby>が緑だ。", "translation": "The trees are green." }
+        ],
+        "モク": [
+          { "sentence": "<ruby>木曜日<rt>もくようび</rt></ruby>は忙しい。", "translation": "Thursday is busy." }
+        ],
+        "ボク": [
+          { "sentence": "<ruby>木材<rt>もくざい</rt></ruby>を買う。", "translation": "I buy lumber." }
+        ]
+      },
+      "vocabulary": ["木曜日", "木材"],
+      "vocabulary_translation": ["Thursday", "lumber/wood"],
+      "translation": ["tree", "wood"],
+      "radicals": ["木"]
+    },
+    {
+      "kanji": "金",
+      "kunyomi": ["かね", "かな"],
+      "onyomi": ["キン", "コン"],
+      "pitch_accent": { "かね": "HL", "かな": "HL" },
+      "example_sentences": {
+        "かね": [
+          { "sentence": "お<ruby>金<rt>かね</rt></ruby>がない。", "translation": "I don’t have money." },
+          { "sentence": "<ruby>金<rt>かね</rt></ruby>を貯める。", "translation": "I save money." }
+        ],
+        "かな": [
+          { "sentence": "<ruby>金色<rt>かないろ</rt></ruby>の花だ。", "translation": "It’s a golden flower." }
+        ],
+        "キン": [
+          { "sentence": "<ruby>金曜日<rt>きんようび</rt></ruby>に会う。", "translation": "We meet on Friday." }
+        ],
+        "コン": [
+          { "sentence": "<ruby>黄金<rt>おうごん</rt></ruby>が輝く。", "translation": "The gold shines." }
+        ]
+      },
+      "vocabulary": ["金曜日", "お金"],
+      "vocabulary_translation": ["Friday", "money"],
+      "translation": ["money", "metal", "gold"],
+      "radicals": ["金"]
+    },
+    {
+      "kanji": "土",
+      "kunyomi": ["つち", "ど"],
+      "onyomi": ["ド", "ト"],
+      "pitch_accent": { "つち": "HL", "ど": "H" },
+      "example_sentences": {
+        "つち": [
+          { "sentence": "<ruby>土<rt>つち</rt></ruby>を掘る。", "translation": "I dig the soil." },
+          { "sentence": "<ruby>土<rt>つち</rt></ruby>が柔らかい。", "translation": "The soil is soft." }
+        ],
+        "ど": [
+          { "sentence": "<ruby>土手<rt>どて</rt></ruby>で遊ぶ。", "translation": "I play on the embankment." }
+        ],
+        "ド": [
+          { "sentence": "<ruby>土曜日<rt>どようび</rt></ruby>は休みだ。", "translation": "Saturday is a day off." }
+        ],
+        "ト": [
+          { "sentence": "<ruby>本土<rt>ほんど</rt></ruby>に住む。", "translation": "I live on the mainland." }
+        ]
+      },
+      "vocabulary": ["土曜日", "土地"],
+      "vocabulary_translation": ["Saturday", "land"],
+      "translation": ["earth", "soil"],
+      "radicals": ["土"]
+    },
+    {
+      "kanji": "日",
+      "kunyomi": ["ひ", "び", "か"],
+      "onyomi": ["ニチ", "ジツ"],
+      "pitch_accent": { "ひ": "H", "び": "H", "か": "H" },
+      "example_sentences": {
+        "ひ": [
+          { "sentence": "<ruby>日<rt>ひ</rt></ruby>が出る。", "translation": "The sun rises." },
+          { "sentence": "<ruby>日<rt>ひ</rt></ruby>は暖かい。", "translation": "The sun is warm." }
+        ],
+        "び": [
+          { "sentence": "<ruby>毎日<rt>まいにち</rt></ruby>勉強する。", "translation": "I study every day." }
+        ],
+        "か": [
+          { "sentence": "<ruby>三日<rt>みっか</rt></ruby>は休みだ。", "translation": "The third is a holiday." }
+        ],
+        "ニチ": [
+          { "sentence": "<ruby>日曜日<rt>にちようび</rt></ruby>に寝る。", "translation": "I sleep on Sunday." }
+        ],
+        "ジツ": [
+          { "sentence": "<ruby>実日<rt>じつにち</rt></ruby>は忙しい。", "translation": "The actual day is busy." }
+        ]
+      },
+      "vocabulary": ["日曜日", "毎日"],
+      "vocabulary_translation": ["Sunday", "every day"],
+      "translation": ["sun", "day"],
+      "radicals": ["日"]
+    }
+  ],
+    "Level 2": [
+      {
+        "kanji": "一",
+        "kunyomi": ["ひと", "ひと.つ"],
+        "onyomi": ["イチ", "イツ"],
+        "pitch_accent": { "ひと": "HL", "ひと.つ": "LHH" },
+        "example_sentences": {
+          "ひと": [
+            { "sentence": "一人で歩く。", "translation": "I walk alone." }
+          ],
+          "ひと.つ": [
+            { "sentence": "一つ買う。", "translation": "I buy one." }
+          ],
+          "イチ": [
+            { "sentence": "一番が好きだ。", "translation": "I like the first one." }
+          ],
+          "イツ": [
+            { "sentence": "統一する。", "translation": "We unify." }
+          ]
+        },
+        "vocabulary": ["一つ", "一番"],
+        "vocabulary_translation": ["one (thing)", "number one"],
+        "translation": ["one"],
+        "radicals": ["一"]
+      },
+      {
+        "kanji": "二",
+        "kunyomi": ["ふた", "ふた.つ"],
+        "onyomi": ["ニ", "ジ"],
+        "pitch_accent": { "ふた": "HL", "ふた.つ": "LHH" },
+        "example_sentences": {
+          "ふた": [
+            { "sentence": "二人が来る。", "translation": "Two people come." }
+          ],
+          "ふた.つ": [
+            { "sentence": "二つください。", "translation": "Two, please." }
+          ],
+          "ニ": [
+            { "sentence": "二日は休みだ。", "translation": "The second is a holiday." }
+          ],
+          "ジ": [
+            { "sentence": "二次試験だ。", "translation": "It’s the second exam." }
+          ]
+        },
+        "vocabulary": ["二つ", "二人"],
+        "vocabulary_translation": ["two (things)", "two people"],
+        "translation": ["two"],
+        "radicals": ["二"]
+      },
+      {
+        "kanji": "三",
+        "kunyomi": ["み", "み.つ"],
+        "onyomi": ["サン"],
+        "pitch_accent": { "み": "H", "み.つ": "LHH" },
+        "example_sentences": {
+          "み": [
+            { "sentence": "三人で話す。", "translation": "Three people talk." }
+          ],
+          "み.つ": [
+            { "sentence": "三つ持つ。", "translation": "I hold three." }
+          ],
+          "サン": [
+            { "sentence": "三角形を描く。", "translation": "I draw a triangle." }
+          ]
+        },
+        "vocabulary": ["三つ", "三人"],
+        "vocabulary_translation": ["three (things)", "three people"],
+        "translation": ["three"],
+        "radicals": ["一"]
+      },
+      {
+        "kanji": "四",
+        "kunyomi": ["よ", "よ.つ", "よん"],
+        "onyomi": ["シ"],
+        "pitch_accent": { "よ": "H", "よ.つ": "LHH", "よん": "HL" },
+        "example_sentences": {
+          "よ": [
+            { "sentence": "四時に寝る。", "translation": "I sleep at four." }
+          ],
+          "よ.つ": [
+            { "sentence": "四つ買う。", "translation": "I buy four." }
+          ],
+          "よん": [
+            { "sentence": "四冊の本だ。", "translation": "It’s four books." }
+          ],
+          "シ": [
+            { "sentence": "四季が好きだ。", "translation": "I like the four seasons." }
+          ]
+        },
+        "vocabulary": ["四つ", "四人"],
+        "vocabulary_translation": ["four (things)", "four people"],
+        "translation": ["four"],
+        "radicals": ["囗", "儿"]
+      },
+      {
+        "kanji": "五",
+        "kunyomi": ["いつ", "いつ.つ"],
+        "onyomi": ["ゴ"],
+        "pitch_accent": { "いつ": "HL", "いつ.つ": "LHH" },
+        "example_sentences": {
+          "いつ": [
+            { "sentence": "五時に起きる。", "translation": "I wake up at five." }
+          ],
+          "いつ.つ": [
+            { "sentence": "五つください。", "translation": "Five, please." }
+          ],
+          "ゴ": [
+            { "sentence": "五月は暖かい。", "translation": "May is warm." }
+          ]
+        },
+        "vocabulary": ["五つ", "五人"],
+        "vocabulary_translation": ["five (things)", "five people"],
+        "translation": ["five"],
+        "radicals": ["二", "丨"]
+      },
+      {
+        "kanji": "六",
+        "kunyomi": ["む", "む.つ", "むい"],
+        "onyomi": ["ロク"],
+        "pitch_accent": { "む": "H", "む.つ": "LHH", "むい": "HL" },
+        "example_sentences": {
+          "む": [
+            { "sentence": "六時に会う。", "translation": "We meet at six." }
+          ],
+          "む.つ": [
+            { "sentence": "六つ買う。", "translation": "I buy six." }
+          ],
+          "むい": [
+            { "sentence": "六日働く。", "translation": "I work for six days." }
+          ],
+          "ロク": [
+            { "sentence": "六月は雨だ。", "translation": "June is rainy." }
+          ]
+        },
+        "vocabulary": ["六つ", "六人"],
+        "vocabulary_translation": ["six (things)", "six people"],
+        "translation": ["six"],
+        "radicals": ["亠", "八"]
+      },
+      {
+        "kanji": "七",
+        "kunyomi": ["なな", "なな.つ"],
+        "onyomi": ["シチ"],
+        "pitch_accent": { "なな": "LH", "なな.つ": "LHH" },
+        "example_sentences": {
+          "なな": [
+            { "sentence": "七時に寝る。", "translation": "I sleep at seven." }
+          ],
+          "なな.つ": [
+            { "sentence": "七つ持つ。", "translation": "I hold seven." }
+          ],
+          "シチ": [
+            { "sentence": "七月は暑い。", "translation": "July is hot." }
+          ]
+        },
+        "vocabulary": ["七つ", "七人"],
+        "vocabulary_translation": ["seven (things)", "seven people"],
+        "translation": ["seven"],
+        "radicals": ["七"]
+      },
+      {
+        "kanji": "八",
+        "kunyomi": ["や", "や.つ", "よう"],
+        "onyomi": ["ハチ"],
+        "pitch_accent": { "や": "H", "や.つ": "LHH", "よう": "HL" },
+        "example_sentences": {
+          "や": [
+            { "sentence": "八時に起きる。", "translation": "I wake up at eight." }
+          ],
+          "や.つ": [
+            { "sentence": "八つください。", "translation": "Eight, please." }
+          ],
+          "よう": [
+            { "sentence": "八日は休みだ。", "translation": "The eighth is a holiday." }
+          ],
+          "ハチ": [
+            { "sentence": "八月は夏だ。", "translation": "August is summer." }
+          ]
+        },
+        "vocabulary": ["八つ", "八人"],
+        "vocabulary_translation": ["eight (things)", "eight people"],
+        "translation": ["eight"],
+        "radicals": ["八"]
+      },
+      {
+        "kanji": "九",
+        "kunyomi": ["ここの", "ここの.つ"],
+        "onyomi": ["キュウ", "ク"],
+        "pitch_accent": { "ここの": "LHH", "ここの.つ": "LHHH" },
+        "example_sentences": {
+          "ここの": [
+            { "sentence": "九時に寝る。", "translation": "I sleep at nine." }
+          ],
+          "ここの.つ": [
+            { "sentence": "九つ買う。", "translation": "I buy nine." }
+          ],
+          "キュウ": [
+            { "sentence": "九月は涼しい。", "translation": "September is cool." }
+          ],
+          "ク": [
+            { "sentence": "九日間働く。", "translation": "I work for nine days." }
+          ]
+        },
+        "vocabulary": ["九つ", "九人"],
+        "vocabulary_translation": ["nine (things)", "nine people"],
+        "translation": ["nine"],
+        "radicals": ["九"]
+      },
+      {
+        "kanji": "十",
+        "kunyomi": ["とお", "と"],
+        "onyomi": ["ジュウ"],
+        "pitch_accent": { "とお": "HL", "と": "H" },
+        "example_sentences": {
+          "とお": [
+            { "sentence": "十冊の本だ。", "translation": "It’s ten books." }
+          ],
+          "と": [
+            { "sentence": "十日は忙しい。", "translation": "The tenth is busy." }
+          ],
+          "ジュウ": [
+            { "sentence": "十月は秋だ。", "translation": "October is autumn." }
+          ]
+        },
+        "vocabulary": ["十", "十人"],
+        "vocabulary_translation": ["ten", "ten people"],
+        "translation": ["ten"],
+        "radicals": ["十"]
+      }
+    ],
+    "Level 3": [
+      {
+        "kanji": "百",
+        "kunyomi": ["もも"],
+        "onyomi": ["ヒャク"],
+        "pitch_accent": { "もも": "HL" },
+        "example_sentences": {
+          "もも": [
+            { "sentence": "百円を拾う。", "translation": "I pick up a hundred yen." }
+          ],
+          "ヒャク": [
+            { "sentence": "百貨店に行く。", "translation": "I go to the department store." }
+          ]
+        },
+        "vocabulary": ["百年", "百分"],
+        "vocabulary_translation": ["hundred years", "percent"],
+        "translation": ["hundred"],
+        "radicals": ["白"]
+      },
+      {
+        "kanji": "千",
+        "kunyomi": ["ち"],
+        "onyomi": ["セン"],
+        "pitch_accent": { "ち": "H" },
+        "example_sentences": {
+          "ち": [
+            { "sentence": "千円を払う。", "translation": "I pay a thousand yen." }
+          ],
+          "セン": [
+            { "sentence": "千葉県に住む。", "translation": "I live in Chiba Prefecture." }
+          ]
+        },
+        "vocabulary": ["千年", "千円"],
+        "vocabulary_translation": ["thousand years", "thousand yen"],
+        "translation": ["thousand"],
+        "radicals": ["丿", "十"]
+      },
+      {
+        "kanji": "万",
+        "kunyomi": ["よろず"],
+        "onyomi": ["マン", "バン"],
+        "pitch_accent": { "よろず": "LHH" },
+        "example_sentences": {
+          "よろず": [
+            { "sentence": "万事順調だ。", "translation": "Everything is going well." }
+          ],
+          "マン": [
+            { "sentence": "一万円を借りる。", "translation": "I borrow ten thousand yen." }
+          ],
+          "バン": [
+            { "sentence": "万年筆を買う。", "translation": "I buy a fountain pen." }
+          ]
+        },
+        "vocabulary": ["一万", "万歳"],
+        "vocabulary_translation": ["ten thousand", "banzai"],
+        "translation": ["ten thousand"],
+        "radicals": ["一", "丿"]
+      },
+      {
+        "kanji": "円",
+        "kunyomi": ["まる", "まる.い"],
+        "onyomi": ["エン"],
+        "pitch_accent": { "まる": "HL", "まる.い": "LHH" },
+        "example_sentences": {
+          "まる": [
+            { "sentence": "円い月を見る。", "translation": "I see a round moon." }
+          ],
+          "まる.い": [
+            { "sentence": "円いテーブルだ。", "translation": "It’s a round table." }
+          ],
+          "エン": [
+            { "sentence": "百円を払う。", "translation": "I pay a hundred yen." }
+          ]
+        },
+        "vocabulary": ["百円", "円形"],
+        "vocabulary_translation": ["100 yen", "circle"],
+        "translation": ["yen", "circle"],
+        "radicals": ["冂", "丶"]
+      },
+      {
+        "kanji": "年",
+        "kunyomi": ["とし"],
+        "onyomi": ["ネン"],
+        "pitch_accent": { "とし": "HL" },
+        "example_sentences": {
+          "とし": [
+            { "sentence": "今年は忙しい。", "translation": "This year is busy." }
+          ],
+          "ネン": [
+            { "sentence": "来年旅行する。", "translation": "I travel next year." }
+          ]
+        },
+        "vocabulary": ["今年", "来年"],
+        "vocabulary_translation": ["this year", "next year"],
+        "translation": ["year"],
+        "radicals": ["丿", "丨", "干"]
+      },
+      {
+        "kanji": "上",
+        "kunyomi": ["うえ", "あ.げる", "のぼ.る"],
+        "onyomi": ["ジョウ", "ショウ"],
+        "pitch_accent": { "うえ": "HL", "あ.げる": "LHH", "のぼ.る": "LHH" },
+        "example_sentences": {
+          "うえ": [
+            { "sentence": "机の上に本がある。", "translation": "There’s a book on the desk." }
+          ],
+          "あ.げる": [
+            { "sentence": "手を上げる。", "translation": "I raise my hand." }
+          ],
+          "のぼ.る": [
+            { "sentence": "山に登る。", "translation": "I climb the mountain." }
+          ],
+          "ジョウ": [
+            { "sentence": "上級を学ぶ。", "translation": "I study advanced level." }
+          ]
+        },
+        "vocabulary": ["上る", "上手"],
+        "vocabulary_translation": ["climb", "skilled"],
+        "translation": ["above", "up", "raise", "climb"],
+        "radicals": ["一", "卜"]
+      },
+      {
+        "kanji": "下",
+        "kunyomi": ["した", "さ.げる", "お.りる"],
+        "onyomi": ["カ", "ゲ"],
+        "pitch_accent": { "した": "HL", "さ.げる": "LHH", "お.りる": "LHH" },
+        "example_sentences": {
+          "した": [
+            { "sentence": "机の下に猫がいる。", "translation": "There’s a cat under the desk." }
+          ],
+          "さ.げる": [
+            { "sentence": "荷物を下げる。", "translation": "I lower the luggage." }
+          ],
+          "お.りる": [
+            { "sentence": "階段を下りる。", "translation": "I go down the stairs." }
+          ],
+          "カ": [
+            { "sentence": "下水道を掃除する。", "translation": "I clean the sewer." }
+          ]
+        },
+        "vocabulary": ["下げる", "下手"],
+        "vocabulary_translation": ["lower", "unskilled"],
+        "translation": ["below", "down", "lower", "descend"],
+        "radicals": ["一", "丨"]
+      },
+      {
+        "kanji": "中",
+        "kunyomi": ["なか", "あた.る"],
+        "onyomi": ["チュウ", "ジュウ"],
+        "pitch_accent": { "なか": "HL", "あた.る": "LHH" },
+        "example_sentences": {
+          "なか": [
+            { "sentence": "部屋の中にいる。", "translation": "I’m inside the room." }
+          ],
+          "あた.る": [
+            { "sentence": "宝くじに当たる。", "translation": "I win the lottery." }
+          ],
+          "チュウ": [
+            { "sentence": "中学に行く。", "translation": "I go to junior high school." }
+          ]
+        },
+        "vocabulary": ["中学校", "中心"],
+        "vocabulary_translation": ["junior high school", "center"],
+        "translation": ["middle", "inside", "hit"],
+        "radicals": ["口", "丨"]
+      },
+      {
+        "kanji": "半",
+        "kunyomi": ["はん", "なか.ば"],
+        "onyomi": ["ハン"],
+        "pitch_accent": { "はん": "H", "なか.ば": "LHH" },
+        "example_sentences": {
+          "はん": [
+            { "sentence": "半分を食べる。", "translation": "I eat half." }
+          ],
+          "なか.ば": [
+            { "sentence": "本の半ばを読む。", "translation": "I read halfway through the book." }
+          ],
+          "ハン": [
+            { "sentence": "半額で買う。", "translation": "I buy it at half price." }
+          ]
+        },
+        "vocabulary": ["半分", "半年"],
+        "vocabulary_translation": ["half", "half a year"],
+        "translation": ["half"],
+        "radicals": ["丷", "十"]
+      },
+      {
+        "kanji": "分",
+        "kunyomi": ["わ.ける", "わ.かる", "ぶ"],
+        "onyomi": ["ブン", "フン"],
+        "pitch_accent": { "わ.ける": "LHH", "わ.かる": "LHH", "ぶ": "H" },
+        "example_sentences": {
+          "わ.ける": [
+            { "sentence": "ケーキを分ける。", "translation": "I divide the cake." }
+          ],
+          "わ.かる": [
+            { "sentence": "問題が分かる。", "translation": "I understand the problem." }
+          ],
+          "ぶ": [
+            { "sentence": "五分待つ。", "translation": "I wait five minutes." }
+          ],
+          "ブン": [
+            { "sentence": "分析する。", "translation": "I analyze." }
+          ]
+        },
+        "vocabulary": ["分ける", "一分"],
+        "vocabulary_translation": ["divide", "one minute"],
+        "translation": ["to divide", "to understand", "minute"],
+        "radicals": ["八", "刀"]
+      }
+    ],
+    "Level 4": [
+      {
+        "kanji": "人",
+        "kunyomi": ["ひと", "じん"],
+        "onyomi": ["ジン", "ニン"],
+        "pitch_accent": { "ひと": "HL", "じん": "H" },
+        "example_sentences": {
+          "ひと": [
+            { "sentence": "人が多い。", "translation": "There are many people." }
+          ],
+          "ジン": [
+            { "sentence": "人間は考える。", "translation": "Humans think." }
+          ],
+          "ニン": [
+            { "sentence": "三人いる。", "translation": "There are three people." }
+          ]
+        },
+        "vocabulary": ["人間", "日本人"],
+        "vocabulary_translation": ["human", "Japanese person"],
+        "translation": ["person"],
+        "radicals": ["人"]
+      },
+      {
+        "kanji": "子",
+        "kunyomi": ["こ", "ね"],
+        "onyomi": ["シ", "ス"],
+        "pitch_accent": { "こ": "H", "ね": "H" },
+        "example_sentences": {
+          "こ": [
+            { "sentence": "子が遊ぶ。", "translation": "The child plays." }
+          ],
+          "ね": [
+            { "sentence": "子猫が寝る。", "translation": "The kitten sleeps." }
+          ],
+          "シ": [
+            { "sentence": "親子で歩く。", "translation": "Parent and child walk together." }
+          ]
+        },
+        "vocabulary": ["子供", "女子"],
+        "vocabulary_translation": ["child", "girl"],
+        "translation": ["child"],
+        "radicals": ["子"]
+      },
+      {
+        "kanji": "女",
+        "kunyomi": ["おんな", "め"],
+        "onyomi": ["ジョ", "ニョ"],
+        "pitch_accent": { "おんな": "LHH", "め": "H" },
+        "example_sentences": {
+          "おんな": [
+            { "sentence": "女が歌う。", "translation": "The woman sings." }
+          ],
+          "め": [
+            { "sentence": "女神を信じる。", "translation": "I believe in the goddess." }
+          ],
+          "ジョ": [
+            { "sentence": "女子校に行く。", "translation": "I go to a girls’ school." }
+          ]
+        },
+        "vocabulary": ["女の子", "女性"],
+        "vocabulary_translation": ["girl", "woman"],
+        "translation": ["woman"],
+        "radicals": ["女"]
+      },
+      {
+        "kanji": "男",
+        "kunyomi": ["おとこ", "お"],
+        "onyomi": ["ダン", "ナン"],
+        "pitch_accent": { "おとこ": "LHH", "お": "H" },
+        "example_sentences": {
+          "おとこ": [
+            { "sentence": "男が走る。", "translation": "The man runs." }
+          ],
+          "お": [
+            { "sentence": "雄犬を飼う。", "translation": "I keep a male dog." }
+          ],
+          "ダン": [
+            { "sentence": "男子校だ。", "translation": "It’s a boys’ school." }
+          ]
+        },
+        "vocabulary": ["男の子", "男性"],
+        "vocabulary_translation": ["boy", "man"],
+        "translation": ["man"],
+        "radicals": ["田", "力"]
+      },
+      {
+        "kanji": "目",
+        "kunyomi": ["め", "ま"],
+        "onyomi": ["モク", "ボク"],
+        "pitch_accent": { "め": "H", "ま": "H" },
+        "example_sentences": {
+          "め": [
+            { "sentence": "目で見る。", "translation": "I see with my eyes." }
+          ],
+          "ま": [
+            { "sentence": "一目で分かる。", "translation": "I understand at a glance." }
+          ],
+          "モク": [
+            { "sentence": "目的を決める。", "translation": "I decide the purpose." }
+          ]
+        },
+        "vocabulary": ["目立つ", "目的"],
+        "vocabulary_translation": ["stand out", "purpose"],
+        "translation": ["eye"],
+        "radicals": ["目"]
+      },
+      {
+        "kanji": "口",
+        "kunyomi": ["くち"],
+        "onyomi": ["コウ", "ク"],
+        "pitch_accent": { "くち": "HL" },
+        "example_sentences": {
+          "くち": [
+            { "sentence": "口で話す。", "translation": "I speak with my mouth." }
+          ],
+          "コウ": [
+            { "sentence": "人口が増える。", "translation": "The population increases." }
+          ],
+          "ク": [
+            { "sentence": "出口を探す。", "translation": "I look for the exit." }
+          ]
+        },
+        "vocabulary": ["人口", "出口"],
+        "vocabulary_translation": ["population", "exit"],
+        "translation": ["mouth"],
+        "radicals": ["口"]
+      },
+      {
+        "kanji": "耳",
+        "kunyomi": ["みみ"],
+        "onyomi": ["ジ", "ニ"],
+        "pitch_accent": { "みみ": "HL" },
+        "example_sentences": {
+          "みみ": [
+            { "sentence": "耳で聞く。", "translation": "I hear with my ears." }
+          ],
+          "ジ": [
+            { "sentence": "耳鼻科に行く。", "translation": "I go to the ENT clinic." }
+          ]
+        },
+        "vocabulary": ["耳鼻科", "聞き耳"],
+        "vocabulary_translation": ["ENT clinic", "listening attentively"],
+        "translation": ["ear"],
+        "radicals": ["耳"]
+      },
+      {
+        "kanji": "手",
+        "kunyomi": ["て"],
+        "onyomi": ["シュ"],
+        "pitch_accent": { "て": "H" },
+        "example_sentences": {
+          "て": [
+            { "sentence": "手で書く。", "translation": "I write with my hand." }
+          ],
+          "シュ": [
+            { "sentence": "手術をする。", "translation": "I perform surgery." }
+          ]
+        },
+        "vocabulary": ["手紙", "手術"],
+        "vocabulary_translation": ["letter", "surgery"],
+        "translation": ["hand"],
+        "radicals": ["手"]
+      },
+      {
+        "kanji": "足",
+        "kunyomi": ["あし", "た.りる"],
+        "onyomi": ["ソク"],
+        "pitch_accent": { "あし": "HL", "た.りる": "LHH" },
+        "example_sentences": {
+          "あし": [
+            { "sentence": "足で歩く。", "translation": "I walk with my feet." }
+          ],
+          "た.りる": [
+            { "sentence": "お金が足りる。", "translation": "The money is enough." }
+          ],
+          "ソク": [
+            { "sentence": "速度を上げる。", "translation": "I increase the speed." }
+          ]
+        },
+        "vocabulary": ["足りる", "速度"],
+        "vocabulary_translation": ["to suffice", "speed"],
+        "translation": ["foot", "leg", "to suffice"],
+        "radicals": ["足"]
+      },
+      {
+        "kanji": "力",
+        "kunyomi": ["ちから"],
+        "onyomi": ["リョク", "リキ"],
+        "pitch_accent": { "ちから": "LHH" },
+        "example_sentences": {
+          "ちから": [
+            { "sentence": "力を出す。", "translation": "I exert strength." }
+          ],
+          "リョク": [
+            { "sentence": "体力をつける。", "translation": "I build physical strength." }
+          ]
+        },
+        "vocabulary": ["力持ち", "体力"],
+        "vocabulary_translation": ["strong person", "physical strength"],
+        "translation": ["strength"],
+        "radicals": ["力"]
+      }
+    ],
+    "Level 5": [
+      {
+        "kanji": "父",
+        "kunyomi": ["とう", "ちち"],
+        "onyomi": ["フ"],
+        "pitch_accent": { "とう": "HL", "ちち": "HL" },
+        "example_sentences": {
+          "とう": [
+            { "sentence": "父は医者だ。", "translation": "My father is a doctor." }
+          ],
+          "ちち": [
+            { "sentence": "父と話す。", "translation": "I talk with my father." }
+          ],
+          "フ": [
+            { "sentence": "父母が旅行する。", "translation": "My parents travel." }
+          ]
+        },
+        "vocabulary": ["お父さん", "父母"],
+        "vocabulary_translation": ["dad (polite)", "parents"],
+        "translation": ["father"],
+        "radicals": ["父"]
+      },
+      {
+        "kanji": "母",
+        "kunyomi": ["はは", "かあ"],
+        "onyomi": ["ボ"],
+        "pitch_accent": { "はは": "HL", "かあ": "HL" },
+        "example_sentences": {
+          "はは": [
+            { "sentence": "母は料理する。", "translation": "My mother cooks." }
+          ],
+          "かあ": [
+            { "sentence": "おかあさんが笑う。", "translation": "Mom laughs." }
+          ],
+          "ボ": [
+            { "sentence": "母国に帰る。", "translation": "I return to my homeland." }
+          ]
+        },
+        "vocabulary": ["お母さん", "母国"],
+        "vocabulary_translation": ["mom (polite)", "motherland"],
+        "translation": ["mother"],
+        "radicals": ["母"]
+      },
+      {
+        "kanji": "先",
+        "kunyomi": ["さき", "まず"],
+        "onyomi": ["セン"],
+        "pitch_accent": { "さき": "HL", "まず": "HL" },
+        "example_sentences": {
+          "さき": [
+            { "sentence": "先に食べる。", "translation": "I eat first." }
+          ],
+          "まず": [
+            { "sentence": "まず水を飲む。", "translation": "First, I drink water." }
+          ],
+          "セン": [
+            { "sentence": "先生に聞く。", "translation": "I ask the teacher." }
+          ]
+        },
+        "vocabulary": ["先生", "先週"],
+        "vocabulary_translation": ["teacher", "last week"],
+        "translation": ["ahead", "first"],
+        "radicals": ["丿", "儿"]
+      },
+      {
+        "kanji": "生",
+        "kunyomi": ["う.まれる", "い.きる", "なま", "う.む", "は.える", "お.う"],
+        "onyomi": ["セイ", "ショウ"],
+        "pitch_accent": { "う.まれる": "LHHH", "い.きる": "LHH" },
+        "example_sentences": {
+          "う.まれる": [
+            { "sentence": "子が生まれる。", "translation": "A child is born." }
+          ],
+          "い.きる": [
+            { "sentence": "長く生きる。", "translation": "I live long." }
+          ],
+          "なま": [
+            { "sentence": "生魚を食べる。", "translation": "I eat raw fish." }
+          ],
+          "セイ": [
+            { "sentence": "生徒が集まる。", "translation": "Students gather." }
+          ]
+        },
+        "vocabulary": ["生徒", "生活"],
+        "vocabulary_translation": ["student", "life/lifestyle"],
+        "translation": ["to be born", "to live", "raw"],
+        "radicals": ["生"]
+      },
+      {
+        "kanji": "学",
+        "kunyomi": ["まな.ぶ"],
+        "onyomi": ["ガク"],
+        "pitch_accent": { "まな.ぶ": "LHH" },
+        "example_sentences": {
+          "まな.ぶ": [
+            { "sentence": "日本語を学ぶ。", "translation": "I learn Japanese." }
+          ],
+          "ガク": [
+            { "sentence": "大学に行く。", "translation": "I go to university." }
+          ]
+        },
+        "vocabulary": ["学校", "学生"],
+        "vocabulary_translation": ["school", "student"],
+        "translation": ["to learn"],
+        "radicals": ["亠", "冖", "子"]
+      },
+      {
+        "kanji": "校",
+        "kunyomi": [],
+        "onyomi": ["コウ"],
+        "pitch_accent": {},
+        "example_sentences": {
+          "コウ": [
+            { "sentence": "学校に行く。", "translation": "I go to school." }
+          ]
+        },
+        "vocabulary": ["学校", "高校"],
+        "vocabulary_translation": ["school", "high school"],
+        "translation": ["school"],
+        "radicals": ["木", "交"]
+      },
+      {
+        "kanji": "友",
+        "kunyomi": ["とも"],
+        "onyomi": ["ユウ"],
+        "pitch_accent": { "とも": "HL" },
+        "example_sentences": {
+          "とも": [
+            { "sentence": "友達と遊ぶ。", "translation": "I play with friends." }
+          ],
+          "ユウ": [
+            { "sentence": "友情は大事だ。", "translation": "Friendship is important." }
+          ]
+        },
+        "vocabulary": ["友達", "友情"],
+        "vocabulary_translation": ["friend", "friendship"],
+        "translation": ["friend"],
+        "radicals": ["丿", "又"]
+      },
+      {
+        "kanji": "本",
+        "kunyomi": ["ほん", "もと"],
+        "onyomi": ["ホン"],
+        "pitch_accent": { "ほん": "HL", "もと": "HL" },
+        "example_sentences": {
+          "ほん": [
+            { "sentence": "本を読む。", "translation": "I read a book." }
+          ],
+          "もと": [
+            { "sentence": "元に戻る。", "translation": "I return to the origin." }
+          ],
+          "ホン": [
+            { "sentence": "日本に住む。", "translation": "I live in Japan." }
+          ]
+        },
+        "vocabulary": ["本", "日本"],
+        "vocabulary_translation": ["book", "Japan"],
+        "translation": ["book", "root"],
+        "radicals": ["木", "一"]
+      },
+      {
+        "kanji": "毎",
+        "kunyomi": ["まい"],
+        "onyomi": ["マイ"],
+        "pitch_accent": { "まい": "HL" },
+        "example_sentences": {
+          "まい": [
+            { "sentence": "毎朝走る。", "translation": "I run every morning." }
+          ],
+          "マイ": [
+            { "sentence": "毎週会う。", "translation": "We meet every week." }
+          ]
+        },
+        "vocabulary": ["毎日", "毎週"],
+        "vocabulary_translation": ["every day", "every week"],
+        "translation": ["every"],
+        "radicals": ["丿", "毋"]
+      },
+      {
+        "kanji": "何",
+        "kunyomi": ["なに", "なん"],
+        "onyomi": ["カ"],
+        "pitch_accent": { "なに": "HL", "なん": "HL" },
+        "example_sentences": {
+          "なに": [
+            { "sentence": "何を食べる？", "translation": "What do you eat?" }
+          ],
+          "なん": [
+            { "sentence": "何時ですか？", "translation": "What time is it?" }
+          ],
+          "カ": [
+            { "sentence": "何回行く？", "translation": "How many times do you go?" }
+          ]
+        },
+        "vocabulary": ["何時", "何か"],
+        "vocabulary_translation": ["what time", "something"],
+        "translation": ["what"],
+        "radicals": ["人", "可"]
+      }
+    ],
+    "Level 6": [
+      {
+        "kanji": "前",
+        "kunyomi": ["まえ"],
+        "onyomi": ["ゼン"],
+        "pitch_accent": { "まえ": "HL" },
+        "example_sentences": {
+          "まえ": [
+            { "sentence": "家の前に車がある。", "translation": "There’s a car in front of the house." }
+          ],
+          "ゼン": [
+            { "sentence": "前半は楽しかった。", "translation": "The first half was fun." }
+          ]
+        },
+        "vocabulary": ["前", "去年"],
+        "vocabulary_translation": ["front", "last year"],
+        "translation": ["front", "before"],
+        "radicals": ["刂", "月", "丷"]
+      },
+      {
+        "kanji": "後",
+        "kunyomi": ["あと", "うし.ろ"],
+        "onyomi": ["ゴ", "コウ"],
+        "pitch_accent": { "あと": "HL", "うし.ろ": "LHH" },
+        "example_sentences": {
+          "あと": [
+            { "sentence": "後で会う。", "translation": "I’ll meet you later." }
+          ],
+          "うし.ろ": [
+            { "sentence": "後ろに猫がいる。", "translation": "There’s a cat behind." }
+          ],
+          "ゴ": [
+            { "sentence": "午後に寝る。", "translation": "I sleep in the afternoon." }
+          ]
+        },
+        "vocabulary": ["後ろ", "午後"],
+        "vocabulary_translation": ["behind", "afternoon"],
+        "translation": ["behind", "after"],
+        "radicals": ["彳", "幺", "夂"]
+      },
+      {
+        "kanji": "外",
+        "kunyomi": ["そと", "はず.れる", "はず.す"],
+        "onyomi": ["ガイ", "ゲ"],
+        "pitch_accent": { "そと": "HL" },
+        "example_sentences": {
+          "そと": [
+            { "sentence": "外で遊ぶ。", "translation": "I play outside." }
+          ],
+          "ガイ": [
+            { "sentence": "外国に行く。", "translation": "I go to a foreign country." }
+          ],
+          "ゲ": [
+            { "sentence": "外科医になる。", "translation": "I become a surgeon." }
+          ]
+        },
+        "vocabulary": ["外国", "外科"],
+        "vocabulary_translation": ["foreign country", "surgery"],
+        "translation": ["outside"],
+        "radicals": ["夕", "卜"]
+      },
+      {
+        "kanji": "左",
+        "kunyomi": ["ひだり"],
+        "onyomi": ["サ"],
+        "pitch_accent": { "ひだり": "LHH" },
+        "example_sentences": {
+          "ひだり": [
+            { "sentence": "左に曲がる。", "translation": "I turn left." }
+          ],
+          "サ": [
+            { "sentence": "左側に座る。", "translation": "I sit on the left side." }
+          ]
+        },
+        "vocabulary": ["左手", "左側"],
+        "vocabulary_translation": ["left hand", "left side"],
+        "translation": ["left"],
+        "radicals": ["工", "丿"]
+      },
+      {
+        "kanji": "右",
+        "kunyomi": ["みぎ"],
+        "onyomi": ["ユウ"],
+        "pitch_accent": { "みぎ": "HL" },
+        "example_sentences": {
+          "みぎ": [
+            { "sentence": "右に曲がる。", "translation": "I turn right." }
+          ],
+          "ユウ": [
+            { "sentence": "右翼が飛ぶ。", "translation": "The right wing flies." }
+          ]
+        },
+        "vocabulary": ["右手", "右側"],
+        "vocabulary_translation": ["right hand", "right side"],
+        "translation": ["right"],
+        "radicals": ["口", "丿"]
+      },
+      {
+        "kanji": "東",
+        "kunyomi": ["ひがし"],
+        "onyomi": ["トウ"],
+        "pitch_accent": { "ひがし": "LHH" },
+        "example_sentences": {
+          "ひがし": [
+            { "sentence": "東に旅行する。", "translation": "I travel east." }
+          ],
+          "トウ": [
+            { "sentence": "東京に住む。", "translation": "I live in Tokyo." }
+          ]
+        },
+        "vocabulary": ["東京", "東側"],
+        "vocabulary_translation": ["Tokyo", "east side"],
+        "translation": ["east"],
+        "radicals": ["木", "日"]
+      },
+      {
+        "kanji": "西",
+        "kunyomi": ["にし"],
+        "onyomi": ["セイ", "サイ"],
+        "pitch_accent": { "にし": "HL" },
+        "example_sentences": {
+          "にし": [
+            { "sentence": "西に行く。", "translation": "I go west." }
+          ],
+          "セイ": [
+            { "sentence": "西洋を学ぶ。", "translation": "I study the West." }
+          ]
+        },
+        "vocabulary": ["西洋", "西側"],
+        "vocabulary_translation": ["West", "west side"],
+        "translation": ["west"],
+        "radicals": ["西"]
+      },
+      {
+        "kanji": "南",
+        "kunyomi": ["みなみ"],
+        "onyomi": ["ナン"],
+        "pitch_accent": { "みなみ": "LHH" },
+        "example_sentences": {
+          "みなみ": [
+            { "sentence": "南に飛ぶ。", "translation": "I fly south." }
+          ],
+          "ナン": [
+            { "sentence": "南極に行く。", "translation": "I go to the South Pole." }
+          ]
+        },
+        "vocabulary": ["南極", "南側"],
+        "vocabulary_translation": ["South Pole", "south side"],
+        "translation": ["south"],
+        "radicals": ["十", "冂", "丷"]
+      },
+      {
+        "kanji": "北",
+        "kunyomi": ["きた"],
+        "onyomi": ["ホク"],
+        "pitch_accent": { "きた": "HL" },
+        "example_sentences": {
+          "きた": [
+            { "sentence": "北に歩く。", "translation": "I walk north." }
+          ],
+          "ホク": [
+            { "sentence": "北極は寒い。", "translation": "The North Pole is cold." }
+          ]
+        },
+        "vocabulary": ["北極", "北側"],
+        "vocabulary_translation": ["North Pole", "north side"],
+        "translation": ["north"],
+        "radicals": ["匕", "丨"]
+      },
+      {
+        "kanji": "名",
+        "kunyomi": ["な", "めい"],
+        "onyomi": ["メイ", "ミョウ"],
+        "pitch_accent": { "な": "H", "めい": "HL" },
+        "example_sentences": {
+          "な": [
+            { "sentence": "名前を言う。", "translation": "I say my name." }
+          ],
+          "メイ": [
+            { "sentence": "有名な人だ。", "translation": "He’s a famous person." }
+          ]
+        },
+        "vocabulary": ["名前", "有名"],
+        "vocabulary_translation": ["name", "famous"],
+        "translation": ["name"],
+        "radicals": ["夕", "口"]
+      }
+    ],
+    "Level 7": [
+      {
+        "kanji": "牛",
+        "kunyomi": ["うし"],
+        "onyomi": ["ギュウ"],
+        "pitch_accent": { "うし": "HL" },
+        "example_sentences": {
+          "うし": [
+            { "sentence": "牛が草を食べる。", "translation": "The cow eats grass." }
+          ],
+          "ギュウ": [
+            { "sentence": "牛肉を食べる。", "translation": "I eat beef." }
+          ]
+        },
+        "vocabulary": ["牛肉", "牛乳"],
+        "vocabulary_translation": ["beef", "milk"],
+        "translation": ["cow"],
+        "radicals": ["牛"]
+      },
+      {
+        "kanji": "馬",
+        "kunyomi": ["うま", "ま"],
+        "onyomi": ["バ"],
+        "pitch_accent": { "うま": "HL" },
+        "example_sentences": {
+          "うま": [
+            { "sentence": "馬に乗る。", "translation": "I ride a horse." }
+          ],
+          "バ": [
+            { "sentence": "競馬を見る。", "translation": "I watch horse racing." }
+          ]
+        },
+        "vocabulary": ["馬車", "競馬"],
+        "vocabulary_translation": ["horse carriage", "horse racing"],
+        "translation": ["horse"],
+        "radicals": ["馬"]
+      },
+      {
+        "kanji": "魚",
+        "kunyomi": ["うお", "さかな"],
+        "onyomi": ["ギョ"],
+        "pitch_accent": { "さかな": "LHH" },
+        "example_sentences": {
+          "さかな": [
+            { "sentence": "魚を食べる。", "translation": "I eat fish." }
+          ],
+          "ギョ": [
+            { "sentence": "魚市場に行く。", "translation": "I go to the fish market." }
+          ]
+        },
+        "vocabulary": ["魚屋", "金魚"],
+        "vocabulary_translation": ["fish shop", "goldfish"],
+        "translation": ["fish"],
+        "radicals": ["魚"]
+      },
+      {
+        "kanji": "貝",
+        "kunyomi": ["かい"],
+        "onyomi": ["バイ"],
+        "pitch_accent": { "かい": "HL" },
+        "example_sentences": {
+          "かい": [
+            { "sentence": "貝を拾う。", "translation": "I pick up a shellfish." }
+          ],
+          "バイ": [
+            { "sentence": "貝類が好きだ。", "translation": "I like shellfish." }
+          ]
+        },
+        "vocabulary": ["貝殻", "貝類"],
+        "vocabulary_translation": ["shell", "shellfish"],
+        "translation": ["shellfish"],
+        "radicals": ["貝"]
+      },
+      {
+        "kanji": "雨",
+        "kunyomi": ["あめ", "あま"],
+        "onyomi": ["ウ"],
+        "pitch_accent": { "あめ": "HL" },
+        "example_sentences": {
+          "あめ": [
+            { "sentence": "雨が降る。", "translation": "It’s raining." }
+          ],
+          "ウ": [
+            { "sentence": "雨天で中止だ。", "translation": "It’s canceled due to rain." }
+          ]
+        },
+        "vocabulary": ["雨具", "降雨"],
+        "vocabulary_translation": ["rain gear", "rainfall"],
+        "translation": ["rain"],
+        "radicals": ["雨"]
+      },
+      {
+        "kanji": "天",
+        "kunyomi": ["てん", "あま"],
+        "onyomi": ["テン"],
+        "pitch_accent": { "てん": "HL" },
+        "example_sentences": {
+          "てん": [
+            { "sentence": "天気が良い。", "translation": "The weather is good." }
+          ],
+          "テン": [
+            { "sentence": "天皇が話す。", "translation": "The emperor speaks." }
+          ]
+        },
+        "vocabulary": ["天気", "天空"],
+        "vocabulary_translation": ["weather", "sky"],
+        "translation": ["heaven", "sky"],
+        "radicals": ["一", "大"]
+      },
+      {
+        "kanji": "気",
+        "kunyomi": ["き", "け"],
+        "onyomi": ["キ", "ケ"],
+        "pitch_accent": { "き": "H" },
+        "example_sentences": {
+          "き": [
+            { "sentence": "気を付ける。", "translation": "I take care." }
+          ],
+          "け": [
+            { "sentence": "元気だ。", "translation": "I’m healthy." }
+          ]
+        },
+        "vocabulary": ["元気", "気分"],
+        "vocabulary_translation": ["healthy/energetic", "mood"],
+        "translation": ["spirit", "energy"],
+        "radicals": ["气", "乂"]
+      },
+      {
+        "kanji": "車",
+        "kunyomi": ["くるま"],
+        "onyomi": ["シャ"],
+        "pitch_accent": { "くるま": "LHH" },
+        "example_sentences": {
+          "くるま": [
+            { "sentence": "車に乗る。", "translation": "I ride a car." }
+          ],
+          "シャ": [
+            { "sentence": "電車で行く。", "translation": "I go by train." }
+          ]
+        },
+        "vocabulary": ["自動車", "電車"],
+        "vocabulary_translation": ["automobile", "train"],
+        "translation": ["car"],
+        "radicals": ["車"]
+      },
+      {
+        "kanji": "問",
+        "kunyomi": ["と.う", "と.い"],
+        "onyomi": ["モン"],
+        "pitch_accent": { "と.う": "LH" },
+        "example_sentences": {
+          "と.う": [
+            { "sentence": "先生に問う。", "translation": "I ask the teacher." }
+          ],
+          "モン": [
+            { "sentence": "問題を解く。", "translation": "I solve the problem." }
+          ]
+        },
+        "vocabulary": ["問題", "質問"],
+        "vocabulary_translation": ["problem", "question"],
+        "translation": ["to ask"],
+        "radicals": ["門", "口"]
+      },
+      {
+        "kanji": "午",
+        "kunyomi": ["うま"],
+        "onyomi": ["ゴ"],
+        "pitch_accent": { "うま": "HL" },
+        "example_sentences": {
+          "うま": [
+            { "sentence": "午の刻に会う。", "translation": "We meet at noon." }
+          ],
+          "ゴ": [
+            { "sentence": "午後に寝る。", "translation": "I sleep in the afternoon." }
+          ]
+        },
+        "vocabulary": ["午後", "正午"],
+        "vocabulary_translation": ["afternoon", "noon"],
+        "translation": ["noon"],
+        "radicals": ["丿", "十"]
+      }
+    ],
+    "Level 8": [
+      {
+        "kanji": "大",
+        "kunyomi": ["おお.きい", "おお"],
+        "onyomi": ["ダイ", "タイ"],
+        "pitch_accent": { "おお.きい": "LHHH" },
+        "example_sentences": {
+          "おお.きい": [
+            { "sentence": "大きい家に住む。", "translation": "I live in a big house." }
+          ],
+          "ダイ": [
+            { "sentence": "大学に行く。", "translation": "I go to university." }
+          ]
+        },
+        "vocabulary": ["大学", "大きい"],
+        "vocabulary_translation": ["university", "big"],
+        "translation": ["big"],
+        "radicals": ["大"]
+      },
+      {
+        "kanji": "小",
+        "kunyomi": ["ちい.さい", "こ"],
+        "onyomi": ["ショウ"],
+        "pitch_accent": { "ちい.さい": "LHHHH" },
+        "example_sentences": {
+          "ちい.さい": [
+            { "sentence": "小さい犬が吠える。", "translation": "The small dog barks." }
+          ],
+          "ショウ": [
+            { "sentence": "小学校に行く。", "translation": "I go to elementary school." }
+          ]
+        },
+        "vocabulary": ["小学校", "小さい"],
+        "vocabulary_translation": ["elementary school", "small"],
+        "translation": ["small"],
+        "radicals": ["小"]
+      },
+      {
+        "kanji": "高",
+        "kunyomi": ["たか.い", "たか"],
+        "onyomi": ["コウ"],
+        "pitch_accent": { "たか.い": "LHH" },
+        "example_sentences": {
+          "たか.い": [
+            { "sentence": "高い山に登る。", "translation": "I climb a high mountain." }
+          ],
+          "コウ": [
+            { "sentence": "高校生だ。", "translation": "I’m a high school student." }
+          ]
+        },
+        "vocabulary": ["高校", "高い"],
+        "vocabulary_translation": ["high school", "high/tall"],
+        "translation": ["high", "tall"],
+        "radicals": ["亠", "口", "冂"]
+      },
+      {
+        "kanji": "安",
+        "kunyomi": ["やす.い", "やす"],
+        "onyomi": ["アン"],
+        "pitch_accent": { "やす.い": "LHH" },
+        "example_sentences": {
+          "やす.い": [
+            { "sentence": "安い本を買う。", "translation": "I buy a cheap book." }
+          ],
+          "アン": [
+            { "sentence": "安全を確認する。", "translation": "I check safety." }
+          ]
+        },
+        "vocabulary": ["安全", "安い"],
+        "vocabulary_translation": ["safe", "cheap"],
+        "translation": ["cheap", "peaceful"],
+        "radicals": ["宀", "女"]
+      },
+      {
+        "kanji": "新",
+        "kunyomi": ["あたら.しい", "あら.た"],
+        "onyomi": ["シン"],
+        "pitch_accent": { "あたら.しい": "LHHHH" },
+        "example_sentences": {
+          "あたら.しい": [
+            { "sentence": "新しい車を買う。", "translation": "I buy a new car." }
+          ],
+          "シン": [
+            { "sentence": "新聞を読む。", "translation": "I read the newspaper." }
+          ]
+        },
+        "vocabulary": ["新聞", "新しい"],
+        "vocabulary_translation": ["newspaper", "new"],
+        "translation": ["new"],
+        "radicals": ["立", "木", "斤"]
+      },
+      {
+        "kanji": "古",
+        "kunyomi": ["ふる.い", "ふる"],
+        "onyomi": ["コ"],
+        "pitch_accent": { "ふる.い": "LHH" },
+        "example_sentences": {
+          "ふる.い": [
+            { "sentence": "古い本を読む。", "translation": "I read an old book." }
+          ],
+          "コ": [
+            { "sentence": "古文を習う。", "translation": "I learn classical literature." }
+          ]
+        },
+        "vocabulary": ["古い", "古典"],
+        "vocabulary_translation": ["old", "classics"],
+        "translation": ["old"],
+        "radicals": ["十", "口"]
+      },
+      {
+        "kanji": "長",
+        "kunyomi": ["なが.い", "なが"],
+        "onyomi": ["チョウ"],
+        "pitch_accent": { "なが.い": "LHH" },
+        "example_sentences": {
+          "なが.い": [
+            { "sentence": "長い道を歩く。", "translation": "I walk a long road." }
+          ],
+          "チョウ": [
+            { "sentence": "校長に会う。", "translation": "I meet the principal." }
+          ]
+        },
+        "vocabulary": ["長い", "部長"],
+        "vocabulary_translation": ["long", "department chief"],
+        "translation": ["long"],
+        "radicals": ["長"]
+      },
+      {
+        "kanji": "多",
+        "kunyomi": ["おお.い", "おお"],
+        "onyomi": ["タ"],
+        "pitch_accent": { "おお.い": "LHH" },
+        "example_sentences": {
+          "おお.い": [
+            { "sentence": "人が多い。", "translation": "There are many people." }
+          ],
+          "タ": [
+            { "sentence": "多数決で決める。", "translation": "We decide by majority." }
+          ]
+        },
+        "vocabulary": ["多い", "多数"],
+        "vocabulary_translation": ["many", "majority"],
+        "translation": ["many"],
+        "radicals": ["夕"]
+      },
+      {
+        "kanji": "少",
+        "kunyomi": ["すく.ない", "すこ.し"],
+        "onyomi": ["ショウ"],
+        "pitch_accent": { "すく.ない": "LHHH" },
+        "example_sentences": {
+          "すく.ない": [
+            { "sentence": "お金が少ない。", "translation": "I have little money." }
+          ],
+          "すこ.し": [
+            { "sentence": "少し食べる。", "translation": "I eat a little." }
+          ]
+        },
+        "vocabulary": ["少し", "少年"],
+        "vocabulary_translation": ["a little", "boy"],
+        "translation": ["few", "a little"],
+        "radicals": ["小", "丿"]
+      },
+      {
+        "kanji": "早",
+        "kunyomi": ["はや.い"],
+        "onyomi": ["ソウ"],
+        "pitch_accent": { "はや.い": "LHH" },
+        "example_sentences": {
+          "はや.い": [
+            { "sentence": "朝が早い。", "translation": "The morning is early." }
+          ],
+          "ソウ": [
+            { "sentence": "早朝に起きる。", "translation": "I wake up early in the morning." }
+          ]
+        },
+        "vocabulary": ["早い", "早朝"],
+        "vocabulary_translation": ["early/fast", "early morning"],
+        "translation": ["early", "fast"],
+        "radicals": ["日", "十"]
+      }
+    ],
+    "Level 9": [
+      {
+        "kanji": "行",
+        "kunyomi": ["い.く", "ゆ.く", "おこな.う"],
+        "onyomi": ["コウ", "ギョウ"],
+        "pitch_accent": { "い.く": "LH" },
+        "example_sentences": {
+          "い.く": [
+            { "sentence": "学校に行く。", "translation": "I go to school." }
+          ],
+          "おこな.う": [
+            { "sentence": "祭りを行う。", "translation": "I hold a festival." }
+          ]
+        },
+        "vocabulary": ["行く", "旅行"],
+        "vocabulary_translation": ["go", "travel"],
+        "translation": ["to go", "to perform"],
+        "radicals": ["彳", "亍"]
+      },
+      {
+        "kanji": "来",
+        "kunyomi": ["く.る", "きた.る"],
+        "onyomi": ["ライ"],
+        "pitch_accent": { "く.る": "LH" },
+        "example_sentences": {
+          "く.る": [
+            { "sentence": "友達が来る。", "translation": "My friend comes." }
+          ],
+          "ライ": [
+            { "sentence": "来年会う。", "translation": "We meet next year." }
+          ]
+        },
+        "vocabulary": ["来る", "未来"],
+        "vocabulary_translation": ["come", "future"],
+        "translation": ["to come"],
+        "radicals": ["木", "米"]
+      },
+      {
+        "kanji": "食",
+        "kunyomi": ["た.べる", "く.う"],
+        "onyomi": ["ショク", "ジキ"],
+        "pitch_accent": { "た.べる": "LHH" },
+        "example_sentences": {
+          "た.べる": [
+            { "sentence": "ご飯を食べる。", "translation": "I eat rice." }
+          ],
+          "ショク": [
+            { "sentence": "食事を作る。", "translation": "I prepare a meal." }
+          ]
+        },
+        "vocabulary": ["食べる", "食事"],
+        "vocabulary_translation": ["eat", "meal"],
+        "translation": ["to eat", "food"],
+        "radicals": ["食"]
+      },
+      {
+        "kanji": "見",
+        "kunyomi": ["み.る", "み.える"],
+        "onyomi": ["ケン"],
+        "pitch_accent": { "み.る": "LH" },
+        "example_sentences": {
+          "み.る": [
+            { "sentence": "本を見る。", "translation": "I look at a book." }
+          ],
+          "み.える": [
+            { "sentence": "山が見える。", "translation": "I can see the mountain." }
+          ]
+        },
+        "vocabulary": ["見る", "意見"],
+        "vocabulary_translation": ["see", "opinion"],
+        "translation": ["to see", "to be visible"],
+        "radicals": ["目", "見"]
+      },
+      {
+        "kanji": "入",
+        "kunyomi": ["い.る", "はい.る"],
+        "onyomi": ["ニュウ"],
+        "pitch_accent": { "はい.る": "LHH" },
+        "example_sentences": {
+          "はい.る": [
+            { "sentence": "部屋にはいる。", "translation": "I enter the room." }
+          ],
+          "ニュウ": [
+            { "sentence": "入場する。", "translation": "I enter the venue." }
+          ]
+        },
+        "vocabulary": ["入れる", "入場"],
+        "vocabulary_translation": ["put in", "admission"],
+        "translation": ["to enter"],
+        "radicals": ["入"]
+      },
+      {
+        "kanji": "出",
+        "kunyomi": ["で.る", "だ.す"],
+        "onyomi": ["シュツ"],
+        "pitch_accent": { "で.る": "LH" },
+        "example_sentences": {
+          "で.る": [
+            { "sentence": "家を出る。", "translation": "I leave the house." }
+          ],
+          "だ.す": [
+            { "sentence": "手紙を出す。", "translation": "I send a letter." }
+          ]
+        },
+        "vocabulary": ["出る", "出す"],
+        "vocabulary_translation": ["go out", "send out"],
+        "translation": ["to go out", "to send"],
+        "radicals": ["山", "凵"]
+      },
+      {
+        "kanji": "立",
+        "kunyomi": ["た.つ", "た.てる"],
+        "onyomi": ["リツ", "リュウ"],
+        "pitch_accent": { "た.つ": "LH" },
+        "example_sentences": {
+          "た.つ": [
+            { "sentence": "ここに立つ。", "translation": "I stand here." }
+          ],
+          "リツ": [
+            { "sentence": "独立する。", "translation": "I become independent." }
+          ]
+        },
+        "vocabulary": ["立つ", "独立"],
+        "vocabulary_translation": ["stand", "independence"],
+        "translation": ["to stand"],
+        "radicals": ["立"]
+      },
+      {
+        "kanji": "書",
+        "kunyomi": ["か.く"],
+        "onyomi": ["ショ"],
+        "pitch_accent": { "か.く": "LH" },
+        "example_sentences": {
+          "か.く": [
+            { "sentence": "手紙を書く。", "translation": "I write a letter." }
+          ],
+          "ショ": [
+            { "sentence": "書道を習う。", "translation": "I learn calligraphy." }
+          ]
+        },
+        "vocabulary": ["書く", "書道"],
+        "vocabulary_translation": ["write", "calligraphy"],
+        "translation": ["to write"],
+        "radicals": ["聿", "日"]
+      },
+      {
+        "kanji": "言",
+        "kunyomi": ["い.う", "こと"],
+        "onyomi": ["ゲン", "ゴン"],
+        "pitch_accent": { "い.う": "LH" },
+        "example_sentences": {
+          "い.う": [
+            { "sentence": "名前を言う。", "translation": "I say my name." }
+          ],
+          "ゲン": [
+            { "sentence": "言語を学ぶ。", "translation": "I learn a language." }
+          ]
+        },
+        "vocabulary": ["言う", "言語"],
+        "vocabulary_translation": ["say", "language"],
+        "translation": ["to say", "word"],
+        "radicals": ["言"]
+      },
+      {
+        "kanji": "飲",
+        "kunyomi": ["の.む"],
+        "onyomi": ["イン"],
+        "pitch_accent": { "の.む": "LH" },
+        "example_sentences": {
+          "の.む": [
+            { "sentence": "水を飲む。", "translation": "I drink water." }
+          ],
+          "イン": [
+            { "sentence": "飲酒は禁止だ。", "translation": "Drinking alcohol is prohibited." }
+          ]
+        },
+        "vocabulary": ["飲む", "飲み物"],
+        "vocabulary_translation": ["drink", "beverage"],
+        "translation": ["to drink"],
+        "radicals": ["食", "欠"]
+      }
+    ],
+    "Level 10": [
+      {
+        "kanji": "話",
+        "kunyomi": ["はな.す", "はなし"],
+        "onyomi": ["ワ"],
+        "pitch_accent": { "はな.す": "LHH" },
+        "example_sentences": {
+          "はな.す": [
+            { "sentence": "友達と話す。", "translation": "I talk with a friend." }
+          ],
+          "ワ": [
+            { "sentence": "会話が楽しい。", "translation": "The conversation is fun." }
+          ]
+        },
+        "vocabulary": ["話す", "電話"],
+        "vocabulary_translation": ["speak", "telephone"],
+        "translation": ["to talk", "story"],
+        "radicals": ["言", "舌"]
+      },
+      {
+        "kanji": "読",
+        "kunyomi": ["よ.む"],
+        "onyomi": ["ドク"],
+        "pitch_accent": { "よ.む": "LH" },
+        "example_sentences": {
+          "よ.む": [
+            { "sentence": "本を読む。", "translation": "I read a book." }
+          ],
+          "ドク": [
+            { "sentence": "読書が好きだ。", "translation": "I like reading." }
+          ]
+        },
+        "vocabulary": ["読む", "読書"],
+        "vocabulary_translation": ["read", "reading books"],
+        "translation": ["to read"],
+        "radicals": ["言", "売"]
+      },
+      {
+        "kanji": "語",
+        "kunyomi": ["かた.る"],
+        "onyomi": ["ゴ"],
+        "pitch_accent": { "かた.る": "LHH" },
+        "example_sentences": {
+          "かた.る": [
+            { "sentence": "物語を語る。", "translation": "I tell a story." }
+          ],
+          "ゴ": [
+            { "sentence": "日本語を学ぶ。", "translation": "I learn Japanese." }
+          ]
+        },
+        "vocabulary": ["物語", "日本語"],
+        "vocabulary_translation": ["story", "Japanese language"],
+        "translation": ["to narrate", "language"],
+        "radicals": ["言", "吾"]
+      },
+      {
+        "kanji": "間",
+        "kunyomi": ["あいだ", "ま"],
+        "onyomi": ["カン", "ケン"],
+        "pitch_accent": { "あいだ": "LHH" },
+        "example_sentences": {
+          "あいだ": [
+            { "sentence": "木の間に立つ。", "translation": "I stand between the trees." }
+          ],
+          "カン": [
+            { "sentence": "時間がない。", "translation": "There’s no time." }
+          ]
+        },
+        "vocabulary": ["時間", "人間"],
+        "vocabulary_translation": ["time", "human"],
+        "translation": ["interval", "space"],
+        "radicals": ["門", "日"]
+      },
+      {
+        "kanji": "聞",
+        "kunyomi": ["き.く", "き.こえる"],
+        "onyomi": ["ブン", "モン"],
+        "pitch_accent": { "き.く": "LH" },
+        "example_sentences": {
+          "き.く": [
+            { "sentence": "音楽を聞く。", "translation": "I listen to music." }
+          ],
+          "き.こえる": [
+            { "sentence": "声が聞こえる。", "translation": "I can hear a voice." }
+          ]
+        },
+        "vocabulary": ["聞く", "新聞"],
+        "vocabulary_translation": ["hear/listen", "newspaper"],
+        "translation": ["to hear", "to listen"],
+        "radicals": ["耳", "門"]
+      },
+      {
+        "kanji": "買",
+        "kunyomi": ["か.う"],
+        "onyomi": ["バイ"],
+        "pitch_accent": { "か.う": "LH" },
+        "example_sentences": {
+          "か.う": [
+            { "sentence": "本を買う。", "translation": "I buy a book." }
+          ],
+          "バイ": [
+            { "sentence": "購買部に行く。", "translation": "I go to the purchasing department." }
+          ]
+        },
+        "vocabulary": ["買う", "買い物"],
+        "vocabulary_translation": ["buy", "shopping"],
+        "translation": ["to buy"],
+        "radicals": ["罒", "貝"]
+      },
+      {
+        "kanji": "休",
+        "kunyomi": ["やす.む"],
+        "onyomi": ["キュウ"],
+        "pitch_accent": { "やす.む": "LHH" },
+        "example_sentences": {
+          "やす.む": [
+            { "sentence": "学校を休む。", "translation": "I take a break from school." }
+          ],
+          "キュウ": [
+            { "sentence": "休日を過ごす。", "translation": "I spend a holiday." }
+          ]
+        },
+        "vocabulary": ["休む", "休日"],
+        "vocabulary_translation": ["rest", "holiday"],
+        "translation": ["to rest"],
+        "radicals": ["亻", "木"]
+      },
+      {
+        "kanji": "時",
+        "kunyomi": ["とき", "じ"],
+        "onyomi": ["ジ"],
+        "pitch_accent": { "とき": "HL" },
+        "example_sentences": {
+          "とき": [
+            { "sentence": "良い時に来る。", "translation": "I come at a good time." }
+          ],
+          "ジ": [
+            { "sentence": "三時に会う。", "translation": "We meet at three o’clock." }
+          ]
+        },
+        "vocabulary": ["時間", "時計"],
+        "vocabulary_translation": ["time", "clock"],
+        "translation": ["time", "hour"],
+        "radicals": ["日", "寺"]
+      },
+      {
+        "kanji": "週",
+        "kunyomi": [],
+        "onyomi": ["シュウ"],
+        "pitch_accent": {},
+        "example_sentences": {
+          "シュウ": [
+            { "sentence": "毎週遊ぶ。", "translation": "I play every week." }
+          ]
+        },
+        "vocabulary": ["毎週", "一週間"],
+        "vocabulary_translation": ["every week", "one week"],
+        "translation": ["week"],
+        "radicals": ["彳", "周"]
+      },
+      {
+        "kanji": "道",
+        "kunyomi": ["みち"],
+        "onyomi": ["ドウ"],
+        "pitch_accent": { "みち": "HL" },
+        "example_sentences": {
+          "みち": [
+            { "sentence": "道を歩く。", "translation": "I walk the road." }
+          ],
+          "ドウ": [
+            { "sentence": "書道を習う。", "translation": "I learn calligraphy." }
+          ]
+        },
+        "vocabulary": ["道", "道路"],
+        "vocabulary_translation": ["road", "road/highway"],
+        "translation": ["road", "path"],
+        "radicals": ["辶", "首"]
+      }
+    ],
+    "Level 11": [
+      {
+        "kanji": "今",
+        "kunyomi": ["いま"],
+        "onyomi": ["コン", "キン"],
+        "pitch_accent": { "いま": "HL" },
+        "example_sentences": {
+          "いま": [
+            { "sentence": "今、勉強する。", "translation": "I study now." }
+          ],
+          "コン": [
+            { "sentence": "今晩、会う。", "translation": "We meet tonight." }
+          ]
+        },
+        "vocabulary": ["今", "今日"],
+        "vocabulary_translation": ["now", "today"],
+        "translation": ["now"],
+        "radicals": ["人", "亼"]
+      },
+      {
+        "kanji": "会",
+        "kunyomi": ["あ.う"],
+        "onyomi": ["カイ"],
+        "pitch_accent": { "あ.う": "LH" },
+        "example_sentences": {
+          "あ.う": [
+            { "sentence": "友達に会う。", "translation": "I meet a friend." }
+          ],
+          "カイ": [
+            { "sentence": "会議がある。", "translation": "There is a meeting." }
+          ]
+        },
+        "vocabulary": ["会う", "会社"],
+        "vocabulary_translation": ["meet", "company"],
+        "translation": ["to meet"],
+        "radicals": ["人", "云"]
+      },
+      {
+        "kanji": "社",
+        "kunyomi": [],
+        "onyomi": ["シャ"],
+        "pitch_accent": {},
+        "example_sentences": {
+          "シャ": [
+            { "sentence": "会社で働く。", "translation": "I work at a company." }
+          ]
+        },
+        "vocabulary": ["会社", "社会"],
+        "vocabulary_translation": ["company", "society"],
+        "translation": ["company", "society"],
+        "radicals": ["示", "土"]
+      },
+      {
+        "kanji": "店",
+        "kunyomi": ["みせ"],
+        "onyomi": ["テン"],
+        "pitch_accent": { "みせ": "HL" },
+        "example_sentences": {
+          "みせ": [
+            { "sentence": "店に行く。", "translation": "I go to the shop." }
+          ],
+          "テン": [
+            { "sentence": "商店街を歩く。", "translation": "I walk through the shopping street." }
+          ]
+        },
+        "vocabulary": ["お店", "商店"],
+        "vocabulary_translation": ["shop (polite)", "store"],
+        "translation": ["shop"],
+        "radicals": ["广", "占"]
+      },
+      {
+        "kanji": "駅",
+        "kunyomi": [],
+        "onyomi": ["エキ"],
+        "pitch_accent": {},
+        "example_sentences": {
+          "エキ": [
+            { "sentence": "駅に行く。", "translation": "I go to the station." }
+          ]
+        },
+        "vocabulary": ["駅前", "東京駅"],
+        "vocabulary_translation": ["in front of the station", "Tokyo Station"],
+        "translation": ["station"],
+        "radicals": ["馬", "尺"]
+      },
+      {
+        "kanji": "花",
+        "kunyomi": ["はな"],
+        "onyomi": ["カ"],
+        "pitch_accent": { "はな": "HL" },
+        "example_sentences": {
+          "はな": [
+            { "sentence": "花が咲く。", "translation": "The flower blooms." }
+          ],
+          "カ": [
+            { "sentence": "花火を見る。", "translation": "I watch fireworks." }
+          ]
+        },
+        "vocabulary": ["花見", "花火"],
+        "vocabulary_translation": ["cherry blossom viewing", "fireworks"],
+        "translation": ["flower"],
+        "radicals": ["艹", "化"]
+      },
+      {
+        "kanji": "国",
+        "kunyomi": ["くに"],
+        "onyomi": ["コク"],
+        "pitch_accent": { "くに": "HL" },
+        "example_sentences": {
+          "くに": [
+            { "sentence": "国に帰る。", "translation": "I return to my country." }
+          ],
+          "コク": [
+            { "sentence": "国民が投票する。", "translation": "Citizens vote." }
+          ]
+        },
+        "vocabulary": ["日本", "国民"],
+        "vocabulary_translation": ["Japan", "citizen"],
+        "translation": ["country"],
+        "radicals": ["囗", "玉"]
+      },
+      {
+        "kanji": "白",
+        "kunyomi": ["しろ", "しろ.い"],
+        "onyomi": ["ハク"],
+        "pitch_accent": { "しろ.い": "LHH" },
+        "example_sentences": {
+          "しろ": [
+            { "sentence": "白い紙を使う。", "translation": "I use white paper." }
+          ],
+          "しろ.い": [
+            { "sentence": "雪が白い。", "translation": "The snow is white." },
+            { "sentence": "白い花がきれいだ。", "translation": "The white flower is beautiful." }
+          ],
+          "ハク": [
+            { "sentence": "白紙で提出する。", "translation": "Submit on blank paper." }
+          ]
+        },
+        "vocabulary": ["白い", "空白"],
+        "vocabulary_translation": ["white", "blank/empty space"],
+        "translation": ["white"],
+        "radicals": ["白"]
+      },
+      {
+        "kanji": "空",
+        "kunyomi": ["そら", "から", "あ.く"],
+        "onyomi": ["クウ", "ク"],
+        "pitch_accent": { "そら": "HL", "から": "HL" },
+        "example_sentences": {
+          "そら": [
+            { "sentence": "空が青い。", "translation": "The sky is blue." },
+            { "sentence": "空を見上げる。", "translation": "I look up at the sky." }
+          ],
+          "から": [
+            { "sentence": "空の箱だ。", "translation": "It’s an empty box." }
+          ],
+          "あ.く": [
+            { "sentence": "席が空く。", "translation": "A seat becomes available." }
+          ],
+          "クウ": [
+            { "sentence": "空港に行く。", "translation": "I go to the airport." }
+          ]
+        },
+        "vocabulary": ["空", "空港", "空っぽ"],
+        "vocabulary_translation": ["sky", "airport", "empty"],
+        "translation": ["sky", "empty", "air"],
+        "radicals": ["穴", "工"]
+      },
+      {
+        "kanji": "電",
+        "kunyomi": [],
+        "onyomi": ["デン"],
+        "pitch_accent": {},
+        "example_sentences": {
+          "デン": [
+            { "sentence": "電車に乗る。", "translation": "I ride the train." },
+            { "sentence": "電気を消す。", "translation": "I turn off the light." }
+          ]
+        },
+        "vocabulary": ["電車", "電気", "電池"],
+        "vocabulary_translation": ["train", "electricity", "battery"],
+        "translation": ["electricity", "electric"],
+        "radicals": ["雨", "田"]
+      }
+    ]
+  }
+}

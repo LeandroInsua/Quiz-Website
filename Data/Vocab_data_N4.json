@@ -9,7 +9,6 @@
       { "japanese": "やります", "english": "to do (conversational)" },
       { "japanese": "やったー!", "english": "I did it!" },
       { "japanese": "<ruby>参加<rt>さんか</rt></ruby>します", "english": "to attend, to take part in" },
-      { "japanese": "パーティーに<ruby>参加<rt>さんか</rt></ruby>します", "english": "to attend a party" },
       { "japanese": "<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みます", "english": "to apply for, to enter for" },
       { "japanese": "<ruby>落<rt>お</rt></ruby>とします", "english": "to drop, lose" },
       { "japanese": "<ruby>拾<rt>ひろ</rt></ruby>います", "english": "to pick up" },
@@ -293,7 +292,6 @@
       { "japanese": "<ruby>心配<rt>しんぱい</rt></ruby>", "english": "worried, anxious (な)" },
       { "japanese": "<ruby>十分<rt>じゅうぶん</rt></ruby>", "english": "enough, sufficient (な)" },
       { "japanese": "おかしい", "english": "funny; strange" },
-      { "japanese": "うるさい", "english": "noisy" },
       { "japanese": "やけど", "english": "burn" },
       { "japanese": "やけどをします", "english": "to get burned" },
       { "japanese": "けが", "english": "injury" },
@@ -775,7 +773,7 @@
       { "japanese": "どこででも", "english": "in any place" },
       { "japanese": "いまでは", "english": "now, nowadays" }
     ],
-    "unit 18": [
+    "Unit 18": [
       { "japanese": "<ruby>増<rt>ふ</rt></ruby>えます", "english": "[exports] to increase" },
       { "japanese": "<ruby>輸出<rt>ゆしゅつ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えます", "english": "exports to increase" },
       { "japanese": "<ruby>減<rt>へ</rt></ruby>ります", "english": "[imports] to decrease" },
@@ -803,26 +801,9 @@
       { "japanese": "<ruby>年齢<rt>ねんれい</rt></ruby>", "english": "age (of a person)" },
       { "japanese": "<ruby>収入<rt>しゅうにゅう</rt></ruby>", "english": "income" },
       { "japanese": "そのうえ", "english": "in addition to that, moreover" },
-      { "japanese": "ばら", "english": "rose" },
-      { "japanese": "なきます", "english": "to cry" },
-      { "japanese": "<ruby>笑<rt>わら</rt></ruby>います", "english": "to laugh, smile" },
-      { "japanese": "<ruby>乾<rt>かわ</rt></ruby>きます", "english": "to dry" },
-      { "japanese": "<ruby>滑<rt>すべ</rt></ruby>ります", "english": "to slip" },
-      { "japanese": "<ruby>起<rt>お</rt></ruby>きます", "english": "[accident] to happen" },
-      { "japanese": "<ruby>事故<rt>じこ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きます", "english": "an accident to happen" },
-      { "japanese": "<ruby>調節<rt>ちょうせつ</rt></ruby>します", "english": "to adjust" },
-      { "japanese": "<ruby>安全<rt>あんぜん</rt></ruby>", "english": "safe (な)" },
-      { "japanese": "<ruby>丁寧<rt>ていねい</rt></ruby>", "english": "polite, courteous, careful (な)" },
-      { "japanese": "<ruby>細<rt>こま</rt></ruby>かい", "english": "small, fine" },
-      { "japanese": "<ruby>濃<rt>こ</rt></ruby>い", "english": "strong (taste), dark (colour)" },
-      { "japanese": "<ruby>薄<rt>うす</rt></ruby>い", "english": "weak (taste), light (colour)" },
-      { "japanese": "<ruby>空気<rt>くうき</rt></ruby>", "english": "air" },
-      { "japanese": "<ruby>涙<rt>なみだ</rt></ruby>", "english": "tear" },
-      { "japanese": "<ruby>和食<rt>わしょく</rt></ruby>", "english": "Japanese dish" },
-      { "japanese": "<ruby>洋食<rt>ようしょく</rt></ruby>", "english": "Western dish" },
-      { "japanese": "さいきん", "english": "most recent, these days, right now, recently, nowadays" }
+      { "japanese": "ばら", "english": "rose" }
     ],
-    "unit 19": [
+    "Unit 19": [
       { "japanese": "なきます", "english": "to cry" },
       { "japanese": "<ruby>笑<rt>わら</rt></ruby>います", "english": "to laugh, smile" },
       { "japanese": "<ruby>乾<rt>かわ</rt></ruby>きます", "english": "to dry" },
@@ -841,7 +822,7 @@
       { "japanese": "<ruby>洋食<rt>ようしょく</rt></ruby>", "english": "Western dish" },
       { "japanese": "さいきん", "english": "most recent, these days, right now, recently, nowadays" },
       { "japanese": "<ruby>量<rt>りょう</rt></ruby>", "english": "quantity" },
-      { "japanese": "ばい", "english": "double, ～times (as much)" },
+      { "japanese": "ばい", "english": "- times" },
       { "japanese": "<ruby>半分<rt>はんぶん</rt></ruby>", "english": "half" },
       { "japanese": "たんす", "english": "chest of drawers" },
       { "japanese": "<ruby>洗濯物<rt>せんたくもの</rt></ruby>", "english": "washing, laundry" },
@@ -850,9 +831,10 @@
       { "japanese": "<ruby>順序<rt>じゅんじょ</rt></ruby>", "english": "order, sequence" },
       { "japanese": "<ruby>表現<rt>ひょうげん</rt></ruby>", "english": "expression" },
       { "japanese": "<ruby>別<rt>わか</rt></ruby>れます", "english": "to part, separate" },
-      { "japanese": "これら", "english": "these things" }
+      { "japanese": "これら", "english": "these things" },
+      { "japanese": "<ruby>縁起<rt>えんぎ</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い", "english": "unlucky, ill-omened" }
     ],
-    "unit 20": [
+    "Unit 20": [
       { "japanese": "<ruby>謝<rt>あやま</rt></ruby>ります", "english": "to apologise" },
       { "japanese": "<ruby>事故<rt>じこ</rt></ruby>に<ruby>遭<rt>あ</rt></ruby>います", "english": "to encounter an accident" },
       { "japanese": "<ruby>信<rt>しん</rt></ruby>じます", "english": "to believe, trust" },
@@ -970,8 +952,7 @@
       { "japanese": "<ruby>掛<rt>か</rt></ruby>けます", "english": "to sit on [a chair]" },
       { "japanese": "<ruby>椅子<rt>いす</rt></ruby>に<ruby>掛<rt>か</rt></ruby>けます", "english": "to sit on a chair" },
       { "japanese": "<ruby>過<rt>す</rt></ruby>ごします", "english": "to spend (time), pass (time)" },
-      { "japanese": "<ruby>寄<rt>よ</rt></ruby>ります", "english": "to drop into [a bank]" },
-      { "japanese": "<ruby>銀行<rt>ぎんこう</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>ります", "english": "to drop into a bank" },
+      { "japanese": "<ruby>寄<rt>よ</rt></ruby>ります", "english": "to approach; to draw near, to stop by (while on one's way to another place)" },
       { "japanese": "<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がります", "english": "to eat, drink (respectful equivalent of たべます and のみます)" },
       { "japanese": "<ruby>ご覧<rt>らん</rt></ruby>になります", "english": "to see, look at (respectful equivalent of みます)" },
       { "japanese": "<ruby>ご存知<rt>ぞんじ</rt></ruby>です", "english": "to know (respectful equivalent of しっています)" },

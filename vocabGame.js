@@ -136,7 +136,7 @@ choices.forEach(choice => {
     choice.addEventListener("click", () => {
         if (!acceptingAnswers) return;
         acceptingAnswers = false;
-        translation.innerHTML = "link to image";
+        translation.innerHTML = "";
         translation.style.color = "black";
         const isCorrect = choice.dataset.correct === "true";
         const classToApply = isCorrect ? "correct" : "incorrect";
